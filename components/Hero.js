@@ -9,6 +9,21 @@ function Hero() {
           <img className="xxsm:h-28 xsm:h-36 mdsm:h-44 mdsm:h-44 basemd:h-60 baselg:h-96 w-auto mt-6 lgbasemd:mt-10 base2lg:mt-20" src={'https://res.cloudinary.com/ds8p0huok/image/upload/v1643884934/samples/image_26_wm8c3a.png'} alt="mockup" />
           <img className="xxsm:h-28 xsm:h-36 mdsm:h-44 mdsm:h-44 basemd:h-60 baselg:h-96 w-auto" src={'https://res.cloudinary.com/ds8p0huok/image/upload/v1643884934/samples/image_27_po9vvq.png'} alt="mockup" />
       </div>
+
+<div className="mt-48 mb-48">
+
+  <div className="flex bg-card-1-color w-2/6 mx-auto">
+    <div className="w-4/6">
+      <h3>
+        nam
+      </h3>
+    </div>
+    <div>
+    <img className="" src={'https://res.cloudinary.com/ds8p0huok/image/upload/v1643900038/samples/Group_14_qvnvky.png'} alt="mockup" />
+    </div>
+  </div>
+
+</div>
     </div>
   ) 
   
