@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 //components
 import Hero from '../components/Hero'
 import AboutHero from '../components/AboutHero'
+import OurTeam from '../components/team/OurTeam'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
 
       <main>
       <AboutHero />
+      <OurTeam />
       
        
       </main>
