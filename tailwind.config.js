@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         //background colors
         'green-hl': '#204B45',
+        'card-1-color': '#FBFAF8',
 
       },
       screens: {
