@@ -2,7 +2,7 @@
 
 function Hero() {
   return (
-      <div>
+      <div className="">
           <h1 className="text-5xl text-center max-w-4xl font-semibold">Vi sikrer at virksomheder får <span className="text-green-hl">professionel</span> hjælp til at få flyttet deres produktion op på en <span className="text-green-hl">moderne</span> fremtidssikret IT platform.</h1>
 
           <div className="mt-20 flex">
