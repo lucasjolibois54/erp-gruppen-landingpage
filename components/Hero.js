@@ -7,8 +7,8 @@ function Hero() {
 
           <div className="mt-20 flex">
           <img src={'https://res.cloudinary.com/ds8p0huok/image/upload/v1643884934/samples/austin-distel-wD1LRb9OeEo-unsplash_3_jnrrdn.png'} className="pt-10 pr-5 w-auto h-96" alt="mockup" />
-          <img src={'https://res.cloudinary.com/ds8p0huok/image/upload/v1643884934/samples/austin-distel-wD1LRb9OeEo-unsplash_3_jnrrdn.png'} className="pt-10 mt-20 pl-5 pr-5 w-auto h-96" alt="mockup" />
-          <img src={'https://res.cloudinary.com/ds8p0huok/image/upload/v1643884934/samples/austin-distel-wD1LRb9OeEo-unsplash_3_jnrrdn.png'} className="pt-10 pl-5 w-auto h-96" alt="mockup" />
+          <img src={'https://res.cloudinary.com/ds8p0huok/image/upload/v1643884934/samples/image_26_wm8c3a.png'} className="pt-10 mt-20 pl-5 pr-5 w-auto h-96" alt="mockup" />
+          <img src={'https://res.cloudinary.com/ds8p0huok/image/upload/v1643884934/samples/image_27_po9vvq.png'} className="pt-10 pl-5 w-auto h-96" alt="mockup" />
           </div>
       </div>
   ) 
