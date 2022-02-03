@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+//components
+import Hero from '../components/Hero'
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -20,6 +23,8 @@ export default function Home() {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
+
+        <Hero />
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
