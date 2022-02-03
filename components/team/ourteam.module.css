@@ -1,0 +1,36 @@
+.body {
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    line-height: 1.6;
+}
+
+.card {
+    background-image: url(https://res.cloudinary.com/daud22/image/upload/v1643891139/image_32_pmdeh9.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0 0;
+    max-width: 35ch;
+}
+
+.cardcontent {
+    --padding:1.5rem;
+    padding: var(--padding);
+    background: hsl(0 0% 0% /.5);
+}
+
+.cardtitle{
+    position: relative;
+    width: max-content;
+    outline: 1px solid red
+}
+
+.cardtitle::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: calc(var(--padding)*-1);
+    bottom: 0;
+    background: green;
+    width: calc(100% + var(--padding));
+}
