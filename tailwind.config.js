@@ -14,18 +14,33 @@ module.exports = {
         'xxsm': '220px',
         // => @media (min-width: 520px) { ... }
       
-        'xsm': '370px',
+        'xsm': '340px',
+        // => @media (min-width: 520px) { ... }
+
+        'ssm': '430px',
         // => @media (min-width: 520px) { ... }
 
         'basesm': '450px',
         // => @media (min-width: 520px) { ... }
 
-        'mdsm': '640px',
+        'xsbasesm': '550px',
+        // => @media (min-width: 520px) { ... }
+
+        'smdsm': '600px',
+        // => @media (min-width: 440px) { ... }
+
+        'mdsm': '630px',
+        // => @media (min-width: 440px) { ... }
+
+        'sbasesm': '670px',
         // => @media (min-width: 440px) { ... }
       
         'basemd': '740px',
         // => @media (min-width: 768px) { ... }
       
+        'lgbasemd': '770px',
+        // => @media (min-width: 768px) { ... }
+
         'baselg': '1024px',
         // => @media (min-width: 1024px) { ... }
       
