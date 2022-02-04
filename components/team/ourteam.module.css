@@ -29,6 +29,8 @@
         hsl(0 0% 0% / 0),
         hsl(0 0% 0% / 1)
     );
+    transform: translateY(65%);
+    transition: transform 500ms ease;
 }
 
 .cardtitle{
@@ -46,7 +48,7 @@
     bottom: -2px;
     background: #fff;
     width: calc(100% + var(--padding));
-    transform:scaleX(0);
+    transform: scaleX(0);
 
     transform-origin: left;
     transition: transform 500ms ease;
