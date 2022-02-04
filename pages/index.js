@@ -7,7 +7,6 @@ import { useState } from 'react'
 import Hero from '../components/Hero'
 import Navigation from '../components/Navigation'
 import Header from '../components/Header'
-import Navbar from '../components/Navbar'
 import CaseCards from '../components/caseCards/caseCards'
 
 
