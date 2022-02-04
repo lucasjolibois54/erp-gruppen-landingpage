@@ -8,7 +8,7 @@ const Header = ({
   setToggleMenu,
   toggleMenu,
 }) => {
-
+ 
   return (
     <HeaderNav
       animate={{ y: 0, opacity: 1 }}
