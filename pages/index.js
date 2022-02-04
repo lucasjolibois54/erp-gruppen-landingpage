@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 //components
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
+import CaseCards from '../components/caseCards/caseCards'
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <main>
       <Navbar />
       <Hero />
+      <CaseCards/>
       
        
       </main>
