@@ -32,7 +32,7 @@ export const CloseNav = styled.div`
       width: 36px;
       height: 8px;
       display: block;
-      background: green;
+      background: black;
       margin: 8px;
     }
   }
@@ -54,12 +54,12 @@ export const NavList = styled.div`
       line-height: 96px;
       overflow: hidden;
       .link {
-        color: green;
+        color: black;
         position: relative;
         display: flex;
         align-items: center;
         .arrow {
-          height: 76px;
+          height: 50px;
           margin-right: 8px;
         }
       }
