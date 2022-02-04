@@ -3,6 +3,8 @@ import React, { useEffect, useRef } from "react"
 // Styled Components
 import { Container, Flex } from "../styles/globalStyles"
 import { HeaderNav, Logo, Menu } from "../styles/headerStyles"
+import Image from 'next/image'
+import ERPLogo from '/public/erp.svg'
 
 const Header = ({
   setToggleMenu,
@@ -22,7 +24,7 @@ const Header = ({
         <Flex spaceBetween noHeight>
           <Logo
           >
-            <Link href="/">ERP PRODUKTION</Link>
+            <Image width={250} href="/" src={ERPLogo} />
           </Logo>
           <Menu
             onClick={() => setToggleMenu(!toggleMenu)}
