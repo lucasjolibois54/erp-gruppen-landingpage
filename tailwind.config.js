@@ -46,6 +46,9 @@ module.exports = {
         'smbaselg': '900px',
         // => @media (min-width: 1024px) { ... }
 
+        'aboutlg': '1000px',
+        // => @media (min-width: 1024px) { ... }
+
         'baselg': '1024px',
         // => @media (min-width: 1024px) { ... }
       
