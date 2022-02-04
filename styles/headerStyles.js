@@ -23,10 +23,10 @@ export const Logo = styled.div`
     width: 16px;
     background: #ea291e;
     margin: 0 4px;
-    border-radius: 100%;
     display: inline-block;
     position: relative;
     bottom: 2px;
+    cursor: pointer;
   }
 `
 
