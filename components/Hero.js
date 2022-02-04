@@ -12,16 +12,27 @@ function Hero() {
 
 <div className="mt-48 mb-48">
 
-  <div className="flex bg-card-1-color w-2/6 mx-auto">
+  {/* <div className="flex bg-card-1-color w-2/6 mx-auto">
     <div className="w-4/6">
       <h3>
         nam
       </h3>
     </div>
     <div>
-    <img className="" src={'https://res.cloudinary.com/ds8p0huok/image/upload/v1643900038/samples/Group_14_qvnvky.png'} alt="mockup" />
+    <img className="max-w-4xl" src={'https://res.cloudinary.com/ds8p0huok/image/upload/v1643900038/samples/Group_14_qvnvky.png'} alt="mockup" />
     </div>
-  </div>
+  </div> */}
+
+  <div className="p-20">
+  <div className="bg-white rounded-lg shadow-2xl md:flex  max-w-4xl mx-auto">
+  <div className="p-6">
+      <h2 className="font-bold text-xl md:text-3xl mb-2 text-orange-700">the coconut nu</h2>
+      <p className="text-orange-700">
+        is not a nut
+      </p>
+    </div>
+    <img src="https://res.cloudinary.com/ds8p0huok/image/upload/v1643900038/samples/Group_14_qvnvky.png" alt="Laptop on Desk" class="md:w-3/6 rounded-t-lg md:rounded-l-lg md:rounded-t-none" />
+   </div></div>
 
 </div>
     </div>
