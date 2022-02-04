@@ -40,24 +40,7 @@
     margin-bottom: 20px;
 }
 
-.cardtitle::after{
-    content: "";
-    position: absolute;
-    height: 4px;
-    left: calc(var(--padding)*-1);
-    bottom: -2px;
-    background: #fff;
-    width: calc(100% + var(--padding));
-    transform: scaleX(0);
 
-    transform-origin: left;
-    transition: transform 500ms ease;
-}
-
-.card:hover .cardtitle::after,
-.card:focus-within .cardtitle::after {
-    transform: scaleX(1)
-}
 
 .cardbody {
     color: rgb(255 255 255 / 0.85);
