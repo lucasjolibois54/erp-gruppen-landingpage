@@ -1,13 +1,18 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { useState } from 'react'
 
 //components
 import Hero from '../components/Hero'
-import Navbar from '../components/Navbar'
-
+import Navigation from '../components/Navigation'
+import Header from '../components/Header'
 
 export default function Home() {
+
+  const [ toggleMenu, setToggleMenu ] = useState(false)
+
+
   return (
     <div >
       <Head>
@@ -17,7 +22,8 @@ export default function Home() {
       </Head>
 
       <main>
-      <Navbar />
+      <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
+      <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
       <Hero />
       
        
