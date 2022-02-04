@@ -24,15 +24,15 @@ function Hero() {
   </div> */}
 
         <div className="p-20">
-          <div className="bg-white rounded-lg shadow-2xl md:flex flex-end  max-w-4xl mx-auto">
-            <div className="p-6 sm:pr-32 smbaselg:pr-56">
-              <h2 className="font-bold text-xl md:text-3xl mb-2 text-orange-700">the coconut nu</h2>
-              <p className="text-orange-700">
+          <div className="bg-card-1-color rounded-lg shadow-2xl md:flex flex-end  max-w-4xl mx-auto">
+            <div className="p-6 sm:mr-32 smbaselg:mr-56">
+              <h2 className="font-bold text-xl md:text-3xl mb-2 text-green-hl">the coconut nu</h2>
+              <p className="text-green-hl">
                 is not a nut
               </p>
             </div>
-            <img src="https://res.cloudinary.com/ds8p0huok/image/upload/v1643900038/samples/Group_14_qvnvky.png" alt="project img" class="md:w-3/6" />
-            <img src="https://res.cloudinary.com/ds8p0huok/image/upload/v1643899875/samples/photo-1553877522-43269d4ea984_sssqgw.jpg" alt="project img" class="md:w-3/6" />
+            <img src="https://res.cloudinary.com/ds8p0huok/image/upload/v1643900038/samples/Group_14_qvnvky.png" alt="project img" class="md:w-3/6 hidden basemd:block"/>
+            <img src="https://res.cloudinary.com/ds8p0huok/image/upload/v1643899875/samples/photo-1553877522-43269d4ea984_sssqgw.jpg" alt="project img" class="md:w-3/6 block basemd:hidden"/>
           </div></div>
 
       </div>
