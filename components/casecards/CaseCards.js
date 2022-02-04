@@ -4,7 +4,7 @@ function caseCards() {
     return (
         <div >
 
-        
+        <h2 className={styles.hello}>hello</h2>
 
         </div>
     )

@@ -31,8 +31,8 @@ function Hero() {
                 is not a nut
               </p>
             </div>
-            <img src="https://res.cloudinary.com/ds8p0huok/image/upload/v1643900038/samples/Group_14_qvnvky.png" alt="project img" class="md:w-3/6 hidden basemd:block"/>
-            <img src="https://res.cloudinary.com/ds8p0huok/image/upload/v1643899875/samples/photo-1553877522-43269d4ea984_sssqgw.jpg" alt="project img" class="md:w-3/6 block basemd:hidden"/>
+            <img src="https://res.cloudinary.com/ds8p0huok/image/upload/v1643900038/samples/Group_14_qvnvky.png" alt="project img" className="md:w-3/6 hidden basemd:block"/>
+            <img src="https://res.cloudinary.com/ds8p0huok/image/upload/v1643899875/samples/photo-1553877522-43269d4ea984_sssqgw.jpg" alt="project img" className="md:w-3/6 block basemd:hidden"/>
           </div></div>
 
       </div>
