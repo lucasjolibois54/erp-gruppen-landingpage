@@ -42,6 +42,10 @@ module.exports = {
         'lgbasemd': '770px',
         // => @media (min-width: 768px) { ... }
 
+        
+        'smbaselg': '900px',
+        // => @media (min-width: 1024px) { ... }
+
         'baselg': '1024px',
         // => @media (min-width: 1024px) { ... }
       
