@@ -3,7 +3,7 @@ function Technologies() {
         <div>
             <div>
                 <h1 className="text-center max-w-6xl font-semibold mx-auto pt-40 xxsm:text-xl basemd:text-5xl ssm:text-4xl">Certificeret og erfarende konsulenter</h1>
-                <p className="text-center max-w-5xl mx-auto max-w-xl pt-5 pb-10 xxsm:text-md ssm:text-xl">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                <p className="text-center max-w-5xl mx-auto max-w-xl pt-5 pb-10 xxsm:text-md px-5 ssm:text-xl">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
             </div>
 
             <div className='grid aboutlg:grid-cols-4 basemd:grid-cols-3 grid-cols-1 gap-4 text-center max-w-4xl mx-auto'>
