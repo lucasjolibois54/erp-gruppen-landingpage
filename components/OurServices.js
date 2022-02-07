@@ -2,7 +2,7 @@ function OurServices() {
     return (
         <div>
       <div>
-        <h1 className="text-center max-w-6xl font-semibold mx-auto pt-40 xxsm:text-xl basemd:text-5xl ssm:text-4xl">
+        <h1 className="text-center max-w-6xl font-semibold mx-auto pt-40 xxsm:text-3xl basemd:text-5xl ssm:text-4xl">
           Our Services
         </h1>
       </div>
