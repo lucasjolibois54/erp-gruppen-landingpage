@@ -25,6 +25,8 @@
   padding: var(--padding);
   background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 1));
   margin-top: 10rem;
+  position: relative;
+    z-index: 1;
 }
 
 .cardtitle {
@@ -59,7 +61,7 @@
   .card:hover .cardcontent,
   .card:focus-within .cardcontent {
     transform: translateY(0);
-    transition-delay: 500ms;
+    transition-delay: 200ms;
   }
 
   .card:focus-within .cardcontent {
