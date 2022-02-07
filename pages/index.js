@@ -7,6 +7,7 @@ import { useState } from 'react'
 import Hero from '../components/Hero'
 import Navigation from '../components/Navigation'
 import Header from '../components/Header'
+import Technologies from '../components/Technologies'
 
 
 export default function Home() {
@@ -26,7 +27,7 @@ export default function Home() {
       <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
       <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
       <Hero />
-      
+      <Technologies/>
        
       </main>
 
