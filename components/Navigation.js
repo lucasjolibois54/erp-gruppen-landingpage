@@ -1,9 +1,8 @@
 import { useState } from "react";
-import { Container, Flex } from "../styles/globalStyles";
+import { Container } from "../styles/globalStyles";
 import {
   Nav,
   NavHeader,
-  CloseNav,
   NavList,
   NavFooter,
   NavImage,
@@ -15,31 +14,31 @@ import Image from "next/image";
 const navRoutes = [
   {
     id: 0,
-    title: "not humble",
+    title: "Case #1",
     path: "not-humble",
     image: "image.jpg",
   },
   {
     id: 1,
-    title: "bleeping easy",
+    title: "Case #2",
     path: "bleeping-easy",
     image: "image.jpg",
   },
   {
     id: 2,
-    title: "make it zero",
+    title: "Case #3",
     path: "make-it-zero",
     image: "image.jpg",
   },
   {
     id: 3,
-    title: "it takes an island",
+    title: "Case #4",
     path: "it-takes-an-island",
     image: "image.jpg",
   },
   {
     id: 4,
-    title: "50 beaches",
+    title: "Case #5",
     path: "50-beaches",
     image: "image.jpg",
   },
@@ -67,15 +66,6 @@ const Navigation = ({ toggleMenu, setToggleMenu }) => {
           >
             <Container>
               <NavHeader>
-                <Flex>
-                  <h2></h2>
-                  <CloseNav onClick={() => setToggleMenu(!toggleMenu)}>
-                    <button>
-                      <span></span>
-                      <span></span>
-                    </button>
-                  </CloseNav>
-                </Flex>
               </NavHeader>
               <NavList>
                 <ul>
