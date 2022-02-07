@@ -29,8 +29,7 @@
         hsl(0 0% 0% / 0),
         hsl(0 0% 0% / 1)
     );
-    transform: translateY(65%);
-    transition: transform 500ms ease;
+    
 }
 
 .cardtitle{
@@ -41,7 +40,6 @@
 }
 
 
-
 .cardbody {
     color: rgb(255 255 255 / 0.85);
 }
@@ -49,6 +47,13 @@
 .cardbody1 {
     margin-top: 5px;
     color: #fff;
+}
+
+@media screen and (min-width: 900px) {
+    .cardcontent {
+        transform: translateY(65%);
+    transition: transform 500ms ease;
+    }
 }
 
 @media (hover) {
@@ -79,9 +84,6 @@
     transition-delay: 1000ms;
 }
 
-.cardtitle::after {
-    transform: translateX(0);
-}
 }
 
 
