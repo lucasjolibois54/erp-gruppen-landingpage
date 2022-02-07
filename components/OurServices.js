@@ -2,7 +2,7 @@ function OurServices() {
     return (
         <div>
       <div>
-        <h1 className="text-center max-w-6xl font-semibold mx-auto pt-40 xxsm:text-xl basemd:text-5xl ssm:text-4xl">
+        <h1 className="text-center max-w-6xl font-semibold mx-auto pt-40 xxsm:text-3xl basemd:text-5xl ssm:text-4xl">
           Our Services
         </h1>
       </div>
@@ -16,7 +16,7 @@ function OurServices() {
             }
             alt="mockup"
           />
-          <p className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto">
+          <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
@@ -28,7 +28,7 @@ function OurServices() {
             }
             alt="mockup"
           />
-          <p>
+          <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
@@ -40,7 +40,7 @@ function OurServices() {
             }
             alt="mockup"
           />
-          <p>
+          <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
@@ -52,7 +52,7 @@ function OurServices() {
             }
             alt="mockup"
           />
-          <p>
+          <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
@@ -65,7 +65,7 @@ function OurServices() {
             }
             alt="mockup"
           />
-          <p>
+          <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
@@ -77,7 +77,7 @@ function OurServices() {
             }
             alt="mockup"
           />
-          <p>
+          <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
@@ -89,7 +89,7 @@ function OurServices() {
             }
             alt="mockup"
           />
-          <p>
+          <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
@@ -101,7 +101,7 @@ function OurServices() {
             }
             alt="mockup"
           />
-          <p>
+          <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
