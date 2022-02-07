@@ -6,7 +6,7 @@ import styles from "../styles/Home.module.css";
 import Hero from "../components/Hero";
 import AboutHero from "../components/AboutHero";
 import OurTeam from "../components/team/OurTeam";
-import OurServices from "../components/services/OurServices";
+import OurServices from "../components/OurServices";
 
 export default function Home() {
   return (

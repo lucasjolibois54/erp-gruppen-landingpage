@@ -18,6 +18,8 @@ module.exports = {
         'xsm': '340px',
         // => @media (min-width: 520px) { ... }
 
+        'ourservice': '420px',
+
         'ssm': '430px',
         // => @media (min-width: 520px) { ... }
 
