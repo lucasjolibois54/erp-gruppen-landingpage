@@ -17,7 +17,7 @@ const navRoutes = [
     id: 0,
     title: "not humble",
     path: "not-humble",
-    image: "image.jpg",
+    image: "",
   },
   {
     id: 1,
