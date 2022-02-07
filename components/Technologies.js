@@ -17,7 +17,7 @@ function Technologies() {
       <div className="grid aboutlg:grid-cols-4 basemd:grid-cols-3 grid-cols-2 gap-4 text-center max-w-4xl mx-auto">
         <div>
           <img
-            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto "
+            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto"
             src={
               "https://res.cloudinary.com/ds8p0huok/image/upload/v1644230015/samples/Group_16_dzizvl.png"
             }
@@ -26,7 +26,7 @@ function Technologies() {
         </div>
         <div>
           <img
-            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto  "
+            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
             src={
               "https://res.cloudinary.com/ds8p0huok/image/upload/v1644230015/samples/Group_17_jzijol.png"
             }
@@ -35,7 +35,7 @@ function Technologies() {
         </div>
         <div>
           <img
-            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto  "
+            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
             src={
               "https://res.cloudinary.com/ds8p0huok/image/upload/v1644230015/samples/Group_18_zck8b5.png"
             }
@@ -44,7 +44,7 @@ function Technologies() {
         </div>
         <div>
           <img
-            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto  "
+            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
             src={
               "https://res.cloudinary.com/ds8p0huok/image/upload/v1644230015/samples/Group_19_oildar.png"
             }
@@ -54,7 +54,7 @@ function Technologies() {
 
         <div>
           <img
-            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto "
+            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto"
             src={
               "https://res.cloudinary.com/ds8p0huok/image/upload/v1644230015/samples/Group_20_hr5p6j.png"
             }
@@ -63,7 +63,7 @@ function Technologies() {
         </div>
         <div>
           <img
-            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto  "
+            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
             src={
               "https://res.cloudinary.com/ds8p0huok/image/upload/v1644230015/samples/Group_21_gydk0v.png"
             }
@@ -72,7 +72,7 @@ function Technologies() {
         </div>
         <div>
           <img
-            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto  "
+            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
             src={
               "https://res.cloudinary.com/ds8p0huok/image/upload/v1644230015/samples/Group_22_m522zl.png"
             }
@@ -81,7 +81,7 @@ function Technologies() {
         </div>
         <div>
           <img
-            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto  "
+            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
             src={
               "https://res.cloudinary.com/ds8p0huok/image/upload/v1644230015/samples/Group_23_bic9fl.png"
             }
