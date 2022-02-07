@@ -51,14 +51,15 @@ function OurTeam() {
     <div className={styles.body}>
       <div className="grid aboutlg:grid-cols-3 basemd:grid-cols-2 grid-cols-1 gap-4">
         {navRoutes.map((route) => (
-          <div>
+          <div key={route.id}>
             <div className={styles.card}>
+                <div className="absolute">
               <Image
-                className=""
                 src={require(`/image/${route.image}`)}
                 alt="Picture of the author"
               />
-              <div className={styles.cardcontent}>
+                </div>
+                <div className={styles.cardcontent}>
                 <h2 className={styles.cardtitle}>{route.name}</h2>
                 <p className={styles.cardbody}>{route.title}</p>
                 <p className={styles.cardbody1}>
