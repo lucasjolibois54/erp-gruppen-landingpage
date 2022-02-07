@@ -6,9 +6,8 @@
 }
 
 .card {
-  background-repeat: no-repeat;
   background-size: cover;
-  padding: 10rem 0 0;
+  padding: 0 0 0;
   max-width: 35ch;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -25,6 +24,7 @@
   --padding: 1.5rem;
   padding: var(--padding);
   background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 1));
+  margin-top: 10rem;
 }
 
 .cardtitle {
