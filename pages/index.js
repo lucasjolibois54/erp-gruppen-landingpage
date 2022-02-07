@@ -8,6 +8,7 @@ import Hero from '../components/Hero'
 import Navigation from '../components/Navigation'
 import Header from '../components/Header'
 import Technologies from '../components/Technologies'
+import Footer from '../components/Footer'
 
 
 export default function Home() {
@@ -34,6 +35,7 @@ export default function Home() {
       <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
       <Hero />
       <Technologies/>
+      <Footer/>
        
       </main>
 
