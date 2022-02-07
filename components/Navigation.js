@@ -17,7 +17,7 @@ const navRoutes = [
     id: 0,
     title: "not humble",
     path: "not-humble",
-    image: "",
+    image: "image.jpg",
   },
   {
     id: 1,
@@ -147,7 +147,7 @@ const Navigation = ({ toggleMenu, setToggleMenu }) => {
                       }}
                     >
                       <Image
-                        src={require(`../image/${revealImage.image}`)}
+                        src={require(`/image/${revealImage.image}`)}
                         alt="Picture of the author"
                       />
                     </motion.div>
