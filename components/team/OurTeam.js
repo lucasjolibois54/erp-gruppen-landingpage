@@ -51,7 +51,7 @@ function OurTeam() {
     <div className={styles.body}>
       <div className="grid aboutlg:grid-cols-3 basemd:grid-cols-2 grid-cols-1 gap-4">
         {navRoutes.map((route) => (
-          <div>
+          <div key={route.id}>
             <div className={styles.card}>
                 <div className="absolute">
               <Image
