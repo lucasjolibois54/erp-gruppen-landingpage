@@ -8,7 +8,11 @@ module.exports = {
       colors: {
         //background colors
         'green-hl': '#204B45',
-        'card-1-color': '#FBFAF8',
+        // Case Card BG Colors
+        'card-bg-1': '#FBFAF8',
+        'card-bg-2': '#E6F7EF',
+        'card-bg-3': '#FBFBFB',
+        'card-bg-4': '#F1F1FD',
 
       },
       screens: {
