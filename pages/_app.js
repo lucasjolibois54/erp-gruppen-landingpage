@@ -11,12 +11,12 @@ function MyApp({ Component, pageProps }) {
     <div>
       <Component {...pageProps} />
       <AnimatedCursor
-        innerSize={8}
-        outerSize={8}
-        color='193, 11, 111'
-        outerAlpha={0.2}
+        innerSize={10}
+        outerSize={20}
+        color='32, 75, 69'
         innerScale={0.7}
-        outerScale={5}
+        outerAlpha={0.6}
+        outerScale={2}
        />
     </div>
   )
