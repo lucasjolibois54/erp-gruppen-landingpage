@@ -9,6 +9,7 @@ import Navigation from '../components/Navigation'
 import Header from '../components/Header'
 import Technologies from '../components/Technologies'
 import Case from '../components/Case'
+import Footer from '../components/Footer'
 
 
 export default function Home() {
@@ -34,6 +35,7 @@ export default function Home() {
       <Hero />
       <Case />
       <Technologies/>
+      <Footer/>
        
       </main>
 
