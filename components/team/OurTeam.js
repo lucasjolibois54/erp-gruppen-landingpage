@@ -45,6 +45,14 @@ function OurTeam() {
       path: "colleague",
       image: "girl.svg",
     },
+    {
+        id: 5,
+        name: "Name 6",
+        title: "Product Manager",
+        positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
+        path: "colleague",
+        image: "girl.svg",
+      },
   ];
 
   return (
