@@ -90,10 +90,10 @@ export const NavImage = styled.div`
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 32%;
+  left: 40%;
   z-index: -1;
-  height: 100%;
-  width: 100%;
+  height: 0;
+  width: 130%;
   background: #000;
   .reveal {
       width: 100%;
