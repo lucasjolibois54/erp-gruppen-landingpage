@@ -13,8 +13,6 @@
     "react": "17.0.2",
     "react-animated-cursor": "^2.2.0",
     "react-dom": "17.0.2",
-    "resize-observer-polyfill": "^1.5.1",
-    "scroller-motion": "^1.0.0",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
