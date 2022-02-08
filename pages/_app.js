@@ -31,6 +31,7 @@ export default class MyApp extends App {
               id="page-transition-container"
             >
               <ScrollerMotion
+              className="absolute"
               spring={{ mass: 1.25, stiffness: 400, damping: 50 }}
               >
               <Component {...pageProps} key={router.pathname} />
