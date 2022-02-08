@@ -2,13 +2,13 @@ function OurServices() {
     return (
         <div>
       <div>
-        <h1 className="text-center max-w-6xl font-semibold mx-auto pt-40 xxsm:text-3xl basemd:text-5xl ssm:text-4xl">
+        <h1 className="text-center max-w-7xl font-semibold mx-auto pt-40 xxsm:text-3xl basemd:text-5xl ssm:text-4xl">
           Our Services
         </h1>
       </div>
 
-      <div className="grid aboutlg:grid-cols-4 ourservice:grid-cols-2 grid-cols-1 gap-4 text-center max-w-6xl mx-auto mb-20 mt-10">
-        <div>
+      <div className="grid aboutlg:grid-cols-2 xsbasesm:grid-cols-1 xxsm:p-4 xsbasesm:space-y-4 smdsm:grid-cols-2 grid-cols-1 gap-4 max-w-3xl mx-auto mb-20 mt-10">
+        <div className="p-2 shadow rounded">
           <img
             className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto"
             src={
@@ -20,7 +20,7 @@ function OurServices() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
-        <div>
+        <div className="p-2 shadow rounded">
           <img
             className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
             src={
@@ -32,7 +32,7 @@ function OurServices() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
-        <div>
+        <div className="p-2 shadow rounded">
           <img
             className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
             src={
@@ -44,7 +44,7 @@ function OurServices() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
-        <div>
+        <div className="p-2 shadow rounded">
           <img
             className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
             src={
@@ -57,7 +57,7 @@ function OurServices() {
           </p>
         </div>
 
-        <div>
+        <div className="p-2 shadow rounded">
           <img
             className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto"
             src={
@@ -69,7 +69,7 @@ function OurServices() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
-        <div>
+        <div className="p-2 shadow rounded">
           <img
             className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
             src={
@@ -81,7 +81,7 @@ function OurServices() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
-        <div>
+        <div className="p-2 shadow rounded">
           <img
             className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
             src={
@@ -93,7 +93,7 @@ function OurServices() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
-        <div>
+        <div className="p-2 shadow rounded">
           <img
             className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
             src={
