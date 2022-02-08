@@ -10,6 +10,7 @@ import Hero from "../components/Hero";
 import AboutHero from "../components/AboutHero";
 import OurTeam from "../components/team/OurTeam";
 import OurServices from "../components/OurServices";
+import Footer from '../components/Footer'
 
 export default function Home() {
 
@@ -33,6 +34,7 @@ export default function Home() {
         <AboutHero />
         <OurTeam />
         <OurServices />
+        <Footer />
       </main>
     </div>
   );
