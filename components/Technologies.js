@@ -1,11 +1,12 @@
 function Technologies() {
   return (
     <div>
+      <div className="mb-28 lg:mt-20">
       <div>
         <h1 className="text-center max-w-6xl font-semibold mx-auto pt-40 xxsm:text-xl basemd:text-5xl ssm:text-4xl">
           Certificeret og erfarende konsulenter
         </h1>
-        <p className="text-center max-w-5xl mx-auto max-w-xl pt-5 pb-10 xxsm:text-md px-5 ssm:text-xl">
+        <p className="text-center max-w-6xl mx-auto max-w-xl pt-8 pb-10 xxsm:text-md px-5 ssm:text-xl ssm:leading-relaxed">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
           using Lorem Ipsum is that it has a more-or-less normal distribution of
@@ -14,7 +15,7 @@ function Technologies() {
         </p>
       </div>
 
-      <div className="grid aboutlg:grid-cols-4 basemd:grid-cols-3 grid-cols-2 gap-4 text-center max-w-4xl mx-auto">
+      <div className="grid aboutlg:grid-cols-4 basemd:grid-cols-3 grid-cols-2 gap-4 text-center max-w-6xl mx-auto pt-5">
         <div>
           <img
             className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto"
@@ -88,6 +89,7 @@ function Technologies() {
             alt="mockup"
           />
         </div>
+      </div>
       </div>
     </div>
   );

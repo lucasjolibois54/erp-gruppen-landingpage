@@ -19,14 +19,14 @@ export default class MyApp extends App {
     };
     return (
       <>
-        <AnimatePresence>
+        <AnimatePresence exitBeforeEnter>
           <div className="page-transition-wrapper">
             <motion.div
               transition={spring}
               key={router.pathname}
-              initial={{ x: 300, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              exit={{ x: -300, opacity: 0 }}
+              initial={{ y: -300, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              exit={{ y: -300, opacity: 0 }}
               id="page-transition-container"
             >
               <Component {...pageProps} key={router.pathname} />

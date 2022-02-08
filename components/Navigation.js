@@ -14,40 +14,40 @@ import Image from "next/image";
 const navRoutes = [
   {
     id: 0,
-    title: "Case #1",
-    path: "not-humble",
-    image: "image.jpg",
+    title: "Home",
+    path: "/",
+    image: "home.jpg",
   },
   {
     id: 1,
-    title: "Case #2",
-    path: "bleeping-easy",
-    image: "image.jpg",
+    title: "About",
+    path: "about",
+    image: "home.jpg",
   },
   {
     id: 2,
     title: "Case #3",
     path: "make-it-zero",
-    image: "image.jpg",
+    image: "home.jpg",
   },
   {
     id: 3,
     title: "Case #4",
     path: "it-takes-an-island",
-    image: "image.jpg",
+    image: "home.jpg",
   },
   {
     id: 4,
     title: "Case #5",
     path: "50-beaches",
-    image: "image.jpg",
+    image: "home.jpg",
   },
 ];
 
 const Navigation = ({ toggleMenu, setToggleMenu }) => {
   const [revealImage, setRevealImage] = useState({
-    show: false,
-    image: "image.jpg",
+    show: true,
+    image: "home.jpg",
     key: "0",
   });
 
@@ -87,7 +87,7 @@ const Navigation = ({ toggleMenu, setToggleMenu }) => {
                         })
                       }
                     >
-                      <Link href={`/projects/${route.path}`}>
+                      <Link href={`/${route.path}`}>
                         <motion.div
                           initial={{ x: -108 }}
                           whileHover={{
@@ -121,7 +121,11 @@ const Navigation = ({ toggleMenu, setToggleMenu }) => {
               <NavFooter>Footer</NavFooter>
               <NavImage>
                 <motion.div
-                  animate={{ width: revealImage.show ? 0 : "100%" }}
+                transition={{
+                  duration: .4,
+                  ease: [ 0.6, 0.05, -0.01, 0.9]
+                }}
+                  animate={{ width: revealImage.show ? 0 : "99%" }}
                   className="reveal"
                 ></motion.div>
                 <div className="image">
@@ -137,7 +141,7 @@ const Navigation = ({ toggleMenu, setToggleMenu }) => {
                       }}
                     >
                       <Image
-                        src={require(`/image/${revealImage.image}`)}
+                        src={require(`/image/nav/${revealImage.image}`)}
                         alt="Picture of the author"
                       />
                     </motion.div>

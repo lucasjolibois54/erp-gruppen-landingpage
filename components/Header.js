@@ -24,7 +24,9 @@ const Header = ({
         <Flex spaceBetween noHeight>
           <Logo
           >
-            <Image width={250} href="/" src={ERPLogo} />
+            <Link href="/">
+            <Image width={250} src={ERPLogo} />
+            </Link>
           </Logo>
           <Menu
             onClick={() => setToggleMenu(!toggleMenu)}

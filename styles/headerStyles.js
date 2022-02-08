@@ -9,7 +9,7 @@ export const HeaderNav = styled(motion.div)`
   right: 0;
   left: 0;
   z-index: 101;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
 `
 export const Logo = styled.div`
   a {
