@@ -7,100 +7,52 @@ function OurServices() {
         </h1>
       </div>
 
-      <div className="grid aboutlg:grid-cols-2 xsbasesm:grid-cols-1 xxsm:p-4 xsbasesm:space-y-4 smdsm:grid-cols-2 grid-cols-1 gap-4 max-w-3xl mx-auto mb-20 mt-10">
+      <div className="grid aboutlg:grid-cols-2 xsbasesm:grid-cols-1 xxsm:p-4 xsbasesm:space-y-4 smdsm:grid-cols-2 grid-cols-1 xxsm:gap-6 gap-16 max-w-3xl mx-auto mb-20 mt-10">
         <div className="p-2 shadow rounded">
-          <img
-            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto"
-            src={
-              "https://res.cloudinary.com/ds8p0huok/image/upload/v1644230015/samples/Group_16_dzizvl.png"
-            }
-            alt="mockup"
-          />
+          <h2 className="text-center font-semibold lgbasemd:text-4xl xxsm:text-3xl mt-16">Functional Consultant</h2>
           <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
         <div className="p-2 shadow rounded">
-          <img
-            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
-            src={
-              "https://res.cloudinary.com/ds8p0huok/image/upload/v1644230015/samples/Group_20_hr5p6j.png"
-            }
-            alt="mockup"
-          />
+        <h2 className="text-center font-semibold lgbasemd:text-4xl xxsm:text-3xl mt-16">Produktion</h2>
           <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
         <div className="p-2 shadow rounded">
-          <img
-            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
-            src={
-              "https://res.cloudinary.com/ds8p0huok/image/upload/v1644230015/samples/Group_22_m522zl.png"
-            }
-            alt="mockup"
-          />
+        <h2 className="text-center font-semibold lgbasemd:text-4xl xxsm:text-3xl mt-16">Developer</h2>
           <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
         <div className="p-2 shadow rounded">
-          <img
-            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
-            src={
-              "https://res.cloudinary.com/ds8p0huok/image/upload/v1644230015/samples/Group_23_bic9fl.png"
-            }
-            alt="mockup"
-          />
+        <h2 className="text-center font-semibold lgbasemd:text-4xl xxsm:text-3xl mt-16">SupplyChain</h2>
           <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
 
         <div className="p-2 shadow rounded">
-          <img
-            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto"
-            src={
-              "https://res.cloudinary.com/ds8p0huok/image/upload/v1644230015/samples/Group_18_zck8b5.png"
-            }
-            alt="mockup"
-          />
+        <h2 className="text-center font-semibold lgbasemd:text-4xl xxsm:text-3xl mt-16">Azure</h2>
           <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
         <div className="p-2 shadow rounded">
-          <img
-            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
-            src={
-              "https://res.cloudinary.com/ds8p0huok/image/upload/v1644230015/samples/Group_21_gydk0v.png"
-            }
-            alt="mockup"
-          />
+        <h2 className="text-center font-semibold lgbasemd:text-4xl xxsm:text-3xl mt-16">Microsoft Dynamics 365 Business Central</h2>
           <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
         <div className="p-2 shadow rounded">
-          <img
-            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
-            src={
-              "https://res.cloudinary.com/ds8p0huok/image/upload/v1644230015/samples/Group_19_oildar.png"
-            }
-            alt="mockup"
-          />
+        <h2 className="text-center font-semibold lgbasemd:text-4xl xxsm:text-3xl mt-16">TimeXtender</h2>
           <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
         <div className="p-2 shadow rounded">
-          <img
-            className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto"
-            src={
-              "https://res.cloudinary.com/ds8p0huok/image/upload/v1644230015/samples/Group_17_jzijol.png"
-            }
-            alt="mockup"
-          />
+        <h2 className="text-center font-semibold lgbasemd:text-4xl xxsm:text-3xl mt-16">Power BI</h2>
           <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
