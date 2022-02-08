@@ -22,25 +22,25 @@ const navRoutes = [
     id: 1,
     title: "About",
     path: "about",
-    image: "about.jpg",
+    image: "home.jpg",
   },
   {
     id: 2,
     title: "Case #3",
     path: "make-it-zero",
-    image: "about.jpg",
+    image: "home.jpg",
   },
   {
     id: 3,
     title: "Case #4",
     path: "it-takes-an-island",
-    image: "about.jpg",
+    image: "home.jpg",
   },
   {
     id: 4,
     title: "Case #5",
     path: "50-beaches",
-    image: "about.jpg",
+    image: "home.jpg",
   },
 ];
 
