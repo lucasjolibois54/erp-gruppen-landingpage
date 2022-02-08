@@ -1,12 +1,12 @@
 function Technologies() {
   return (
     <div>
-      <div className="mb-28">
+      <div className="mb-28 lg:mt-20">
       <div>
         <h1 className="text-center max-w-6xl font-semibold mx-auto pt-40 xxsm:text-xl basemd:text-5xl ssm:text-4xl">
           Certificeret og erfarende konsulenter
         </h1>
-        <p className="text-center max-w-7xl mx-auto max-w-xl pt-8 pb-10 xxsm:text-md px-5 ssm:text-xl">
+        <p className="text-center max-w-6xl mx-auto max-w-xl pt-8 pb-10 xxsm:text-md px-5 ssm:text-xl">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
           using Lorem Ipsum is that it has a more-or-less normal distribution of
