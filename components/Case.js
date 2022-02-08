@@ -11,7 +11,7 @@ function Case() {
               Junckers industrier
             </h2>
             <p className="text-xl text-gray-400 dark:text-white mt-2 px-5">
-              > ERP Produktion hjalp os med at strømline vores flow, <br />og skabe en 20% tidsbesparelse i virksomheden.
+              ERP Produktion hjalp os med at strømline vores flow, <br />og skabe en 20% tidsbesparelse i virksomheden.
             </p>
           </div>
           <div className="flex justify-center w-52">
@@ -30,7 +30,7 @@ function Case() {
                 Telenor
               </h2>
               <p className="text-xl text-gray-400 dark:text-white mt-2 px-5">
-              > ERP Produktion hjalp os med at strømline vores flow, <br />og skabe en 20% tidsbesparelse i virksomheden.
+              ERP Produktion hjalp os med at strømline vores flow, <br />og skabe en 20% tidsbesparelse i virksomheden.
             </p>
             </div>
             <div className="flex justify-center items-center">
@@ -47,7 +47,7 @@ function Case() {
                 Danæg
               </h2>
               <p className="text-xl text-gray-400 dark:text-white mt-2 px-5">
-              > ERP Produktion hjalp os med at strømline vores flow, <br />og skabe en 20% tidsbesparelse i virksomheden.
+              ERP Produktion hjalp os med at strømline vores flow, <br />og skabe en 20% tidsbesparelse i virksomheden.
             </p>
             </div>
             <div className="flex justify-center items-center">
@@ -65,7 +65,7 @@ function Case() {
               HBO Nordic
             </h2>
             <p className="text-xl text-gray-400 dark:text-white mt-2 px-5">
-              > ERP Produktion hjalp os med at strømline vores flow, <br />og skabe en 20% tidsbesparelse i virksomheden.
+              ERP Produktion hjalp os med at strømline vores flow, <br />og skabe en 20% tidsbesparelse i virksomheden.
             </p>
           </div>
           <div className="flex justify-center items-center">
