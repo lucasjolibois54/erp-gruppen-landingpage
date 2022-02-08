@@ -14,13 +14,13 @@ function Case() {
               ERP Produktion hjalp os med at strømline vores flow, <br />og skabe en 20% tidsbesparelse i virksomheden.
             </p>
           </div>
-          <div className="flex justify-center w-52">
-            <img
-              src="https://res.cloudinary.com/aeeux/image/upload/v1644324349/ERP%20Produktion/pngegg_uv8ecp.png"
-              alt="A beautiful two seater sofa"
-              role="img"
-            />
-          </div>
+          <div className="flex justify-center items-center">
+              <img
+                src="https://www.pngall.com/wp-content/uploads/11/iPhone-13-PNG-Cutout.png"
+                alt="A beautiful two seater sofa"
+                role="img"
+              />
+            </div>
         </div>
 
         <div className="grid mb-10 grid-cols-1 lg:grid-cols-2 gap-5 md:gap-6 lg:gap-8 mt-4 md:mt-6 lg:mt-8">
