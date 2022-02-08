@@ -7,52 +7,52 @@ function OurServices() {
         </h1>
       </div>
 
-      <div className="grid aboutlg:grid-cols-2 xsbasesm:grid-cols-1 xxsm:p-4 xsbasesm:space-y-4 smdsm:grid-cols-2 grid-cols-1 xxsm:gap-6 gap-16 max-w-3xl mx-auto mb-20 mt-10">
+      <div className="grid aboutlg:grid-cols-2 xsbasesm:grid-cols-1 xxsm:p-4 smdsm:grid-cols-2 grid-cols-1 xxsm:gap-6 max-w-3xl mx-auto mb-20 mt-10">
         <div className="p-2 shadow rounded">
-          <h2 className="text-center font-semibold lgbasemd:text-4xl xxsm:text-3xl mt-16">Functional Consultant</h2>
+          <h2 className="text-center font-semibold basemd:text-4xl xxsm:text-3xl mt-16">Functional Consultant</h2>
           <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
         <div className="p-2 shadow rounded">
-        <h2 className="text-center font-semibold lgbasemd:text-4xl xxsm:text-3xl mt-16">Produktion</h2>
+        <h2 className="text-center font-semibold basemd:text-4xl xxsm:text-3xl mt-16">Produktion</h2>
           <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
         <div className="p-2 shadow rounded">
-        <h2 className="text-center font-semibold lgbasemd:text-4xl xxsm:text-3xl mt-16">Developer</h2>
+        <h2 className="text-center font-semibold basemd:text-4xl xxsm:text-3xl mt-16">Developer</h2>
           <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
         <div className="p-2 shadow rounded">
-        <h2 className="text-center font-semibold lgbasemd:text-4xl xxsm:text-3xl mt-16">SupplyChain</h2>
+        <h2 className="text-center font-semibold basemd:text-4xl xxsm:text-3xl mt-16">SupplyChain</h2>
           <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
 
         <div className="p-2 shadow rounded">
-        <h2 className="text-center font-semibold lgbasemd:text-4xl xxsm:text-3xl mt-16">Azure</h2>
+        <h2 className="text-center font-semibold basemd:text-4xl xxsm:text-3xl mt-16">Azure</h2>
           <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
         <div className="p-2 shadow rounded">
-        <h2 className="text-center font-semibold lgbasemd:text-4xl xxsm:text-3xl mt-16">Microsoft Dynamics 365 Business Central</h2>
+        <h2 className="text-center font-semibold basemd:text-4xl xxsm:text-3xl mt-16">Business Central</h2>
           <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
         <div className="p-2 shadow rounded">
-        <h2 className="text-center font-semibold lgbasemd:text-4xl xxsm:text-3xl mt-16">TimeXtender</h2>
+        <h2 className="text-center font-semibold basemd:text-4xl xxsm:text-3xl mt-16">TimeXtender</h2>
           <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
         </div>
         <div className="p-2 shadow rounded">
-        <h2 className="text-center font-semibold lgbasemd:text-4xl xxsm:text-3xl mt-16">Power BI</h2>
+        <h2 className="text-center font-semibold basemd:text-4xl xxsm:text-3xl mt-16">Power BI</h2>
           <p className="p-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
           </p>
