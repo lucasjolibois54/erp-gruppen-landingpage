@@ -91,6 +91,7 @@ function Technologies() {
         </div>
       </div>
       </div>
+      <div className="border-b border-2 border-line mx-auto max-w-7xl w-5/6" />
     </div>
   );
 }
