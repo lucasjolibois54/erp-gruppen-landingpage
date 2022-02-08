@@ -55,12 +55,12 @@ function Case() {
               </div>
             </div>
           </div>
-          <div className="bg-card-bg-4 dark:bg-gray-800 p-8">
+          <div className="bg-card-bg-4 p-8">
             <div>
-            <h2 className="text-4xl leading-tight font-medium text-green-hl dark:text-white">
+            <h2 className="text-4xl leading-tight font-medium text-green-hl">
                 Additional security
               </h2>
-              <p className="text-xl font-semibold text-green-hl dark:text-white mt-2">Hello</p>
+              <p className="text-xl font-semibold text-green-hl  mt-2">Hello</p>
             </div>
             <div className="flex justify-center items-center mt-28 md:mt-1">
               <img
