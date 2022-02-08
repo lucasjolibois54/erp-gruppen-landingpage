@@ -1,6 +1,7 @@
 function Technologies() {
   return (
     <div>
+      <div className="mb-28">
       <div>
         <h1 className="text-center max-w-6xl font-semibold mx-auto pt-40 xxsm:text-xl basemd:text-5xl ssm:text-4xl">
           Certificeret og erfarende konsulenter
@@ -88,6 +89,7 @@ function Technologies() {
             alt="mockup"
           />
         </div>
+      </div>
       </div>
     </div>
   );
