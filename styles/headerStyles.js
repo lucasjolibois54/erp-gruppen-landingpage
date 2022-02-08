@@ -40,7 +40,7 @@ export const Menu = styled.div`
     outline: none;
     span {
       width: 36px;
-      height: 8px;
+      height: 5px;
       display: block;
       background: black;
       margin: 8px;
