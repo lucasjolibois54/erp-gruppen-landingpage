@@ -39,7 +39,7 @@ function Case() {
                 />
               </div>
             </div>
-            <div className="bg-card-bg-3 dark:bg-gray-800 p-8">
+            <div className="bg-card-bg-3 dar k:bg-gray-800 p-8">
               <div>
               <h2 className="text-4xl leading-tight font-medium text-green-hl dark:text-white">
                 Fastenings and clamps.
