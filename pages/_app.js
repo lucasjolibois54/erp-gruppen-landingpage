@@ -19,7 +19,7 @@ export default class MyApp extends App {
     };
     return (
       <>
-        <AnimatePresence>
+        <AnimatePresence exitBeforeEnter>
           <div className="page-transition-wrapper">
             <motion.div
               transition={spring}
