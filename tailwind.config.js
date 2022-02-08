@@ -13,6 +13,7 @@ module.exports = {
         'card-bg-2': '#E6F7EF',
         'card-bg-3': '#FBFBFB',
         'card-bg-4': '#F1F1FD',
+        'card-bg-5': '#FDF3F1',
         // Line Color
         'line': '#F6F6F6',
 
