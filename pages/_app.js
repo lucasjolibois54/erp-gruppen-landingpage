@@ -3,7 +3,6 @@ import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import dynamic from "next/dynamic";
 import "../styles/globals.css";
-import { ScrollerMotion } from 'scroller-motion'
 
 const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
   ssr: false,
@@ -30,12 +29,7 @@ export default class MyApp extends App {
               exit={{ y: -300, opacity: 0 }}
               id="page-transition-container"
             >
-              <ScrollerMotion
-              className="absolute"
-              spring={{ mass: 1.25, stiffness: 400, damping: 50 }}
-              >
               <Component {...pageProps} key={router.pathname} />
-              </ScrollerMotion>
             </motion.div>
           </div>
         </AnimatePresence>
