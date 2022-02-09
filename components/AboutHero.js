@@ -8,7 +8,7 @@ function AboutHero() {
 
             <div>
                 <div className="max-w-7xl mx-auto">
-                    <h2 className="font-semibold text-7xl mt-10">
+                    <h2 className="font-semibold text-7xl mt-20 leading-regular">
                         Lær mere at kende <br/>om os og hvem vi er <br/> som virksomhed
                     </h2>
                     <p className="w-96 mt-5 text-text-gray">
