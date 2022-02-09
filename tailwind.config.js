@@ -16,6 +16,8 @@ module.exports = {
         'card-bg-5': '#FDF3F1',
         // Line Color
         'line': '#F6F6F6',
+        // text
+        'text-gray': '#8A8A8A',
 
       },
       screens: {
