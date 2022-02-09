@@ -12,7 +12,7 @@ function AboutHero() {
                     {/* <h2 className="font-semibold text-2xl sm:text-3xl md:text-5xl lg:text-7xl pt-20 leading-regular"> */}
                         Lær mere at kende <br/>om os og hvem vi er <br/> som virksomhed
                     </h2>
-                    <p className="sm:w-96 mt-5 text-text-gray text-xs abouthero2-screen:text-sm sm:text-md md:text-lg">
+                    <p className="sm:w-96 mt-5 text-text-gray text-xs sm:text-md md:text-lg">
                     Our mission is to ensure teams can do their best work, no matter their size or budget. We focus on the details of everything we do. 
                     </p>
 
