@@ -30,7 +30,7 @@ module.exports = {
         'ourservice': '420px',
 
         'abouthero-screen': '400px',
-        'abouthero2-screen': '330px',
+        'abouthero2screen': '370px',
 
         'ssm': '430px',
         // => @media (min-width: 520px) { ... }
@@ -74,6 +74,7 @@ module.exports = {
       
         '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
+        'big': '2550px'
       },},
   },
  
