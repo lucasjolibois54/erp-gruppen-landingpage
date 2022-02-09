@@ -29,6 +29,9 @@ module.exports = {
 
         'ourservice': '420px',
 
+        'abouthero-screen': '400px',
+        'abouthero2-screen': '330px',
+
         'ssm': '430px',
         // => @media (min-width: 520px) { ... }
 
