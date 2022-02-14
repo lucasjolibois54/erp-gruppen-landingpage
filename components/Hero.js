@@ -18,7 +18,7 @@ function Hero() {
           </div>
           <p className="text-xl text-gray-400 xxsm:ml-10 xxsm:text-sm xxsm:mt-8">
             ERP Produktion hjalp os med at strømline vores flow, <br />
-            og skabe en 20% tidsbesparelse i virksomheden
+            og skabe en 20% tidsbesparelse i virksomheden.
           </p>
         </div>
         <button className="bg-green-hl mt-8 xxsm:ml-10 text-white rounded-xl ourservice:px-10 ourservice:py-4 xxsm:px-4 xxsm:py-2 xsm:px-6 xsm:py-3">
