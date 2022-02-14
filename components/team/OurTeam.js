@@ -59,8 +59,8 @@ function OurTeam() {
     <div className={styles.body}>
       <div className="border-b border-2 border-line mx-auto w-5/6 mt-16 aboutlg:max-w-5xl"  />
           <div>
-          <h3 className="text-center max-w-7xl font-semibold mx-auto pt-40 xxsm:text-3xl ssm:text-3xl">Meet our team</h3>
-                <p className="text-center max-w-5xl mx-auto max-w-3xl pt-10 xxsm:mb-20 xxsm:text-md ssm:text-xl p-10">Our mission is to ensure teams can do their best work, no matter their size or budget. We focus on the details of everything we do.</p>
+          <h3 className="text-center max-w-7xl font-semibold mx-auto pt-40 xxsm:text-3xl ssm:text-6xl">ERP Produktion</h3>
+                <p className="text-center max-w-5xl mx-auto max-w-3xl pt-10 xxsm:mb-20 xxsm:text-md ssm:text-xl p-10">Vi består af Specialister og Konsulenter indenfor Microsoft Business Central, Supply Chain og Produktion. </p>
           </div>
 
       <div className="grid aboutlg:grid-cols-3 basemd:grid-cols-2 grid-cols-1 gap-4 xxsm:p-3 max-w-7xl mb-14">
