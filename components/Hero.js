@@ -1,10 +1,10 @@
 function Hero() {
   return (
     <div>
-      <div className="dark:bg-gray-800 my-auto mx-auto mt-72 mb-96 max-w-6xl">
+      <div className="dark:bg-gray-800 my-auto mx-auto mt-56  mb-96 max-w-6xl">
         <div className="">
           <div className="flex">
-          <h2 className="text-8xl xxsm:text-5xl xxsm:ml-10 sbasesm:max-w-md baselg:text-7xl base2lg:text-8xl base2lg:max-w-7xl baselg:mr-20 leading-tight font-semibold">
+          <h2 className="text-8xl xxsm:text-6xl xxsm:ml-10 xxsm:max-w-sm sbasesm:max-w-sm sbasesm:mr-20 baselg:text-7xl baselg:mr-20 baselg:max-w-md base2lg:text-8xl base2lg:max-w-3xl font-bold">
             Konsulenter i gulvhøjde <br />{" "}
             <span className="text-green-hl">IT i skyen.</span>
           </h2>
