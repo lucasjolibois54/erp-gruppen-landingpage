@@ -16,7 +16,7 @@ function Hero() {
             alt="mockup"
           />
           </div>
-          <p className="text-xl text-gray-400 xxsm:ml-10 xxsm:text-sm xxsm:mt-8">
+          <p className="text-xl text-gray-400 xxsm:ml-10 xxsm:text-sm xxsm:mt-8 xsm:mt-8 baselg:-mt-8">
             ERP Produktion hjalp os med at strømline vores flow, <br />
             og skabe en 20% tidsbesparelse i virksomheden.
           </p>
