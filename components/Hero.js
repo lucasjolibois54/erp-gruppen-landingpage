@@ -21,7 +21,7 @@ function Hero() {
             og skabe en 20% tidsbesparelse i virksomheden.
           </p>
         </div>
-        <button className="bg-green-hl mt-8 xxsm:ml-4 text-white rounded-xl ourservice:px-10 ourservice:py-4 xxsm:px-4 xxsm:py-2 xxsm:px-4 xsm:px-6 xsm:py-3">
+        <button className="bg-green-hl mt-8 xxsm:ml-10 text-white rounded-xl ourservice:px-10 ourservice:py-4 xxsm:px-4 xxsm:py-2 xxsm:px-4 xsm:px-6 xsm:py-3">
           Get a quote <span className="ml-6 xxsm:ml-2">➜</span>
         </button>
         <button className="xsm:ml-10 xxsm:ml-3 underline">
