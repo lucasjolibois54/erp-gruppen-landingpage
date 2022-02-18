@@ -8,13 +8,12 @@ function AboutHero() {
 
             <div>
                 <div className="max-w-7xl mx-auto px-10">
-                    <h2 className="font-semibold xxsm:text-xl xsm:text-2xl ourservice:text-3xl basemd:text-5xl baselg:text-6xl base2lg:text-7xl big:text-7xl pt-20 leading-regular">
+                    <h2 className="font-semibold xxsm:text-xl xsm:text-2xl ourservice:text-3xl basemd:text-5xl baselg:text-6xl text-center base2lg:text-7xl big:text-7xl pt-20 leading-regular">
                     {/* <h2 className="font-semibold text-2xl sm:text-3xl md:text-5xl lg:text-7xl pt-20 leading-regular"> */}
-                        Lær mere at kende <br/>om os og hvem vi er <br/> som virksomhed
+                    Mød vores team af eksperter i
+                    <span className="text-green-hl"> Marketing & Produktion</span>
                     </h2>
-                    <p className="sm:w-96 mt-5 text-text-gray text-xs sm:text-md md:text-lg">
-                    Our mission is to ensure teams can do their best work, no matter their size or budget. We focus on the details of everything we do. 
-                    </p>
+                    
 
                     <img
                         className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto mt-20"
