@@ -1,15 +1,27 @@
 function Hero() {
   return (
     <div>
-      <div className="-z-50">
+      <div className="-z-50 flex items-center justify-center visible 1xl:invisible">
       <img
-              className="absolute top-0 -z-50"
+              className="absolute top-0 -z-50 opacity-80 h-5/6 w-auto  "
               src={
                 "https://res.cloudinary.com/ds8p0huok/image/upload/v1645178980/Group_55_1_wg2ppx.png"
               }
               alt="mockup"
             />
       </div>
+
+      <div className="-z-50 flex items-center justify-center invisible 1xl:visible">
+      <img
+              className="absolute top-0 -z-50 opacity-80 h-5/6 w-auto  "
+              src={
+                "https://res.cloudinary.com/ds8p0huok/image/upload/v1645179991/Group_55_3_mt34ku.png"
+              }
+              alt="mockup"
+            />
+      </div>
+
+
       <div className=" my-auto mx-auto mt-56  mb-96 max-w-6xl">
         <div className="">
           <div className="flex">
