@@ -45,12 +45,12 @@ function Hero() {
               />
             </div>
             <div className="flex">
-              <h2 className="text-6xl font-bold"> >40</h2>
+              <h2 className="text-6xl font-bold"> &gt;40</h2>
               <p className="text-gray-700 pt-1 pl-1">over 40 total <br />
                 clients</p>
             </div>
             <div className="flex">
-              <h2 className="text-6xl font-bold"> >12</h2>
+              <h2 className="text-6xl font-bold"> &gt;12</h2>
               <p className="text-gray-700 pt-1 pl-1">over 12 year <br />
                 of experience</p>
             </div>
