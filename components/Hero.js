@@ -22,7 +22,7 @@ function Hero() {
       </div>
 
 
-      <div className=" my-auto mx-auto mt-28 max-w-6xl">
+      <div className=" my-auto mx-auto lgbasemd:mt-20 max-w-6xl">
         <div className="">
           <div className="flex">
             <h2 className="text-8xl xxsm:text-4xl xxsm:ml-10 xxsm:max-w-xs xxsm:pr-9 xsm:text-5xl sbasesm:max-w-sm sbasesm:text-6xl sbasesm:mr-20 baselg:text-7xl baselg:mr-20 baselg:max-w-md base2lg:text-8xl base2lg:max-w-3xl font-bold">
