@@ -30,7 +30,7 @@ function Hero() {
 
 
         <div className="mt-20">
-          <div className="flex items-center justify-center space-x-36">
+          <div className="flex items-center justify-center invisible h-0 lgbasemd:h-auto lgbasemd:visible lgbasemd:space-x-6 smbaselg:space-x-16 aboutlg:space-x-20 baselg:space-x-28 base2lg:space-x-36">
             <div>
               <p>Our mission is to digitalize your <br />
                 business and put it in the cloud</p>
