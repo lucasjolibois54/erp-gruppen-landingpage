@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <div>
-      <div className="-z-50 flex items-center justify-center visible 1xl:invisible">
+      <div className="-z-50 flex  visible 1xl:invisible">
       <img
               className="absolute top-0 -z-50 opacity-80 h-5/6 w-auto  "
               src={
