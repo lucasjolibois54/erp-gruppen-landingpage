@@ -27,7 +27,7 @@ function Hero() {
           <div className="flex">
             <h2 className="text-8xl xxsm:text-4xl xxsm:ml-10 xxsm:max-w-xs xxsm:pr-9 xsm:text-5xl sbasesm:max-w-sm sbasesm:text-6xl sbasesm:mr-20 baselg:text-7xl baselg:mr-20 baselg:max-w-md base2lg:text-8xl base2lg:max-w-3xl font-bold">
               Konsulenter i gulvhøjde <br />{" "}
-              <span className="text-green-hl">IT i skyen.</span>
+              <span className="text-green-hl leading-snug">IT i skyen.</span>
             </h2>
             <img
               className="xxsm:invisible xxsm:w-0 sbasesm:visible sbasesm:w-56 sbasesm:-mt-10 baselg:w-80 base2lg:w-96 base2lg:ml-32 2xl:ml-80 -mt-2 mt-20"
