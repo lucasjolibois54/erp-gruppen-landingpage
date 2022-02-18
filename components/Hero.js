@@ -11,11 +11,11 @@ function Hero() {
             />
       </div>
 
-      <div className="-z-50 flex items-center justify-center invisible 1xl:visible">
+      <div className="-z-50 flex  invisible 1xl:visible">
       <img
               className="absolute top-0 -z-50 opacity-80 h-5/6 w-auto  "
               src={
-                "https://res.cloudinary.com/ds8p0huok/image/upload/v1645179991/Group_55_3_mt34ku.png"
+                "https://res.cloudinary.com/ds8p0huok/image/upload/v1645180521/Group_55_4_icc4qj.png"
               }
               alt="mockup"
             />
