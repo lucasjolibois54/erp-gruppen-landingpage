@@ -55,7 +55,7 @@ function Hero() {
                 of experience</p>
             </div>
           </div>
-          <div className="flex">
+          <div className="flex invisible h-0 lgbasemd:h-auto lgbasemd:visible">
             <img
               className="h-16 w-auto pl-6"
               src={
