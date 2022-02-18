@@ -49,6 +49,7 @@ function Hero() {
           Learn more!
         </button>
 
+{/* her starter den anden sektion af hero */}
 
         <div className="mt-20">
           <div className="flex items-center justify-center invisible h-0 lgbasemd:h-auto lgbasemd:visible lgbasemd:space-x-6 smbaselg:space-x-16 aboutlg:space-x-20 baselg:space-x-28 base2lg:space-x-36">
