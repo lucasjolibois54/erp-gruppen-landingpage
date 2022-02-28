@@ -1,30 +1,45 @@
 function AboutHero() {
     return (
-        <div> 
-            {/* <div>
-                <h1 className="text-center max-w-7xl font-semibold mx-auto pt-40 xxsm:text-3xl ssm:text-4xl mt-56">We’re built for software teams</h1>
-                <p className="text-center max-w-5xl mx-auto max-w-3xl pt-10 xxsm:text-md ssm:text-xl p-10 mb-56">Our mission is to ensure teams can do their best work, no matter their size or budget. We focus on the details of everything we do.</p>
-            </div> */}
- 
-            <div>
-                <div className="max-w-7xl mx-auto px-10">
-                    <h2 className="p-0 font-semibold text-black xxsm:text-xl xsm:text-2xl ourservice:text-3xl basemd:text-5xl baselg:text-6xl text-center base2lg:text-7xl big:text-7xl pt-0 md:pt-28 leading-regular">
-                    {/* <h2 className="font-semibold text-2xl sm:text-3xl md:text-5xl lg:text-7xl pt-20 leading-regular"> */}
-                    Mød vores team af eksperter i
-                    <span className="text-blue-500 "> Marketing & Produktion</span>
-                    </h2>
-                    
 
-                    <img
-                        className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto mt-20"
-                        src={
-                            "https://res.cloudinary.com/ds8p0huok/image/upload/v1644396526/samples/image_43_1_szyzxv.png"
-                        }
-                        alt="mockup"
-                    /></div><div>
-                </div>
+
+<div>
+    <div className="my-auto mx-auto xxsm:mt-6 lgbasemd:mt-0 max-w-7xl">
+        <div id="top" className=" p-0 flex flex-col w-full xl:flex-row md:p-16 mb-4">
+        <div className="flex text-center flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
+            
+            <h2 className="text-4xl sm:text-5xl md:text-5xl 2xl:text-6xl font-black font-sans lg:mt-0 mt-4 text-dark-text py-0">
+            Mød vores team af eksperter indenfor  
+                <span className="text-blue-500"> marketing & produktion</span>
+            </h2>
+            <p className="text-base md:text-xl px-5 text-dark-text py-5 md:px-24 xl:pl-0 xl:pr-20">
+            Development teams around the world, including NPR, Halfbrick, Duolingo, and Venmo use Firebase to ship their apps. Development teams around the world, including NPR, Halfbrick, Duolingo, and Venmo.
+ 
+            </p>
+            <div className="flex justify-center text-center items-center py-0 xl:justify-start">
+                <a href="#about" >
+                    <button href="#" class="shadow-lg bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition duration-500 ease-in-out transform hover:scale-110">
+                    Request a demo
+                    </button>
+                </a>
+                
+
+              
             </div>
         </div>
+        <div className="w-full  xl:w-4/6">
+        <img
+                        className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto mt-20"
+                        src={
+                            "https://res.cloudinary.com/ds8p0huok/image/upload/v1646051708/image_43_2_dox1is.png"
+                        }
+                        alt="mockup"
+                    />
+
+        </div>
+    </div>
+
+    </div>
+    </div>
     )
 
 }
