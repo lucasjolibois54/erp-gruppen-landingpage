@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
+import { OpenOutline } from 'react-ionicons'
+
 
 //components
 import Navigation from "../components/Navigation";
@@ -48,16 +50,24 @@ function Case() {
         {caseOne.map((product) => (
           <div key={product.id} className="group relative">
             <div className="md:flex">
-              <div className="w-full min-h-80 aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
-                <h3 className="text-5xl font-semibold p-5">
+              <div className="w-full min-h-80 aspect-w-1 p-5 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
+                <h3 className="text-5xl flex font-semibold">
                   {product.name}
+                  <div className="flex ml-3">
+                  <OpenOutline
+                    color={'#3B82F6'} 
+                    title=""
+                    height="50px"
+                    width="50px"
+                  />
+                  </div>
+                </h3>
                   <span
                     aria-hidden="true"
-                    className="text-gray-300 mt-5 text-4xl font-regular flex"
+                    className="text-gray-300 w-96 mt-5 text-4xl font-regular flex"
                   >
                     {product.title}
                   </span>
-                </h3>
               </div>
               <div className="w-full min-h-80 aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none flex">
                 <h3 className="font-regular m-12 text-lg">
@@ -96,7 +106,7 @@ function Case() {
                   <span className="flex text-sm m-3">Hello</span>
                 </h3>
               </div>
-              <div className="mt-20 1xl:mt-60 justify-center mx-auto">
+              <div className="mt-20 1xl:mt-60 justify-center mx-auto  ">
                 <div className="flex invisible h-0 lgbasemd:h-auto lgbasemd:visible">
                   <img
                     className="h-16 w-auto pl-6"
