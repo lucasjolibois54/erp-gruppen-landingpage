@@ -1,6 +1,12 @@
 function OurServices() {
     return (
         <div>
+                <video autoPlay muted loop className="absolute top-0 -z-50 w-auto">
+          <source
+            src="https://res.cloudinary.com/aeeux/video/upload/v1645918098/ERP%20Produktion/erpvideo_qkh2li.mp4"
+            type="video/mp4"
+          />
+        </video>
       <div>
         <h1 className="text-center max-w-7xl font-semibold mx-auto pt-40 xxsm:text-3xl basemd:text-5xl ssm:text-4xl">
           Our Services
