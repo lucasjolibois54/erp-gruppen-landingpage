@@ -7,51 +7,51 @@ function OurTeam() {
   const navRoutes = [
     {
       id: 0,
-      name: "Name 1",
+      name: "Niels Nybro Bolding",
       title: "Product Manager",
       positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
       path: "colleague",
-      image: "girl.svg",
+      image: "Niels.jpg",
     },
     {
       id: 1,
-      name: "Name 2",
+      name: "Andreas Erik Eriksen",
       title: "Product Manager",
       positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
       path: "colleague",
-      image: "girl.svg",
+      image: "Andreas.jpg",
     },
     {
       id: 2,
-      name: "Name 3",
+      name: "Daud Khalid Mir",
       title: "Product Manager",
       positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
       path: "colleague",
-      image: "girl.svg",
+      image: "Daud.jpg",
     },
     {
       id: 3,
-      name: "Name 4",
+      name: "Jørgen W. Rasmusen",
       title: "Product Manager",
       positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
       path: "colleague",
-      image: "girl.svg",
+      image: "Jørgen.jpg",
     },
     {
       id: 4,
-      name: "Name 5",
+      name: "Louise",
       title: "Product Manager",
       positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
       path: "colleague",
-      image: "girl.svg",
+      image: "Louise.jpg",
     },
     {
         id: 5,
-        name: "Name 6",
+        name: "Unknown",
         title: "Product Manager",
         positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
         path: "colleague",
-        image: "girl.svg",
+        image: "Unknown.jpg",
       },
   ];
 
@@ -67,7 +67,7 @@ function OurTeam() {
         {navRoutes.map((route) => (
           <div key={route.id}>
             <div className={styles.card}>
-                <div className="absolute">
+                <div className="absolute w-96">
               <Image
                 src={require(`/image/${route.image}`)}
                 alt="Picture of the author"
