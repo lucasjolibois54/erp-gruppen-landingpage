@@ -18,7 +18,7 @@ and our values
             </p>
             <div className="flex justify-center text-center items-center py-0 xl:justify-start">
                
-                    <a href="#" class="  text-blue-500 underline decoration-1 font-bold py-2  transition duration-500 ease-in-out transform hover:scale-110">
+                    <a href="#" className="  text-blue-500 underline decoration-1 font-bold py-2  transition duration-500 ease-in-out transform hover:scale-110">
                     Learn more about us on our socials
                     </a>
                 
