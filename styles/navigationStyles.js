@@ -112,6 +112,9 @@ export const NavImage = styled.div`
       image {
           height: 100%;
       }
-
+      @media (max-width: 956px) {
+        display: none;
+      }
   }
+
 `
