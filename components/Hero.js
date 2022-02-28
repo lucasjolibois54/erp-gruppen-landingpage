@@ -10,7 +10,6 @@ function Hero() {
         </video>
         </div>
 
-
       <div className=" my-auto mx-auto xxsm:mt-6 lgbasemd:mt-20 max-w-6xl">
         <div className="">
           <div className="flex">
