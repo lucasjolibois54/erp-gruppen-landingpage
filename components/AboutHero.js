@@ -8,7 +8,7 @@ function AboutHero() {
 
             <div>
                 <div className="max-w-7xl mx-auto px-10">
-                    <h2 className="p-0 font-semibold text-black xxsm:text-xl xsm:text-2xl ourservice:text-3xl basemd:text-5xl baselg:text-6xl text-center base2lg:text-7xl big:text-7xl pt-0 md:pt-20 leading-regular">
+                    <h2 className="p-0 font-semibold text-black xxsm:text-xl xsm:text-2xl ourservice:text-3xl basemd:text-5xl baselg:text-6xl text-center base2lg:text-7xl big:text-7xl pt-0 md:pt-28 leading-regular">
                     {/* <h2 className="font-semibold text-2xl sm:text-3xl md:text-5xl lg:text-7xl pt-20 leading-regular"> */}
                     Mød vores team af eksperter i
                     <span className="text-blue-500 "> Marketing & Produktion</span>
