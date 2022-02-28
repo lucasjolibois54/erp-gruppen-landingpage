@@ -31,7 +31,7 @@ function OurTeam() {
     },
     {
       id: 3,
-      name: "Lucas",
+      name: "Lucas Bendix Jolibois",
       title: "Product Manager",
       positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
       path: "colleague",
