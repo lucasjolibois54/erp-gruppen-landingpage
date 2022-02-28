@@ -1,23 +1,25 @@
 function Hero() {
   return (
     <div>
-        <video autoPlay muted loop className="absolute top-0 -z-50 w-auto">
+      <div className="">
+        <video autoPlay muted loop className="absolute big:left-80 top-0 -z-50 xxsm:invisible basemd:h-5/6 lgbasemd:h-auto basemd:visible w-auto">
           <source
             src="https://res.cloudinary.com/aeeux/video/upload/v1645918098/ERP%20Produktion/erpvideo_qkh2li.mp4"
             type="video/mp4"
           />
         </video>
+        </div>
 
 
       <div className=" my-auto mx-auto xxsm:mt-6 lgbasemd:mt-20 max-w-6xl">
         <div className="">
           <div className="flex">
-            <h2 className="text-8xl text-white xxsm:text-4xl xxsm:ml-10 xxsm:max-w-xs xxsm:pr-9 xsm:text-5xl sbasesm:max-w-sm sbasesm:text-6xl sbasesm:mr-20 baselg:text-7xl baselg:mr-20 baselg:max-w-md base2lg:text-8xl base2lg:max-w-3xl font-bold">
+            <h2 className="text-8xl basemd:text-white xxsm:text-4xl xxsm:ml-10 xxsm:max-w-xs xxsm:pr-9 xsm:text-5xl sbasesm:max-w-sm sbasesm:text-6xl sbasesm:mr-20 baselg:text-7xl baselg:mr-20 baselg:max-w-md base2lg:text-8xl base2lg:max-w-3xl font-bold">
               Konsulenter i gulvhøjde <br />{" "}
               <span className="text-blue-500 leading-snug">IT i skyen.</span>
             </h2>
           </div>
-          <p className="text-xl text-white xxsm:ml-10 max-w-md xxsm:pr-8 xxsm:text-sm xxsm:mt-8 xsm:mt-8">
+          <p className="text-xl basemd:text-white xxsm:ml-10 max-w-md xxsm:pr-8 xxsm:text-sm xxsm:mt-8 xsm:mt-8 basemd:mt-2 1xl:mt-12">
             ERP Produktion hjalp os med at strømline vores flow,
             og skabe en 20% tidsbesparelse i virksomheden.
           </p>
@@ -25,12 +27,12 @@ function Hero() {
         <button className="bg-blue-500 mt-8 xxsm:ml-10 text-white rounded-xl ourservice:px-10 ourservice:py-4 xxsm:px-4 xxsm:py-2 xxsm:px-4 xsm:px-6 xsm:py-3">
           Get a quote <span className="ml-6 xxsm:ml-2">➜</span>
         </button>
-        <button className="xsm:ml-10 text-white xxsm:ml-3 underline">
+        <button className="xsm:ml-10 basemd:text-white xxsm:ml-3 underline">
           Learn more!
         </button>
 
-        <div className="mt-20">
-          <div className="flex text-white items-center justify-center invisible h-0 lgbasemd:h-auto lgbasemd:visible lgbasemd:space-x-6 smbaselg:space-x-16 aboutlg:space-x-20 baselg:space-x-28 base2lg:space-x-36">
+        <div className="mt-20 1xl:mt-60">
+          <div className="flex items-center justify-center invisible h-0 lgbasemd:h-auto lgbasemd:visible lgbasemd:space-x-6 smbaselg:space-x-16 aboutlg:space-x-20 baselg:space-x-28 base2lg:space-x-36">
             <div>
               <p>Our mission is to digitalize your <br />
                 business and put it in the cloud</p>
@@ -44,7 +46,7 @@ function Hero() {
                 alt="mockup"
               />
             </div>
-            <div className="flex text-white">
+            <div className="flex big:text-white">
               <h2 className="text-6xl font-bold"> &gt;40</h2>
               <p className="pt-1 pl-1">over 40 total <br />
                 clients</p>
