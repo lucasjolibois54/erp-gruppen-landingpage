@@ -96,7 +96,7 @@ function Case() {
                   <span className="flex text-sm m-3">Hello</span>
                 </h3>
               </div>
-              <div className="mt-20 1xl:mt-60">
+              <div className="mt-20 1xl:mt-60 justify-center mx-auto">
                 <div className="flex invisible h-0 lgbasemd:h-auto lgbasemd:visible">
                   <img
                     className="h-16 w-auto pl-6"
@@ -110,7 +110,7 @@ function Case() {
                     <p>CEO, Cabola ApS</p>
                   </div>
                 </div>
-                <div className=" items-center justify-center invisible h-0 lgbasemd:h-auto lgbasemd:visible lgbasemd:space-x-6 smbaselg:space-x-16 aboutlg:space-x-20 baselg:space-x-28 base2lg:space-x-36">
+                <div className="p-10 w-2/3 items-center justify-center invisible h-0 lgbasemd:h-auto lgbasemd:visible lgbasemd:space-x-6 smbaselg:space-x-16 aboutlg:space-x-20 baselg:space-x-28 base2lg:space-x-36">
                   <blockquote className="pt-1 pl-1">&gt;{product.textBox3}</blockquote>
                 </div>
               </div>
