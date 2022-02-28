@@ -30,7 +30,7 @@ function Hero() {
           Learn more!
         </button>
 
-        <div className="mt-20 1xl:mt-60">
+        <div className="mt-20 bg-white 1xl:mt-60 rounded-t-xl xl:p-6">
           <div className="flex items-center justify-center invisible h-0 lgbasemd:h-auto lgbasemd:visible lgbasemd:space-x-6 smbaselg:space-x-16 aboutlg:space-x-20 baselg:space-x-28 base2lg:space-x-36">
             <div>
               <p>Our mission is to digitalize your <br />
@@ -45,7 +45,7 @@ function Hero() {
                 alt="mockup"
               />
             </div>
-            <div className="flex big:text-white">
+            <div className="flex">
               <h2 className="text-6xl font-bold"> &gt;40</h2>
               <p className="pt-1 pl-1">over 40 total <br />
                 clients</p>
@@ -64,7 +64,7 @@ function Hero() {
               }
               alt="mockup"
             />
-            <div className="flex text-white flex-col items-center justify-center pl-2">
+            <div className="flex flex-col items-center justify-center pl-2">
               <h2 className="font-bold">Niels pedersen</h2>
               <p>CEO, co-owner</p>
             </div>
