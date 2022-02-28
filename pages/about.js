@@ -11,6 +11,8 @@ import AboutHero from "../components/AboutHero";
 import OurTeam from "../components/team/OurTeam";
 import OurServices from "../components/OurServices";
 import Footer from '../components/Footer'
+import MoreAboutUs from "../components/MoreAboutUs";
+import SocialMediaAbout from "../components/SocialMediaAbout"
 
 export default function Home() {
 
@@ -33,6 +35,8 @@ export default function Home() {
       <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
       <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
         <AboutHero />
+        <MoreAboutUs/>
+        <SocialMediaAbout/>
         <OurTeam />
         <OurServices />
         <Footer />
