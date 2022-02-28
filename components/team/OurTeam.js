@@ -64,12 +64,6 @@ function OurTeam() {
           </div>
 
       <div className="grid aboutlg:grid-cols-3 basemd:grid-cols-2 grid-cols-1 gap-4 xxsm:p-3 max-w-7xl mb-14">
-      <video autoPlay muted loop className="absolute top-0 -z-50 w-auto">
-          <source
-            src="https://res.cloudinary.com/aeeux/video/upload/v1645918098/ERP%20Produktion/erpvideo_qkh2li.mp4"
-            type="video/mp4"
-          />
-        </video>
         {navRoutes.map((route) => (
           <div key={route.id}>
             <div className={styles.card}>
