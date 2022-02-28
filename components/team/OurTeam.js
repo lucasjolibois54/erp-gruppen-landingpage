@@ -31,11 +31,11 @@ function OurTeam() {
     },
     {
       id: 3,
-      name: "Jørgen W. Rasmusen",
+      name: "Lucas",
       title: "Product Manager",
       positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
       path: "colleague",
-      image: "Jørgen.jpg",
+      image: "Lucas2.jpg",
     },
     {
       id: 4,
@@ -52,6 +52,14 @@ function OurTeam() {
         positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
         path: "colleague",
         image: "Unknown.jpg",
+      },
+      {
+        id: 6,
+        name: "Jørgen W. Rasmusen",
+        title: "Product Manager",
+        positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
+        path: "colleague",
+        image: "Jørgen.jpg",
       },
   ];
 
