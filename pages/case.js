@@ -15,6 +15,8 @@ const caseOne = [
       "Cabola er en virksomhed der blev stiftet i 2004 og drives af direktør Kenneth Laursen. Kemieksperterne i Cabola tilbyder alle former for kemi; kemiske produkter, rengøringsmilder, saltprodukter og filtermaterialer. Med et stærkt team af ni medarbejdere knokler de dagligt for at sikre deres kunder den bedste løsning.",
     textBox2:
       "Mange virksomheder udelukker muligheden for nyt ERP-system fordi det er omkostningsdyrt, men for Cabola har beslutningen være en investering fordi det er et simpelt system der nemt kan integreres med andre systemer som virksomheden dagligt bruger. Cabola har fået implementeret Nemhandel som også er et af ERP-gruppens tillægsløsninger.",
+    textBox3:
+      "Takket være ERP-løsningen og den gode support fra ERPsupportens konsulenter så har Cabola opnået en øget effektivitet i arbejdsdagen.  Cabola medarbejderne kan selv arbejde i systemet og får rigtig god support af konsulenterne som altid er til rådighed og vejleder i systemet. De nye opdateringer der kommer, kan mærkes hos Cabola,  som er velinformeret omkring dette af ERPsupportens Konsulenter.",
     href: "case",
     imageSrc:
       "https://www.erpgruppen.dk/wp-content/uploads/2020/02/Cabola-1.jpg",
@@ -42,7 +44,7 @@ function Case() {
 
       <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
       <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
-      <div className="m-10 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-1 lg:grid-cols-1 xl:gap-x-8">
+      <div className="md:m-10 lg:m-50 xl:m-64 m-0 grid">
         {caseOne.map((product) => (
           <div key={product.id} className="group relative">
             <div className="md:flex">
@@ -58,7 +60,7 @@ function Case() {
                 </h3>
               </div>
               <div className="w-full min-h-80 aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none flex">
-                <h3 className="text-gray-700 m-12 text-md">
+                <h3 className="font-regular m-12 text-lg">
                   {product.textBox1}
                 </h3>
               </div>
@@ -68,21 +70,53 @@ function Case() {
               src={product.imageSrc}
               alt={product.imageAlt}
             />
-            <div className="w-full aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none flex">
-              <h3 className="text-gray-700 m-12 text-md">{product.textBox2}</h3>
+            <div className="w-full aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
+              <h3 className=" m-12 font-regular text-lg grid grid-cols-2">
+                {product.textBox2}
+              </h3>
+              <div className="flex mx-auto justify-center">
+                <h3 className="m-12 text-md">
+                  Strategy
+                  <span className="flex text-sm m-3">Hello</span>
+                  <span className="flex text-sm m-3">Hello</span>
+                </h3>
+                <h3 className="m-12 text-md">
+                  User Experience
+                  <span className="flex text-sm m-3">Hello</span>
+                  <span className="flex text-sm m-3">Hello</span>
+                </h3>
+                <h3 className="m-12 text-md">
+                  Production
+                  <span className="flex text-sm m-3">Hello</span>
+                  <span className="flex text-sm m-3">Hello</span>
+                </h3>
+                <h3 className="m-12 text-md">
+                  Platforms
+                  <span className="flex text-sm m-3">Hello</span>
+                  <span className="flex text-sm m-3">Hello</span>
+                </h3>
+              </div>
+              <div className="mt-20 1xl:mt-60">
+                <div className="flex invisible h-0 lgbasemd:h-auto lgbasemd:visible">
+                  <img
+                    className="h-16 w-auto pl-6"
+                    src={
+                      "https://res.cloudinary.com/ds8p0huok/image/upload/v1645175524/Ellipse_92_wpnmfl.png"
+                    }
+                    alt="mockup"
+                  />
+                  <div className="flex flex-col items-center justify-center pl-2">
+                    <h2 className="font-bold">Niels pedersen</h2>
+                    <p>CEO, Cabola ApS</p>
+                  </div>
+                </div>
+                <div className=" items-center justify-center invisible h-0 lgbasemd:h-auto lgbasemd:visible lgbasemd:space-x-6 smbaselg:space-x-16 aboutlg:space-x-20 baselg:space-x-28 base2lg:space-x-36">
+                  <blockquote className="pt-1 pl-1">&gt;{product.textBox3}</blockquote>
+                </div>
+              </div>
             </div>
           </div>
         ))}
-      </div>
-      <div className=" flex text-center mx-auto justify-center">
-        <h3 className="m-12 text-md">
-          Strategy
-          <span className="flex text-sm m-3">Hello</span>
-          <span className="flex text-sm m-3">Hello</span>
-        </h3>
-        <h3 className="m-12 text-md">User Experience</h3>
-        <h3 className="m-12 text-md">Production</h3>
-        <h3 className="m-12 text-md">Platforms</h3>
       </div>
     </div>
   );
