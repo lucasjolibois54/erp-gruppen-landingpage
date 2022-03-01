@@ -70,7 +70,7 @@ function Case() {
                   </span>
               </div>
               <div className="w-full min-h-80 aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none flex">
-                <h3 className="font-regular m-12 text-lg">
+                <h3 className="font-regular m-5 text-lg">
                   {product.textBox1}
                 </h3>
               </div>
@@ -81,7 +81,7 @@ function Case() {
               alt={product.imageAlt}
             />
             <div className="w-full aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
-              <h3 className=" m-12 font-regular text-lg grid grid-cols-2">
+              <h3 className=" m-12 font-regular text-lg grid">
                 {product.textBox2}
               </h3>
               <div className="flex mx-auto justify-center">
@@ -105,6 +105,14 @@ function Case() {
                   <span className="flex text-sm m-3">Hello</span>
                   <span className="flex text-sm m-3">Hello</span>
                 </h3>
+              </div>
+              <div className="mt-20">
+              <h3 className="text-5xl flex font-semibold">
+                  Nye implementeringer
+                </h3>
+              <h3 className="mt-8 font-regular text-lg grid">
+                {product.textBox2}
+              </h3>
               </div>
               <div className="mt-20 1xl:mt-60 justify-center mx-auto  ">
                 <div className="flex invisible h-0 lgbasemd:h-auto lgbasemd:visible">
