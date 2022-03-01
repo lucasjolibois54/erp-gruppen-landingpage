@@ -106,6 +106,14 @@ function Case() {
                   <span className="flex text-sm m-3">Hello</span>
                 </h3>
               </div>
+              <div className="mt-20">
+              <h3 className="text-5xl flex font-semibold">
+                  Nye implementeringer
+                </h3>
+              <h3 className="mt-8 font-regular text-lg grid">
+                {product.textBox2}
+              </h3>
+              </div>
               <div className="mt-20 1xl:mt-60 justify-center mx-auto  ">
                 <div className="flex invisible h-0 lgbasemd:h-auto lgbasemd:visible">
                   <img
