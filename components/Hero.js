@@ -2,7 +2,7 @@ function Hero() {
   return (
     <div>
       <div className="">
-        <video autoPlay muted loop className="absolute big:left-80 top-0 -z-50 xxsm:invisible basemd:h-5/6 lgbasemd:h-auto basemd:visible w-auto">
+        <video autoPlay muted loop className="absolute smbig:max-h-screen smbig:w-full top-0 -z-50 xxsm:invisible basemd:h-5/6 lgbasemd:h-auto basemd:visible w-auto">
           <source
             src="https://res.cloudinary.com/aeeux/video/upload/v1645918098/ERP%20Produktion/erpvideo_qkh2li.mp4"
             type="video/mp4"
