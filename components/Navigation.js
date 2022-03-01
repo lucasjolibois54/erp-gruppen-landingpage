@@ -16,7 +16,7 @@ const navRoutes = [
     id: 0,
     title: "Home",
     path: "/",
-    image: "home.jpg",
+    image: "building02.jpg",
   },
   {
     id: 1,
@@ -24,30 +24,12 @@ const navRoutes = [
     path: "about",
     image: "home.jpg",
   },
-  {
-    id: 2,
-    title: "Case #3",
-    path: "make-it-zero",
-    image: "home.jpg",
-  },
-  {
-    id: 3,
-    title: "Case #4",
-    path: "it-takes-an-island",
-    image: "home.jpg",
-  },
-  {
-    id: 4,
-    title: "Case #5",
-    path: "50-beaches",
-    image: "home.jpg",
-  },
 ];
 
 const Navigation = ({ toggleMenu, setToggleMenu }) => {
   const [revealImage, setRevealImage] = useState({
     show: true,
-    image: "home.jpg",
+    image: "building02.jpg",
     key: "0",
   });
 
@@ -60,13 +42,12 @@ const Navigation = ({ toggleMenu, setToggleMenu }) => {
             exit={{ x: "-100%" }}
             animate={{ x: toggleMenu ? 0 : "-1" }}
             transition={{
-              duration: .8,
-              ease: [ 0.6, 0.05, -0.01, 0.9]
+              duration: 0.8,
+              ease: [0.6, 0.05, -0.01, 0.9],
             }}
           >
             <Container>
-              <NavHeader>
-              </NavHeader>
+              <NavHeader></NavHeader>
               <NavList>
                 <ul>
                   {navRoutes.map((route) => (
@@ -118,13 +99,26 @@ const Navigation = ({ toggleMenu, setToggleMenu }) => {
                   ))}
                 </ul>
               </NavList>
-              <NavFooter>Footer</NavFooter>
+              <NavFooter>
+                <div className="flex">
+                  <p className="text-lg xxsm:text-base xsm:text-lg basesm:text-lg mdsm:text-lg basemd:text-xl baselg:text-4xl text-green-hl basemd:px-24 sbasesm:px-20 smdsm:px-20 mdsm:px-10 baselg:px-0 ssm:px-10 px-4 xsbasesm:px-16 text-left max-w-7xl mx-auto mt-32 underline text-red-400 font-semibold">
+                    <a href="mailto:">mail@erpgruppen.dk</a>
+                  </p>
+                  <p className="text-lg xxsm:text-base xsm:text-lg basesm:text-lg mdsm:text-lg basemd:text-xl baselg:text-4xl text-green-hl basemd:px-24 sbasesm:px-20 smdsm:px-20 mdsm:px-10 baselg:px-0 ssm:px-10 px-4 xsbasesm:px-16 text-left max-w-7xl mx-auto mt-32 underline text-red-400 font-semibold">
+                    {" "}
+                    <a href="tel:004578794040">+45 78 79 40 40</a>
+                  </p>
+                  <p className=" text-lg xxsm:text-sm xsm:text-base basesm:text-base mdsm:text-lg basemd:text-lg baselg:text-lg basemd:px-24 sbasesm:px-20 smdsm:px-20 mdsm:px-10 baselg:px-0 ssm:px-10 px-4 xsbasesm:px-16 text-right max-w-7xl mx-auto font-medium mt-36">
+                    <a>© 2022-2022 ERP Gruppen, A/S</a>
+                  </p>
+                </div>
+              </NavFooter>
               <NavImage>
                 <motion.div
-                transition={{
-                  duration: .4,
-                  ease: [ 0.6, 0.05, -0.01, 0.9]
-                }}
+                  transition={{
+                    duration: 0.4,
+                    ease: [0.6, 0.05, -0.01, 0.9],
+                  }}
                   animate={{ width: revealImage.show ? 0 : "99%" }}
                   className="reveal"
                 ></motion.div>
