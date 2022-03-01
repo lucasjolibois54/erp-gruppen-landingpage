@@ -70,7 +70,7 @@ function Case() {
                   </span>
               </div>
               <div className="w-full min-h-80 aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none flex">
-                <h3 className="font-regular m-12 text-lg">
+                <h3 className="font-regular m-5 text-lg">
                   {product.textBox1}
                 </h3>
               </div>
@@ -81,7 +81,7 @@ function Case() {
               alt={product.imageAlt}
             />
             <div className="w-full aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
-              <h3 className=" m-12 font-regular text-lg grid grid-cols-2">
+              <h3 className=" m-12 font-regular text-lg grid">
                 {product.textBox2}
               </h3>
               <div className="flex mx-auto justify-center">
