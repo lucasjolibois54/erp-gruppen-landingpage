@@ -9,7 +9,7 @@ function SocialMediaAbout() {
         <img
                         className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto mt-20"
                         src={
-                            "https://res.cloudinary.com/ds8p0huok/image/upload/v1646053796/image_72_idqaw1.png"
+                            "https://res.cloudinary.com/ds8p0huok/image/upload/v1646124265/fbSocials_ywzxfd.png"
                         }
                         alt="mockup"
                     />
