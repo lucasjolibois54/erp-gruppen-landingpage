@@ -21,7 +21,7 @@ const caseOne = [
       "Takket være ERP-løsningen og den gode support fra ERPsupportens konsulenter så har Cabola opnået en øget effektivitet i arbejdsdagen.  Cabola medarbejderne kan selv arbejde i systemet og får rigtig god support af konsulenterne som altid er til rådighed og vejleder i systemet. De nye opdateringer der kommer, kan mærkes hos Cabola,  som er velinformeret omkring dette af ERPsupportens Konsulenter.",
     href: "case",
     imageSrc:
-      "https://www.erpgruppen.dk/wp-content/uploads/2020/02/Cabola-1.jpg",
+      "https://images.unsplash.com/photo-1561654791-00316c79efa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
     imageAlt: "caseOne",
     price: "caseOne",
     color: "caseOne",
@@ -46,9 +46,9 @@ function Case() {
 
       <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
       <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
-      <div className="md:m-10 lg:m-50 xl:m-64 m-0 grid">
+      <div className="grid max-w-7xl mx-auto">
         {caseOne.map((product) => (
-          <div key={product.id} className="group relative">
+          <div key={product.id} className="group relative mt-20">
             <div className="md:flex">
               <div className="w-full min-h-80 aspect-w-1 p-5 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
                 <h3 className="text-5xl flex font-semibold">
@@ -76,14 +76,11 @@ function Case() {
               </div>
             </div>
             <img
-              className="w-full h-1/3 object-center object-cover lg:w-full lg:h-1/3 mt-20"
+              className="w-full h-1/3 object-center object-cover lg:w-full lg:h-1/4 mt-20"
               src={product.imageSrc}
               alt={product.imageAlt}
             />
             <div className="w-full aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
-              <h3 className=" m-12 font-regular text-lg grid">
-                {product.textBox2}
-              </h3>
               <div className="flex mx-auto justify-center">
                 <h3 className="m-12 text-md">
                   Strategy
@@ -106,15 +103,18 @@ function Case() {
                   <span className="flex text-sm m-3">Hello</span>
                 </h3>
               </div>
-              <div className="mt-20">
+              <div className="mt-20 mx-12">
               <h3 className="text-5xl flex font-semibold">
                   Nye implementeringer
                 </h3>
-              <h3 className="mt-8 font-regular text-lg grid">
+              <h3 className="mt-8 font-regular text-lg gri">
                 {product.textBox2}
+                <span className="mt-5 flex">
+                {product.textBox3}
+                </span>
               </h3>
               </div>
-              <div className="mt-20 1xl:mt-60 justify-center mx-auto  ">
+              <div className="mt-20 1xl:mt-60 justify-center mx-12">
                 <div className="flex invisible h-0 lgbasemd:h-auto lgbasemd:visible">
                   <img
                     className="h-16 w-auto pl-6"
