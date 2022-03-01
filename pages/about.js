@@ -35,10 +35,10 @@ export default function Home() {
       <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
       <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
         <AboutHero />
+        <OurServices />
         <MoreAboutUs/>
         <SocialMediaAbout/>
         <OurTeam />
-        <OurServices />
         <Footer />
       </main>
     </div>

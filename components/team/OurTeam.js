@@ -35,7 +35,7 @@ function OurTeam() {
       title: "Product Manager",
       positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
       path: "colleague",
-      image: "Lucas2.jpg",
+      image: "Lucas(3).JPG", 
     },
     {
       id: 4,
