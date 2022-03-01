@@ -18,7 +18,7 @@ export const NavHeader = styled.div`
   top: 72px;
   position: relative;
   h2 {
-    color: green;
+    color: black;
   }
 `
 export const CloseNav = styled.div`
@@ -66,7 +66,7 @@ export const NavList = styled.div`
       svg {
         width: 100px;
         path {
-          fill: green;
+          fill: #3B82F6;
         }
       }
     }
@@ -79,21 +79,21 @@ export const NavFooter = styled.div`
   width: 100%;
   padding: 56px 0px;
   p {
-    color: green;
+    color: #3B82F6;
   }
   svg path {
-    fill: green;
+    fill: #3B82F6;
   }
 `
 
 export const NavImage = styled.div`
   position: absolute;
-  top: 0;
+  top: 25%;
   bottom: 0;
   left: 40%;
   z-index: -1;
   height: 0;
-  width: 130%;
+  width: 60%;
   background: #000;
   .reveal {
       width: 100%;
