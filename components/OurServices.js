@@ -1,13 +1,13 @@
 function OurServices() {
     return (
-        <div>
+        <div className="bg-gray-900 text-white">
       <div>
         <h1 className="text-center max-w-7xl font-semibold mx-auto pt-40 xxsm:text-3xl basemd:text-5xl ssm:text-4xl">
           Our Services
         </h1>
       </div>
 
-      <div className="grid aboutlg:grid-cols-2 xsbasesm:grid-cols-1 xxsm:p-4 smdsm:grid-cols-2 grid-cols-1 xxsm:gap-6 max-w-3xl mx-auto mb-20 mt-10">
+      <div className="grid aboutlg:grid-cols-4 xsbasesm:grid-cols-1 xxsm:p-4 smdsm:grid-cols-2 grid-cols-1 xxsm:gap-6 max-w-7xl mx-auto mb-20 mt-10">
         <div className="p-2 shadow rounded">
           <h2 className="text-center font-semibold basemd:text-4xl xxsm:text-3xl mt-16">Functional Consultant</h2>
           <p className="p-10">
