@@ -8,8 +8,7 @@ function MoreAboutUs() {
         <div className="flex text-center flex-col w-full px-3 justify-center xl:w-5/10 xl:text-left xl:pl-10">
             
             <h2 className="text-4xl sm:text-5xl md:text-5xl 2xl:text-6xl font-black lg:mt-0 pt-20 text-dark-text py-0">
-            Learn more about us
-and our values
+            Lær os bedre at kende
                
             </h2>
             <p className="text-base md:text-xl px-5 text-dark-text py-5 md:px-24 xl:pl-0 xl:pr-20">
