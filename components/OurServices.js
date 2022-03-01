@@ -1,6 +1,6 @@
 function OurServices() {
     return (
-        <div className="bg-gray-900 text-white">
+        <div className="bg-black text-white">
       <div>
         <h1 className="text-center max-w-7xl font-semibold mx-auto pt-40 xxsm:text-3xl basemd:text-5xl ssm:text-4xl">
           Our Services
