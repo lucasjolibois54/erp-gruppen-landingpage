@@ -47,11 +47,11 @@ function OurTeam() {
     },
     {
         id: 5,
-        name: "Unknown",
+        name: "Jan",
         title: "Product Manager",
         positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
         path: "colleague",
-        image: "Unknown.jpg",
+        image: "Jan.jpg",
       },
       {
         id: 6,
