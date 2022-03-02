@@ -47,13 +47,13 @@ function Hero() {
             </div>
             <div className="flex">
               <h2 className="text-6xl font-bold"> &gt;40</h2>
-              <p className="pt-1 pl-1">over 40 total <br />
-                clients</p>
+              <p className="pt-1 pl-1">over 40 totale <br />
+                klienter</p>
             </div>
             <div className="flex">
               <h2 className="text-6xl font-bold"> &gt;12</h2>
-              <p className="pt-1 pl-1">over 12 year <br />
-                of experience</p>
+              <p className="pt-1 pl-1">over 12 års <br />
+                erfaring</p>
             </div>
           </div>
           <div className="flex invisible h-0 lgbasemd:h-auto lgbasemd:visible">
