@@ -53,6 +53,7 @@ function Case() {
       {Cabola.map((e) => {
         return (
           <Info
+          key={e.id}
             id={e.id}
             name={e.name}
             title={e.title}
