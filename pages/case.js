@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
+import { OpenOutline } from "react-ionicons";
 
 //components
 import Navigation from "../components/Navigation";
@@ -50,6 +51,14 @@ function Case() {
       <div className="grid max-w-7xl mx-auto">
         {caseOne.map((product) => (
           <div key={product.id} className="group relative mt-20">
+            <button onClick={() => setOpen(true)} type="button">
+              <OpenOutline
+                color={"#3B82F6"}
+                title=""
+                height="45px"
+                width="45px"
+              />
+            </button>
             <div className="md:flex">
               <div className="w-full min-h-80 aspect-w-1 p-5 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
                 <h3 className="text-5xl flex font-semibold">
