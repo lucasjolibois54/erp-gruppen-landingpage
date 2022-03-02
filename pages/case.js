@@ -9,7 +9,7 @@ import Info from "../components/case/Info";
 import Navigation from "../components/Navigation";
 import Header from "../components/Header";
 
-function Case() {
+export default function Case() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   const [open, setOpen] = useState(false);
@@ -48,5 +48,3 @@ function Case() {
     </div>
   );
 }
-
-export default Case;
