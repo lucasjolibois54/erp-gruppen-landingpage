@@ -26,7 +26,7 @@ const navRoutes = [
   },
 ];
 
-const Navigation = ({ toggleMenu, setToggleMenu }) => {
+function Navigation({ toggleMenu, setToggleMenu }) {
   const [revealImage, setRevealImage] = useState({
     show: true,
     image: "building02.jpg",
