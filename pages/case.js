@@ -49,15 +49,15 @@ function Case() {
       <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
       <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
       <div className="grid max-w-7xl mx-auto">
+                  <div className="flex ml-3">
+                    <Modal open={open} setOpen={setOpen} />
+                  </div>
         {caseOne.map((product) => (
           <div key={product.id} className="group relative mt-20">
             <div className="md:flex">
               <div className="w-full min-h-80 aspect-w-1 p-5 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
                 <h3 className="text-5xl flex font-semibold">
                   {product.name}
-                  <div className="flex ml-3">
-                    <Modal open={open} setOpen={setOpen} />
-                  </div>
                 </h3>
                 <span
                   aria-hidden="true"
