@@ -30,7 +30,7 @@ function MoreAboutUs() {
         </div>
         <div className="w-full  xl:w-4/6">
         <img
-                        className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto mt-20"
+                        className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto mt-20 mx-auto"
                         src={
                             "https://res.cloudinary.com/ds8p0huok/image/upload/v1646053577/image_44_2_bqnf0r.png"
                         }
