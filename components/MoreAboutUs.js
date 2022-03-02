@@ -3,7 +3,7 @@ function MoreAboutUs() {
 
 
 <div>
-    <div className="my-auto mx-auto xxsm:mt-6 lgbasemd:mt-0 max-w-7xl">
+    <div id="about" className="my-auto mx-auto xxsm:mt-6 lgbasemd:mt-0 max-w-7xl">
         <div id="top" className=" p-0 flex flex-col w-full lg:flex-row md:p-16 mb-4">
         <div className="flex text-center flex-col w-full px-3 justify-center lg:w-5/10 lg:text-left lg:pl-10">
             
