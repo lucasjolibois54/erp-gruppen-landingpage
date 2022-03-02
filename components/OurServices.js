@@ -1,6 +1,6 @@
 function OurServices() {
     return (
-        <div className="bg-black text-white">
+        <div className="bg-black text-white pb-5">
       <div>
         <h1 className="text-center max-w-7xl font-semibold mx-auto pt-20 xxsm:text-3xl basemd:text-5xl ssm:text-4xl">
           Our Services
@@ -58,16 +58,7 @@ function OurServices() {
           </p>
         </div>
       </div>
-        <div className="text-center pb-6 -mt-10">
-                <a href="#about" >
-                    <button href="#" className="shadow-lg bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition duration-500 ease-in-out transform hover:scale-110">
-                    view cases
-                    </button>
-                </a>
-                
-
-              
-            </div>
+        
     </div>
     )
 
