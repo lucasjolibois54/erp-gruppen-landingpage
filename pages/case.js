@@ -1,12 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
-import { OpenOutline } from 'react-ionicons'
-
 
 //components
 import Navigation from "../components/Navigation";
 import Header from "../components/Header";
+import Modal from "../components/modals/Modal";
 
 const caseOne = [
   {
@@ -31,6 +30,8 @@ const caseOne = [
 function Case() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
+  const [open, setOpen] = useState(false);
+
   return (
     <div>
       <Head>
@@ -54,25 +55,18 @@ function Case() {
                 <h3 className="text-5xl flex font-semibold">
                   {product.name}
                   <div className="flex ml-3">
-                  <OpenOutline
-                    color={'#3B82F6'} 
-                    title=""
-                    height="45px"
-                    width="45px"
-                  />
+                    <Modal open={open} setOpen={setOpen} />
                   </div>
                 </h3>
-                  <span
-                    aria-hidden="true"
-                    className="text-gray-300 w-96 mt-5 text-4xl font-regular flex"
-                  >
-                    {product.title}
-                  </span>
+                <span
+                  aria-hidden="true"
+                  className="text-gray-300 w-96 mt-5 text-4xl font-regular flex"
+                >
+                  {product.title}
+                </span>
               </div>
               <div className="w-full min-h-80 aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none flex">
-                <h3 className="font-regular m-5 text-lg">
-                  {product.textBox1}
-                </h3>
+                <h3 className="font-regular m-5 text-lg">{product.textBox1}</h3>
               </div>
             </div>
             <img
@@ -104,15 +98,13 @@ function Case() {
                 </h3>
               </div>
               <div className="mt-20 mx-12">
-              <h3 className="text-5xl flex font-semibold">
+                <h3 className="text-5xl flex font-semibold">
                   Nye implementeringer
                 </h3>
-              <h3 className="mt-8 font-regular text-lg gri">
-                {product.textBox2}
-                <span className="mt-5 flex">
-                {product.textBox3}
-                </span>
-              </h3>
+                <h3 className="mt-8 font-regular text-lg gri">
+                  {product.textBox2}
+                  <span className="mt-5 flex">{product.textBox3}</span>
+                </h3>
               </div>
               <div className="mt-20 1xl:mt-60 justify-center mx-12">
                 <div className="flex invisible h-0 lgbasemd:h-auto lgbasemd:visible">
@@ -129,7 +121,9 @@ function Case() {
                   </div>
                 </div>
                 <div className="p-10 w-2/3 items-center justify-center invisible h-0 lgbasemd:h-auto lgbasemd:visible lgbasemd:space-x-6 smbaselg:space-x-16 aboutlg:space-x-20 baselg:space-x-28 base2lg:space-x-36">
-                  <blockquote className="pt-1 pl-1">&gt;{product.textBox3}</blockquote>
+                  <blockquote className="pt-1 pl-1">
+                    &gt;{product.textBox3}
+                  </blockquote>
                 </div>
               </div>
             </div>
