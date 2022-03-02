@@ -57,8 +57,8 @@ function Case() {
                   <OpenOutline
                     color={'#3B82F6'} 
                     title=""
-                    height="50px"
-                    width="50px"
+                    height="45px"
+                    width="45px"
                   />
                   </div>
                 </h3>
