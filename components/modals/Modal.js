@@ -9,11 +9,6 @@ export default function Modal() {
 
   const cancelButtonRef = useRef(null);
 
-  const HandleClick = () => {
-      this.handleDelete(bookmarkId)
-      this.props.history.push('/cabola')
-  }
-
   return (
     <div>
       {/* <!-- Modal toggle --> */}
