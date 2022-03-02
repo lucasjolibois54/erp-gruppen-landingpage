@@ -24,17 +24,17 @@ function Hero() {
           </p>
         </div>
         <button className="bg-blue-500 mt-8 xxsm:ml-10 text-white rounded-xl ourservice:px-10 ourservice:py-4 xxsm:px-4 xxsm:py-2 xxsm:px-4 xsm:px-6 xsm:py-3">
-          Get a quote <span className="ml-6 xxsm:ml-2">➜</span>
+          Få en quote <span className="ml-6 xxsm:ml-2">➜</span>
         </button>
         <button className="xsm:ml-10 basemd:text-white xxsm:ml-3 underline">
-          Learn more!
+          Læs mere!
         </button>
 
         <div className="mt-20 bg-white 1xl:mt-60 rounded-t-xl xl:p-6">
           <div className="flex items-center justify-center invisible h-0 lgbasemd:h-auto lgbasemd:visible lgbasemd:space-x-6 smbaselg:space-x-16 aboutlg:space-x-20 baselg:space-x-28 base2lg:space-x-36">
             <div>
-              <p>Our mission is to digitalize your <br />
-                business and put it in the cloud</p>
+              <p>Vores mål er at digitalisere din <br />
+                virksomhed og få den op i skyen</p>
             </div>
             <div>
               <img
@@ -47,13 +47,13 @@ function Hero() {
             </div>
             <div className="flex">
               <h2 className="text-6xl font-bold"> &gt;40</h2>
-              <p className="pt-1 pl-1">over 40 total <br />
-                clients</p>
+              <p className="pt-1 pl-1">over 40 totale <br />
+                klienter</p>
             </div>
             <div className="flex">
               <h2 className="text-6xl font-bold"> &gt;12</h2>
-              <p className="pt-1 pl-1">over 12 year <br />
-                of experience</p>
+              <p className="pt-1 pl-1">over 12 års <br />
+                erfaring</p>
             </div>
           </div>
           <div className="flex invisible h-0 lgbasemd:h-auto lgbasemd:visible">

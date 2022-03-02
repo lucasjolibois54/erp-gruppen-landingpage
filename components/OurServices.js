@@ -3,7 +3,7 @@ function OurServices() {
         <div className="bg-black text-white pb-5">
       <div>
         <h1 className="text-center max-w-7xl font-semibold mx-auto pt-20 xxsm:text-3xl basemd:text-5xl ssm:text-4xl">
-          Our Services
+          Vores tjenester
         </h1>
       </div>
 
