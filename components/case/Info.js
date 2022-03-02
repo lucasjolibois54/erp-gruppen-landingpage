@@ -2,8 +2,8 @@ import React from 'react';
  
 function Info (props){
   return (
-    <div className="grid max-w-7xl mx-auto">
-      <div key={props.id} className="group relative mt-20">
+    <div key={props.id} className="grid max-w-7xl mx-auto">
+      <div className="group relative mt-20">
         <div className="md:flex">
           <div className="w-full min-h-80 aspect-w-1 p-5 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
             <h3 className="text-5xl flex font-semibold">
