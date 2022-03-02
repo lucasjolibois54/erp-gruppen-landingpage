@@ -13,6 +13,7 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   overscroll-behavior: none;
+  scroll-behavior: smooth;
 }
 
 a {
