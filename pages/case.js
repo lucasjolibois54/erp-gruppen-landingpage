@@ -29,22 +29,6 @@ function Case() {
 
       <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
       <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
-      {Cabola.map((e) => {
-        return (
-          <Info
-          key={e.id}
-            id={e.id}
-            name={e.name}
-            title={e.title}
-            textBox1={e.textBox1}
-            textBox2={e.textBox2}
-            textBox3={e.textBox3}
-            href={e.href}
-            imageSrc={e.imageSrc}
-            imageAlt={e.imageAlt}
-          />
-        );
-      })}
     </div>
   );
 }
