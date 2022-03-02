@@ -9,6 +9,11 @@ export default function Modal() {
 
   const cancelButtonRef = useRef(null);
 
+  const HandleClick = () => {
+      this.handleDelete(bookmarkId)
+      this.props.history.push('/cabola')
+  }
+
   return (
     <div>
       {/* <!-- Modal toggle --> */}
@@ -65,13 +70,11 @@ export default function Modal() {
                         as="h3"
                         className="text-lg leading-6 font-medium text-gray-900"
                       >
-                        Deactivate account
+                        Du er ved at forlade ERPgruppen
                       </Dialog.Title>
                       <div className="mt-2">
                         <p className="text-sm text-gray-500">
-                          Are you sure you want to deactivate your account? All
-                          of your data will be permanently removed. This action
-                          cannot be undone.
+                          Er du sikker på at du gerne vil besøge https://www.cabola.dk
                         </p>
                       </div>
                     </div>
@@ -81,9 +84,9 @@ export default function Modal() {
                   <button
                     type="button"
                     className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-red-600 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm"
-                    onClick={() => setOpen(false)}
+                    onClick={event => window.location.href="https://www.cabola.dk"}
                   >
-                    Deactivate
+                    Ja
                   </button>
                   <button
                     type="button"
@@ -91,7 +94,7 @@ export default function Modal() {
                     onClick={() => setOpen(false)}
                     ref={cancelButtonRef}
                   >
-                    Cancel
+                    Gå Tilbage
                   </button>
                 </div>
               </div>
