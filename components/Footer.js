@@ -2,7 +2,7 @@ function Footer() {
   return (
     <div>
       <div className="pt-20 pb-6">
-        <div className="max-w-7xl mx-auto">
+        <div id="footer" className="max-w-7xl mx-auto">
           <p className=" text-lg xxsm:text-base xsm:text-xl basesm:text-xl mdsm:text-xl basemd:text-2xl baselg:text-2xl basemd:px-24 sbasesm:px-20 smdsm:px-20 mdsm:px-10 baselg:px-0 ssm:px-10 px-4 xsbasesm:px-16 text-left max-w-xl font-medium mt-56 leading-loose">
             ERPgruppens Produktions facilitet udvikler og leverer
             brugerdefineret services, produkter. Support fra vores certificerede

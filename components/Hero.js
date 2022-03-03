@@ -1,10 +1,12 @@
+import Link from 'next/link'
+
 function Hero() {
   return (
     <div>
       <div className="">
         <video autoPlay muted loop className="absolute smbig:max-h-screen smbig:w-full top-0 -z-50 xxsm:invisible basemd:h-5/6 lgbasemd:h-auto basemd:visible w-auto">
           <source
-            src="https://res.cloudinary.com/aeeux/video/upload/v1645918098/ERP%20Produktion/erpvideo_qkh2li.mp4"
+            src="https://res.cloudinary.com/dckwf6med/video/upload/v1646318247/erp/C0047_zrfbbe.mp4"
             type="video/mp4"
           />
         </video>
@@ -23,14 +25,17 @@ function Hero() {
             og skabe en 20% tidsbesparelse i virksomheden.
           </p>
         </div>
-        <button className="bg-blue-500 mt-8 xxsm:ml-10 text-white rounded-xl ourservice:px-10 ourservice:py-4 xxsm:px-4 xxsm:py-2 xxsm:px-4 xsm:px-6 xsm:py-3">
+        <a href="#footer" >
+        <button className="bg-blue-500 mt-8 xxsm:ml-10 text-white rounded-xl ourservice:px-10 ourservice:py-4 xxsm:px-4 xxsm:py-2 xxsm:px-4 xsm:px-6 xsm:py-3 hover:bg-blue-600  transition duration-500 ease-in-out transform hover:scale-110">
           Få en quote <span className="ml-6 xxsm:ml-2">➜</span>
         </button>
-        <button className="xsm:ml-10 basemd:text-white xxsm:ml-3 underline">
+        </a>
+        <Link href="/about">
+        <button className="xsm:ml-10 basemd:text-white xxsm:ml-3 underline transition duration-500 ease-in-out transform hover:scale-110">
           Læs mere!
         </button>
-
-        <div className="mt-20 bg-white 1xl:mt-60 rounded-t-xl xl:p-6">
+        </Link>
+        <div className="mt-20 bg-white 1xl:mt-60 rounded-t-xl xl:p-7 xl:pb-10 big:mt-96 big:mb-20">
           <div className="flex items-center justify-center invisible h-0 lgbasemd:h-auto lgbasemd:visible lgbasemd:space-x-6 smbaselg:space-x-16 aboutlg:space-x-20 baselg:space-x-28 base2lg:space-x-36">
             <div>
               <p>Vores mål er at digitalisere din <br />
