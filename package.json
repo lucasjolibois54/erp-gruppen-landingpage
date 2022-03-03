@@ -15,7 +15,9 @@
     "react": "17.0.2",
     "react-animated-cursor": "^2.2.0",
     "react-dom": "17.0.2",
+    "react-intersection-observer": "^8.33.1",
     "react-ionicons": "^4.2.0",
+    "react-reveal": "^1.2.2",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
