@@ -4,7 +4,7 @@ function Hero() {
       <div className="">
         <video autoPlay muted loop className="absolute smbig:max-h-screen smbig:w-full top-0 -z-50 xxsm:invisible basemd:h-5/6 lgbasemd:h-auto basemd:visible w-auto">
           <source
-            src="https://res.cloudinary.com/aeeux/video/upload/v1645918098/ERP%20Produktion/erpvideo_qkh2li.mp4"
+            src="https://res.cloudinary.com/dckwf6med/video/upload/v1646318247/erp/C0047_zrfbbe.mp4"
             type="video/mp4"
           />
         </video>
