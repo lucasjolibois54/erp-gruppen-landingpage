@@ -24,33 +24,5 @@
     "eslint-config-next": "12.0.10",
     "postcss": "^8.4.6",
     "tailwindcss": "^3.0.18"
-  },
-  "babel": {
-    "env": {
-      "development": {
-        "presets": ["next/babel"],
-        "plugins": [
-          [
-            "styled-components",
-            {
-              "ssr": true,
-              "displayName": true
-            }
-          ]
-        ]
-      },
-      "production": {
-        "presets": ["next/babel"],
-        "plugins": [
-          [
-            "styled-components",
-            {
-              "ssr": true,
-              "displayName": false
-            }
-          ]
-        ]
-      }
-    }
   }
 }
