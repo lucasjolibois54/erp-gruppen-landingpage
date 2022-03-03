@@ -17,7 +17,7 @@ function AboutHero() {
             </p>
             <div className="flex justify-center text-center items-center py-0 lg:justify-start">
                 <a href="#about" >
-                    <button href="#" className="shadow-lg bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-xl transition duration-500 ease-in-out transform hover:scale-110">
+                    <button className="bg-blue-500 text-white rounded-xl ourservice:px-7 ourservice:py-3 xxsm:px-4 xxsm:py-2 xxsm:px-4 xsm:px-4 xsm:py-3 hover:bg-blue-600  transition duration-500 ease-in-out transform hover:scale-110">
                     Lær os at kende
                     </button>
                 </a>
