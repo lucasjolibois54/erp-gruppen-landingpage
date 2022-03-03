@@ -1,46 +1,46 @@
-import { useState } from "react";
-import { Container } from "../styles/globalStyles";
+import { useState } from 'react'
+import { Container } from '../styles/globalStyles'
 import {
   Nav,
   NavHeader,
   NavList,
   NavFooter,
   NavImage,
-} from "../styles/navigationStyles";
-import Link from "next/link";
-import { AnimatePresence, motion } from "framer-motion";
-import Image from "next/image";
+} from '../styles/navigationStyles'
+import Link from 'next/link'
+import { AnimatePresence, motion } from 'framer-motion'
+import Image from 'next/image'
 
 const navRoutes = [
   {
     id: 0,
-    title: "Home",
-    path: "/",
-    image: "building02.jpg",
+    title: 'Home',
+    path: '/',
+    image: 'building02.jpg',
   },
   {
     id: 1,
-    title: "About",
-    path: "about",
-    image: "home.jpg",
+    title: 'About',
+    path: 'about',
+    image: 'home.jpg',
   },
-];
+]
 
 function Navigation({ toggleMenu, setToggleMenu }) {
   const [revealImage, setRevealImage] = useState({
     show: true,
-    image: "building02.jpg",
-    key: "0",
-  });
+    image: 'building02.jpg',
+    key: '0',
+  })
 
   return (
-    <>
+    <div>
       <AnimatePresence>
         {toggleMenu && (
           <Nav
-            initial={{ x: "-100%" }}
-            exit={{ x: "-100%" }}
-            animate={{ x: toggleMenu ? 0 : "-1" }}
+            initial={{ x: '-100%' }}
+            exit={{ x: '-100%' }}
+            animate={{ x: toggleMenu ? 0 : '-1' }}
             transition={{
               duration: 0.8,
               ease: [0.6, 0.05, -0.01, 0.9],
@@ -102,10 +102,13 @@ function Navigation({ toggleMenu, setToggleMenu }) {
               <NavFooter>
                 <div className="flex">
                   <p className="text-lg xxsm:text-base xsm:text-lg basesm:text-lg mdsm:text-lg basemd:text-xl baselg:text-4xl text-green-hl basemd:px-24 sbasesm:px-20 smdsm:px-20 mdsm:px-10 baselg:px-0 ssm:px-10 px-4 xsbasesm:px-16 text-left max-w-7xl mx-auto mt-32 underline text-red-400 font-semibold">
-                    <a className="" href="mailto:">mail@erpgruppen.dk</a>
+                    <a className="" href="mailto:">
+                      mail@erpgruppen.dk
+                    </a>
                     <br />
-                    <a className="" href="tel:004578794040">+45 78 79 40 40</a>
-
+                    <a className="" href="tel:004578794040">
+                      +45 78 79 40 40
+                    </a>
                   </p>
                   <p className=" text-lg xxsm:text-sm xsm:text-base basesm:text-base mdsm:text-lg basemd:text-lg baselg:text-lg basemd:px-24 sbasesm:px-20 smdsm:px-20 mdsm:px-10 baselg:px-0 ssm:px-10 px-4 xsbasesm:px-16 text-right max-w-7xl mx-auto font-medium mt-36">
                     <a>© 2022-2022 ERP Gruppen, A/S</a>
@@ -118,7 +121,7 @@ function Navigation({ toggleMenu, setToggleMenu }) {
                     duration: 0.4,
                     ease: [0.6, 0.05, -0.01, 0.9],
                   }}
-                  animate={{ width: revealImage.show ? 0 : "99%" }}
+                  animate={{ width: revealImage.show ? 0 : '99%' }}
                   className="reveal"
                 ></motion.div>
                 <div className="image">
@@ -130,7 +133,7 @@ function Navigation({ toggleMenu, setToggleMenu }) {
                       animate={{ opacity: 1 }}
                       transition={{
                         duration: 0.2,
-                        ease: "easeInOut",
+                        ease: 'easeInOut',
                       }}
                     >
                       <Image
@@ -145,8 +148,8 @@ function Navigation({ toggleMenu, setToggleMenu }) {
           </Nav>
         )}
       </AnimatePresence>
-    </>
-  );
-};
+    </div>
+  )
+}
 
-export default Navigation;
+export default Navigation
