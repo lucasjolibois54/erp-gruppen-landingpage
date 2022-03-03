@@ -20,10 +20,7 @@ function SocialMediaAbout() {
               Find os på de sociale medier
             </h2>
             <p className="text-base md:text-xl px-5 text-dark-text py-5 md:px-24 lg:pl-0 lg:pr-20">
-              Development teams around the world, including NPR, Halfbrick,
-              Duolingo, and Venmo use Firebase to ship their apps. Development
-              teams around the world, including NPR, Halfbrick, Duolingo, and
-              Venmo.
+              Gennem vores sociale medier får du muligheden, for at lære mere at kende om hvem vi er, vores værdier samt vores nyheder. Vi prøver hele tiden at udvikle os som virksomhed, så hvorfor ikke følge med på rejsen gennem vores kanaler?
             </p>
             <div className="flex justify-center text-center items-center py-0 lg:justify-start">
               <a
