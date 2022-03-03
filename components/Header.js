@@ -1,20 +1,17 @@
-import Link from "next/link";
-import React, { useEffect, useRef } from "react"
+import Link from 'next/link'
+import React, { useEffect, useRef } from 'react'
 // Styled Components
-import { Container, Flex } from "../styles/globalStyles"
+import { Container, Flex } from '../styles/globalStyles'
 import Image from 'next/image'
 import ERPLogo from '/public/erp.svg'
 
-import styled from "styled-components"
-import { motion } from "framer-motion"
+import styled from 'styled-components'
+import { motion } from 'framer-motion'
 
-const Header = ({
-  setToggleMenu,
-  toggleMenu,
-}) => {
- 
+const Header = ({ setToggleMenu, toggleMenu }) => {
   return (
-    <HeaderNav
+    <motion.div
+      className="w-full relative mb-52 top-20 z-150"
       animate={{ y: 0, opacity: 1 }}
       initial={{ y: -72, opacity: 0 }}
       transition={{
@@ -24,15 +21,12 @@ const Header = ({
     >
       <Container>
         <Flex spaceBetween noHeight>
-          <Logo
-          >
+          <Logo>
             <Link href="/">
-            <Image width={250} src={ERPLogo} />
+              <Image width={250} src={ERPLogo} />
             </Link>
           </Logo>
-          <Menu
-            onClick={() => setToggleMenu(!toggleMenu)}
-          >
+          <Menu onClick={() => setToggleMenu(!toggleMenu)}>
             <button>
               <span></span>
               <span></span>
@@ -40,7 +34,7 @@ const Header = ({
           </Menu>
         </Flex>
       </Container>
-    </HeaderNav>
+    </motion.div>
   )
 }
 
@@ -62,7 +56,7 @@ export const Logo = styled.div`
     text-decoration: none;
     font-weight: 800;
     color: #000;
-    color: ${props => props.theme.text};
+    color: ${(props) => props.theme.text};
   }
   span {
     height: 16px;
