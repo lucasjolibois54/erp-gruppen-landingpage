@@ -23,9 +23,11 @@ function Hero() {
             og skabe en 20% tidsbesparelse i virksomheden.
           </p>
         </div>
+        <a href="#footer" >
         <button className="bg-blue-500 mt-8 xxsm:ml-10 text-white rounded-xl ourservice:px-10 ourservice:py-4 xxsm:px-4 xxsm:py-2 xxsm:px-4 xsm:px-6 xsm:py-3">
           Få en quote <span className="ml-6 xxsm:ml-2">➜</span>
         </button>
+        </a>
         <a href="/about" >
         <button className="xsm:ml-10 basemd:text-white xxsm:ml-3 underline">
           Læs mere!
