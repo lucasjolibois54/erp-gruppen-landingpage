@@ -26,10 +26,11 @@ function Hero() {
         <button className="bg-blue-500 mt-8 xxsm:ml-10 text-white rounded-xl ourservice:px-10 ourservice:py-4 xxsm:px-4 xxsm:py-2 xxsm:px-4 xsm:px-6 xsm:py-3">
           Få en quote <span className="ml-6 xxsm:ml-2">➜</span>
         </button>
+        <a href="/about" >
         <button className="xsm:ml-10 basemd:text-white xxsm:ml-3 underline">
           Læs mere!
         </button>
-
+        </a>
         <div className="mt-20 bg-white 1xl:mt-60 rounded-t-xl xl:p-7 xl:pb-10 big:mt-96 big:mb-20">
           <div className="flex items-center justify-center invisible h-0 lgbasemd:h-auto lgbasemd:visible lgbasemd:space-x-6 smbaselg:space-x-16 aboutlg:space-x-20 baselg:space-x-28 base2lg:space-x-36">
             <div>
