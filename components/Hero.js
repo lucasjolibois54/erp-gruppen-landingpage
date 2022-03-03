@@ -6,7 +6,7 @@ function Hero() {
       <div className="">
         <video autoPlay muted loop className="absolute smbig:max-h-screen smbig:w-full top-0 -z-50 xxsm:invisible basemd:h-5/6 lgbasemd:h-auto basemd:visible w-auto">
           <source
-            src="https://res.cloudinary.com/dckwf6med/video/upload/v1646318247/erp/C0047_zrfbbe.mp4"
+            src="https://res.cloudinary.com/dckwf6med/video/upload/v1646318905/erp/Untitled_xo3dxl.mp4"
             type="video/mp4"
           />
         </video>
@@ -26,7 +26,7 @@ function Hero() {
           </p>
         </div>
         <a href="#footer" >
-        <button className="bg-blue-500 mt-8 xxsm:ml-10 text-white rounded-xl ourservice:px-10 ourservice:py-4 xxsm:px-4 xxsm:py-2 xxsm:px-4 xsm:px-6 xsm:py-3">
+        <button className="mt-8 xxsm:ml-10 shadow-lg bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-xl transition duration-500 ease-in-out transform hover:scale-110">
           Få en quote <span className="ml-6 xxsm:ml-2">➜</span>
         </button>
         </a>
