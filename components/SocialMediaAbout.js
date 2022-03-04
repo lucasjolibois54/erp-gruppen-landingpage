@@ -1,3 +1,5 @@
+import { LogoFacebook, LogoYoutube, LogoLinkedin } from 'react-ionicons'
+
 function SocialMediaAbout() {
   return (
     <div>
@@ -10,7 +12,7 @@ function SocialMediaAbout() {
             <img
               className=" pl-5 pr-5 xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto lg:mt-20"
               src={
-                "https://res.cloudinary.com/ds8p0huok/image/upload/v1646124265/fbSocials_ywzxfd.png"
+                'https://res.cloudinary.com/ds8p0huok/image/upload/v1646124265/fbSocials_ywzxfd.png'
               }
               alt="mockup"
             />
@@ -20,21 +22,45 @@ function SocialMediaAbout() {
               Find os på de sociale medier
             </h2>
             <p className="text-base md:text-xl px-5 text-dark-text py-5 md:px-24 lg:pl-0 lg:pr-20">
-              Gennem vores sociale medier får du muligheden, for at lære mere at kende om hvem vi er, vores værdier samt vores nyheder. Vi prøver hele tiden at udvikle os som virksomhed, så hvorfor ikke følge med på rejsen gennem vores kanaler?
+              Gennem vores sociale medier får du muligheden, for at lære mere at
+              kende om hvem vi er, vores værdier samt vores nyheder. Vi prøver
+              hele tiden at udvikle os som virksomhed, så hvorfor ikke følge med
+              på rejsen gennem vores kanaler?
             </p>
-            <div className="flex justify-center text-center items-center py-0 lg:justify-start">
-              <a
-                href="#"
-                className="  text-blue-500 underline decoration-1 font-bold py-2  transition duration-500 ease-in-out transform hover:scale-110"
-              >
-                Vores sociale medier 
+            <div className="flex justify-center text-center space-x-6 items-center py-0 lg:justify-start">
+              <a href="">
+                {' '}
+                <LogoLinkedin
+                  color={'#3B82F6'}
+                  title="Linkedin"
+                  height="30px"
+                  width="30px"
+                />
+              </a>
+              <a href="">
+                {' '}
+                <LogoFacebook
+                  color={'#3B82F6'}
+                  title="Facebook"
+                  height="30px"
+                  width="30px"
+                />
+              </a>
+              <a href="https://www.google.com">
+                {' '}
+                <LogoYoutube
+                  color={'#3B82F6'}
+                  title="Youtube"
+                  height="30px"
+                  width="30px"
+                />
               </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default SocialMediaAbout;
+export default SocialMediaAbout
