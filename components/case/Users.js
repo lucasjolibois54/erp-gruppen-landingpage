@@ -9,6 +9,8 @@ export const Cabola = [
       'Mange virksomheder udelukker muligheden for nyt ERP-system fordi det er omkostningsdyrt, men for Cabola har beslutningen være en investering fordi det er et simpelt system der nemt kan integreres med andre systemer som virksomheden dagligt bruger. Cabola har fået implementeret Nemhandel som også er et af ERP-gruppens tillægsløsninger.',
     textBox3:
       'Takket være ERP-løsningen og den gode support fra ERPsupportens konsulenter så har Cabola opnået en øget effektivitet i arbejdsdagen.  Cabola medarbejderne kan selv arbejde i systemet og får rigtig god support af konsulenterne som altid er til rådighed og vejleder i systemet. De nye opdateringer der kommer, kan mærkes hos Cabola,  som er velinformeret omkring dette af ERPsupportens Konsulenter.',
+    textBox4:
+      'Den gode support fra ERPsupportens konsulenter så har Cabola opnået en øget effektivitet i arbejdsdagen.  Cabola medarbejderne kan selv arbejde i systemet og får rigtig god support af konsulenterne som altid er til rådighed og vejleder i systemet. De nye opdateringer der kommer, kan mærkes hos Cabola,  som er velinformeret omkring dette af ERPsupportens Konsulenter.',
     href: 'case',
     imageSrc:
       'https://images.unsplash.com/photo-1561654791-00316c79efa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8',

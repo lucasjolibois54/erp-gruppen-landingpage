@@ -37,9 +37,9 @@ function Info(props) {
             alt={props.imageAlt}
           />
         </Fade>
+        {props.textBox4}
         <div className="w-full aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
           <div className="mx-auto justify-center lg:grid-cols-2 grid">
-
             <h3 className="m-8 font-bold text-md bg-blue-50 rounded-xl p-8">
               Strategi
               <span className="flex font-medium text-sm mt-3 leading-tight">
@@ -62,7 +62,7 @@ function Info(props) {
             <h3 className="m-8 font-bold text-md bg-purple-50 rounded-xl p-8">
               Platforme
               <span className="flex font-medium text-sm mt-3 leading-tight">
-              Dynamics 365 Business Central
+                Dynamics 365 Business Central
               </span>
             </h3>
           </div>
