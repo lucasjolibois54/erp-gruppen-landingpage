@@ -28,7 +28,9 @@ function SocialMediaAbout() {
               på rejsen gennem vores kanaler?
             </p>
             <div className="flex justify-center text-center space-x-6 items-center py-0 lg:justify-start">
-              <a href="">
+              <p className="md:text-xl xxsm:text-xs xsm:text-sm ourservice:text-xl">Vores sociale medier:</p>
+              
+              <a href="https://www.linkedin.com/company/erpgruppen-a-s/">
                 {' '}
                 <LogoLinkedin
                   color={'#3B82F6'}
@@ -37,7 +39,7 @@ function SocialMediaAbout() {
                   width="30px"
                 />
               </a>
-              <a href="">
+              <a href="https://www.facebook.com/ERPgruppen">
                 {' '}
                 <LogoFacebook
                   color={'#3B82F6'}
@@ -46,7 +48,7 @@ function SocialMediaAbout() {
                   width="30px"
                 />
               </a>
-              <a href="https://www.google.com">
+              <a href="https://www.youtube.com/channel/UCAc4QgHWRWE6rNAFDENl76w">
                 {' '}
                 <LogoYoutube
                   color={'#3B82F6'}
