@@ -2,6 +2,7 @@ import React from 'react'
 //Components
 import { OpenOutline } from 'react-ionicons'
 import Modal from '../modals/Modal'
+import Fade from 'react-reveal/Fade'
 
 function Info(props) {
   return (
@@ -10,25 +11,33 @@ function Info(props) {
         <div className="md:flex">
           <div className="w-full min-h-80 aspect-w-1 p-5 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
             <div className="flex">
-              <h3 className="text-5xl flex font-semibold">{props.name}</h3>
+              <h3 className="text-5xl flex font-semibold">
+                <Fade top>{props.name}</Fade>
+              </h3>
               <Modal />
             </div>
             <span
               className="text-gray-300 w-96 mt-5 text-4xl font-regular flex"
               aria-hidden="true"
             >
-              {props.title}
+              <Fade bottom>{props.title}</Fade>
             </span>
           </div>
           <div className="w-full min-h-80 aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none flex">
-            <h3 className="font-regular m-5 text-lg">{props.textBox1}</h3>
+            <h3 className="font-regular m-5 text-lg">
+              <Fade bottom cascade>
+                {props.textBox1}
+              </Fade>
+            </h3>
           </div>
         </div>
-        <img
-          className="w-full h-1/3 object-center object-cover lg:w-full lg:h-1/4 mt-20"
-          src={props.imageSrc}
-          alt={props.imageAlt}
-        />
+        <Fade>
+          <img
+            className="w-full h-1/3 object-center object-cover lg:w-full lg:h-1/4 mt-20"
+            src={props.imageSrc}
+            alt={props.imageAlt}
+          />
+        </Fade>
         <div className="w-full aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
           <div className="mx-auto justify-center lg:grid-cols-2 grid">
             <h3 className="m-8 font-bold text-md bg-blue-50 rounded-xl p-8">
@@ -58,12 +67,16 @@ function Info(props) {
             </h3>
           </div>
           <div className="mt-20 mx-12">
-            <h3 className="text-5xl flex font-semibold">
-              Nye implementeringer
+            <Fade>
+              <h3 className="text-5xl flex font-semibold">
+                Nye implementeringer
+              </h3>
+            </Fade>
+            <h3 className="mt-8 font-regular text-lg gri">
+              <Fade bottom>{props.textBox2}</Fade>
             </h3>
             <h3 className="mt-8 font-regular text-lg gri">
-              {props.textBox2}
-              <span className="mt-5 flex">{props.textBox3}</span>
+              <Fade bottom>{props.textBox1}</Fade>
             </h3>
           </div>
         </div>
