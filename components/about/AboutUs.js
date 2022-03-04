@@ -20,16 +20,6 @@ function MoreAboutUs() {
 
  
             </p>
-            <div className="flex justify-center text-center items-center py-0 lg:justify-start">
-               
-                    <a href="#" className="  text-blue-500 underline decoration-1 font-bold py-2  transition duration-500 ease-in-out transform hover:scale-110">
-                    Læs mere om hvem vi er
-                    </a>
-                
-                
-
-              
-            </div>
         </div>
         <div className="w-full  xl:w-4/6">
         <Fade>
