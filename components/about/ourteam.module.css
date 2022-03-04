@@ -1,0 +1,106 @@
+.body {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  line-height: 1.6;
+}
+
+.card {
+  background-size: cover;
+  padding: 0 0 0;
+  max-width: 35ch;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+  transition: transform 500ms ease;
+}
+
+.card:hover,
+.card:focus-within {
+  transform: scale(1.05);
+}
+
+.cardcontent {
+  --padding: 1.5rem;
+  padding: var(--padding);
+  background: linear-gradient(hsl(0 0% 0% / 0), hsl(0 0% 0% / 1));
+  margin-top: 10rem;
+  position: relative;
+    z-index: 1;
+}
+
+.cardtitle {
+  position: relative;
+  width: max-content;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.cardbody {
+  color: rgb(255 255 255 / 0.85);
+}
+
+.cardbody1 {
+  margin-top: 5px;
+  color: #fff;
+}
+
+@media screen and (min-width: 900px) {
+  .cardcontent {
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+}
+
+@media (hover) {
+  .cardcontent {
+    transform: translateY(72%);
+    transform: transform 500ms ease;
+  }
+
+  .card:hover .cardcontent,
+  .card:focus-within .cardcontent {
+    transform: translateY(0);
+    transition-delay: 200ms;
+  }
+
+  .card:focus-within .cardcontent {
+    transition-duration: 0ms;
+  }
+
+  .cardcontent > *:not(.cardtitle) {
+    opacity: 0;
+    transition: opcaity 500ms linear;
+  }
+
+  .card:hover .cardcontent > *:not(.cardtitle),
+  .card:focus-within .cardcontent > *:not(.cardtitle) {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+}
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background-color: grey;
+  padding: 0.5em 1.25em;
+  border-radius: 0.25rem;
+}
+
+.button:hover,
+.button:focus {
+  background-color: white;
+}
+
+.icons {
+  display: flex;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.twitter {
+  margin-right: 10px;
+}
