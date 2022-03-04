@@ -39,8 +39,9 @@ function Info(props) {
         </Fade>
         <div className="w-full aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
           <div className="mx-auto justify-center lg:grid-cols-2 grid">
+
             <h3 className="m-8 font-bold text-md bg-blue-50 rounded-xl p-8">
-              Strategy
+              Strategi
               <span className="flex font-medium text-sm mt-3 leading-tight">
                 Cabolas forretningsstrategi blev fremtidssikret med op til 17x
                 mere sandsynlighed.
@@ -53,15 +54,15 @@ function Info(props) {
               </span>
             </h3>
             <h3 className="m-8 font-bold text-md bg-green-50 rounded-xl p-8">
-              Production
+              Produktion
               <span className="flex font-medium text-sm mt-3 leading-tight">
                 Hello
               </span>
             </h3>
             <h3 className="m-8 font-bold text-md bg-purple-50 rounded-xl p-8">
-              Platforms
+              Platforme
               <span className="flex font-medium text-sm mt-3 leading-tight">
-                Hello
+              Dynamics 365 Business Central
               </span>
             </h3>
           </div>
