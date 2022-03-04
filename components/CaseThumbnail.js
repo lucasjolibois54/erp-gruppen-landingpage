@@ -68,11 +68,11 @@ function Case() {
   return (
     <div>
       <div className="">
-        <div className="px-10 lg:px-24 xl:px-40 flex justify-between mt-32 mb-96 xl:mb-48 relative">
+        <div className="px-10 lg:px-24 xl:px-40 flex justify-between mt-32 h-96 xl:h-56 mb-72 xsm:mb-56 basemd:mb-10">
           <h2 className="text-4xl">Case Studies</h2>
           <h2 className="text-xl underline text-blue-500">View All</h2>
         </div>
-        <div className="w-full flex justify-center items-center relative mb-52">
+        <div className="w-full flex justify-center items-center mb-52">
           <motion.ul
             className="w-1/2 h-auto grid list-none sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 rounded-lg"
             variants={container}
@@ -87,7 +87,7 @@ function Case() {
               >
                 <Link key={props.id} href={props.href}>
                   <div className="m-5">
-                    <div className="flex justify-between">
+                    <div className="sm:flex justify-between">
                       <h3 className="text-xs font-light uppercase text-gray-300 hover:text-red-500">
                         {props.category}
                       </h3>
