@@ -14,9 +14,7 @@ export const Cabola = [
     href: 'case',
     imageSrc:
       'https://images.unsplash.com/photo-1561654791-00316c79efa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8',
-    imageAlt: 'caseOne',
-    price: 'caseOne',
-    color: 'caseOne',
+    imageAlt: 'Cabola',
   },
 ]
 
@@ -32,7 +30,5 @@ export const Apple = [
     imageSrc:
       'https://www.apple.com/v/home/aj/images/promos/airpods/tile_airpods__fuv6vgn42y2q_small.jpg',
     imageAlt: 'caseOne',
-    price: 'caseOne',
-    color: 'caseOne',
   },
 ]
