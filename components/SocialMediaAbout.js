@@ -27,9 +27,7 @@ function SocialMediaAbout() {
               hele tiden at udvikle os som virksomhed, så hvorfor ikke følge med
               på rejsen gennem vores kanaler?
             </p>
-            <div className="flex justify-center text-center space-x-6 items-center py-0 lg:justify-start">
-              <p className="md:text-xl xxsm:text-xs xsm:text-sm ourservice:text-xl">Vores sociale medier:</p>
-              
+            <div className="flex justify-center text-center space-x-6 items-center py-0 lg:justify-start">              
               <a href="https://www.linkedin.com/company/erpgruppen-a-s/">
                 {' '}
                 <LogoLinkedin
