@@ -2,6 +2,7 @@ import styles from "./ourteam.module.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
+import { LogoLinkedin } from 'react-ionicons'
 
 function OurTeam() {
   const navRoutes = [
@@ -52,6 +53,7 @@ function OurTeam() {
         positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
         path: "colleague",
         image: "Jan.jpg",
+        icon: "https://www.youtube.com",
       },
       {
         id: 6,
@@ -60,6 +62,7 @@ function OurTeam() {
         positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
         path: "colleague",
         image: "Jørgen.jpg",
+        icon: "https://www.google.com",
       },
   ];
 
@@ -88,22 +91,16 @@ function OurTeam() {
                   {route.positions}
                 </p>
                 <div className={styles.icons}>
-                  <img
-                    className={styles.twitter}
-                    href="#"
-                    src="twitter.svg"
-                    alt="Twitter logo"
-                    width="25"
-                    height="25"
-                  />
+                <Link href={`${route.icon}`}>
                   <img
                     className={styles.linkedin}
-                    href="#"
+                    
                     src="linkedin.svg"
                     alt="linkedin logo"
                     width="25"
                     height="25"
                   />
+                  </Link>
                 </div>
               </div>
             </div>
