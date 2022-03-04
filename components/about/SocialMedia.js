@@ -28,7 +28,7 @@ function SocialMediaAbout() {
               hele tiden at udvikle os som virksomhed, så hvorfor ikke følge med
               på rejsen gennem vores kanaler?
             </p>
-            <div className="text-blue-500 flex space-x-10 mx-auto">
+            <div className="text-blue-500 flex space-x-10 mx-auto lg:mx-0">
               <Link href="https://facebook.com/">
                 <LogoFacebook
                   color={'#3B82F6'}
