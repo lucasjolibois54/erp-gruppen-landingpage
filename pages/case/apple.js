@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { useState } from 'react'
 import { OpenOutline } from 'react-ionicons'
 import { Users, Cabola, Apple } from '../../components/case/Users'
-import Info from '../../components/case/Info'
+import CaseTemplate from '../../components/case/CaseTemplate'
 
 //components
 import Navigation from '../../components/Navigation'
@@ -31,7 +31,7 @@ export default function Case() {
       <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
       {Apple.map((e) => {
         return (
-          <Info
+          <CaseTemplate
             key={e.id}
             id={e.id}
             name={e.name}
