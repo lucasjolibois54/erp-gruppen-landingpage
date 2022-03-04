@@ -27,7 +27,7 @@ function SocialMediaAbout() {
                 href="#"
                 className="  text-blue-500 underline decoration-1 font-bold py-2  transition duration-500 ease-in-out transform hover:scale-110"
               >
-                Lær os bedre at kende på vores kannaler
+                Vores sociale medier 
               </a>
             </div>
           </div>
