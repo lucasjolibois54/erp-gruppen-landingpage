@@ -13,6 +13,7 @@ function OurTeam() {
       positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
       path: "colleague",
       image: "Niels.jpg",
+      linkedin: "https://www.google.com",
     },
     {
       id: 1,
@@ -21,6 +22,7 @@ function OurTeam() {
       positions: "Frontend udvikler, AL programmør, UX designer.",
       path: "colleague",
       image: "Andreas.jpg",
+      linkedin: "https://www.linkedin.com/in/andreas-erik-eriksen/",
     },
     {
       id: 2,
@@ -29,6 +31,7 @@ function OurTeam() {
       positions: "Frontend udvikler, Power BI, UX designer.",
       path: "colleague",
       image: "Daud.jpg",
+      linkedin: "https://www.linkedin.com/in/daud-mir-314bb6220/",
     },
     {
       id: 3,
@@ -36,7 +39,8 @@ function OurTeam() {
       title: "Udvikler",
       positions: "Frontend udvikler, AL programmør, UX designer.",
       path: "colleague",
-      image: "Lucas(3).JPG", 
+      image: "Lucas(3).JPG",
+      linkedin: "https://www.linkedin.com/in/lucas-bendix-jolibois/",
     },
     {
       id: 4,
@@ -45,6 +49,7 @@ function OurTeam() {
       positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
       path: "colleague",
       image: "Louise.jpg",
+      linkedin: "https://www.google.com",
     },
     {
         id: 5,
@@ -53,7 +58,7 @@ function OurTeam() {
         positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
         path: "colleague",
         image: "Jan.jpg",
-        icon: "https://www.youtube.com",
+        linkedin: "https://www.google.com",
       },
       {
         id: 6,
@@ -62,7 +67,7 @@ function OurTeam() {
         positions: "Former PM for Airtable, Medium, Ghost, and Lumi.",
         path: "colleague",
         image: "Jørgen.jpg",
-        icon: "https://www.google.com",
+        linkedin: "https://www.google.com",
       },
   ];
 
@@ -91,7 +96,7 @@ function OurTeam() {
                   {route.positions}
                 </p>
                 <div className={styles.icons}>
-                <Link href={`${route.icon}`}>
+                <Link href={`${route.linkedin}`}>
                   <img
                     className={styles.linkedin}
                     
