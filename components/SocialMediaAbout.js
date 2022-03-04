@@ -10,7 +10,7 @@ function SocialMediaAbout() {
         >
           <div className="w-full  xl:w-4/6">
             <img
-              className=" pl-5 pr-5 xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto lg:mt-20"
+              className=" pl-5 pr-5 xxsm:h-auto xsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto lg:mt-20"
               src={
                 'https://res.cloudinary.com/ds8p0huok/image/upload/v1646124265/fbSocials_ywzxfd.png'
               }

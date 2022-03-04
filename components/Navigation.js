@@ -100,19 +100,16 @@ function Navigation({ toggleMenu, setToggleMenu }) {
                 </ul>
               </NavList>
               <NavFooter>
-                <div className="flex">
-                  <p className="text-lg xxsm:text-base xsm:text-lg basesm:text-lg mdsm:text-lg basemd:text-xl baselg:text-4xl text-green-hl basemd:px-24 sbasesm:px-20 smdsm:px-20 mdsm:px-10 baselg:px-0 ssm:px-10 px-4 xsbasesm:px-16 text-left max-w-7xl mx-auto mt-32 underline text-red-400 font-semibold">
-                    <a className="" href="mailto:">
-                      mail@erpgruppen.dk
-                    </a>
-                    <br />
-                    <a className="" href="tel:004578794040">
-                      +45 78 79 40 40
-                    </a>
-                  </p>
-                  <p className=" text-lg xxsm:text-sm xsm:text-base basesm:text-base mdsm:text-lg basemd:text-lg baselg:text-lg basemd:px-24 sbasesm:px-20 smdsm:px-20 mdsm:px-10 baselg:px-0 ssm:px-10 px-4 xsbasesm:px-16 text-right max-w-7xl mx-auto font-medium mt-36">
+                <div className="m-10 md:m-0 md:space-x-8 space-y-5 md:space-y-0 font-medium text-black text-lg md:flex">
+                  <div className="">
+                    <a href="mailto:">mail@erpgruppen.dk</a>
+                  </div>
+                  <div className="">
+                    <a href="tel:004578794040">+45 78 79 40 40</a>
+                  </div>
+                  <div className="">
                     <a>© 2022-2022 ERP Gruppen, A/S</a>
-                  </p>
+                  </div>
                 </div>
               </NavFooter>
               <NavImage>
