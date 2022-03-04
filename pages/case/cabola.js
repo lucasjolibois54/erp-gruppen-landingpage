@@ -37,6 +37,7 @@ export default function Case() {
             textBox1={e.textBox1}
             textBox2={e.textBox2}
             textBox3={e.textBox3}
+            textBox4={e.textBox4}
             href={e.href}
             imageSrc={e.imageSrc}
             imageAlt={e.imageAlt}
