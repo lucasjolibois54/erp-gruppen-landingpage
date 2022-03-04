@@ -1,22 +1,22 @@
-import App from "next/app";
-import React from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import dynamic from "next/dynamic";
-import "../styles/globals.css";
+import App from 'next/app'
+import React from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
+import dynamic from 'next/dynamic'
+import '../styles/globals.css'
 
-const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
+const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
   ssr: false,
-});
+})
 
 export default class MyApp extends App {
   render() {
-    const { Component, pageProps, router } = this.props;
+    const { Component, pageProps, router } = this.props
     const spring = {
-      type: "spring",
+      type: 'spring',
       damping: 20,
       stiffness: 100,
-      when: "afterChildren",
-    };
+      when: 'afterChildren',
+    }
     return (
       <>
         <AnimatePresence exitBeforeEnter>
@@ -24,9 +24,9 @@ export default class MyApp extends App {
             <motion.div
               transition={spring}
               key={router.pathname}
-              initial={{ y: -300, opacity: 0 }}
+              initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              exit={{ y: -300, opacity: 0 }}
+              exit={{ y: -100, opacity: 0 }}
               id="page-transition-container"
             >
               <Component {...pageProps} key={router.pathname} />
@@ -42,6 +42,6 @@ export default class MyApp extends App {
           outerScale={2}
         />
       </>
-    );
+    )
   }
 }
