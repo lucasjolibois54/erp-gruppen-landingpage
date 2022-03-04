@@ -7,12 +7,12 @@ import { useState } from 'react'
 import Navigation from '../components/Navigation'
 import Header from '../components/Header'
 import Hero from "../components/Hero";
-import AboutHero from "../components/AboutHero";
-import OurTeam from "../components/team/OurTeam";
-import OurServices from "../components/OurServices";
+import AboutHero from "../components/about/Hero";
+import OurTeam from "../components/about/Team";
+import OurServices from "../components/about/Services";
 import Footer from '../components/Footer'
-import MoreAboutUs from "../components/MoreAboutUs";
-import SocialMediaAbout from "../components/SocialMediaAbout"
+import MoreAboutUs from "../components/about/AboutUs";
+import SocialMediaAbout from "../components/about/SocialMedia"
 
 export default function Home() {
 
