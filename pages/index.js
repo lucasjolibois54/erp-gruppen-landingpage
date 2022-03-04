@@ -8,12 +8,11 @@ import Hero from '../components/Hero'
 import Navigation from '../components/Navigation'
 import Header from '../components/Header'
 import Technologies from '../components/Technologies'
-import Case from '../components/Case'
+import CaseThumbnail from '../components/CaseThumbnail'
 import Footer from '../components/Footer'
 
 export default function Home() {
-
-  const [ toggleMenu, setToggleMenu ] = useState(false)
+  const [toggleMenu, setToggleMenu] = useState(false)
 
   return (
     <div>
@@ -29,15 +28,13 @@ export default function Home() {
       </Head>
 
       <main>
-      <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
-      <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
-      <Hero />
-      <Case />
-      <Technologies/>
-      <Footer/>
-       
+        <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
+        <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
+        <Hero />
+        <CaseThumbnail />
+        <Technologies />
+        <Footer />
       </main>
-
     </div>
   )
 }
