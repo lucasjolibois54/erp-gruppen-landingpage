@@ -16,7 +16,7 @@ const navRoutes = [
     id: 0,
     title: 'Home',
     path: '/',
-    image: 'building02.jpg',
+    image: 'bMeeting2.JPG',
   },
   {
     id: 1,
@@ -29,7 +29,7 @@ const navRoutes = [
 function Navigation({ toggleMenu, setToggleMenu }) {
   const [revealImage, setRevealImage] = useState({
     show: true,
-    image: 'building02.jpg',
+    image: 'bMeeting2.JPG',
     key: '0',
   })
 
