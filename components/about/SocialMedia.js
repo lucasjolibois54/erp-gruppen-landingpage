@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { LogoFacebook, LogoYoutube, LogoLinkedin } from 'react-ionicons'
 
 function SocialMediaAbout() {
@@ -27,7 +28,32 @@ function SocialMediaAbout() {
               hele tiden at udvikle os som virksomhed, så hvorfor ikke følge med
               på rejsen gennem vores kanaler?
             </p>
-            
+            <div className="text-blue-500 flex space-x-10 mx-auto lg:mx-0">
+              <Link href="https://facebook.com/">
+                <LogoFacebook
+                  color={'#3B82F6'}
+                  title=""
+                  height="30px"
+                  width="30px"
+                />
+              </Link>
+              <Link href="https://youtube.com/">
+                <LogoYoutube
+                  color={'#3B82F6'}
+                  title=""
+                  height="30px"
+                  width="30px"
+                />
+              </Link>
+              <Link href="https://linkedin.com/">
+                <LogoLinkedin
+                  color={'#3B82F6'}
+                  title=""
+                  height="30px"
+                  width="30px"
+                />
+              </Link>
+            </div>
           </div>
         </div>
       </div>
