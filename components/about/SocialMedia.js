@@ -28,13 +28,29 @@ function SocialMediaAbout() {
               hele tiden at udvikle os som virksomhed, så hvorfor ikke følge med
               på rejsen gennem vores kanaler?
             </p>
-            <div className="w-12 h-12 text-blue-500">
-              <Link href="https://github.com/">
+            <div className="text-blue-500 flex space-x-10">
+              <Link href="https://facebook.com/">
                 <LogoFacebook
                   color={'#3B82F6'}
                   title=""
-                  height="45px"
-                  width="45px"
+                  height="30px"
+                  width="30px"
+                />
+              </Link>
+              <Link href="https://youtube.com/">
+                <LogoYoutube
+                  color={'#3B82F6'}
+                  title=""
+                  height="30px"
+                  width="30px"
+                />
+              </Link>
+              <Link href="https://linkedin.com/">
+                <LogoLinkedin
+                  color={'#3B82F6'}
+                  title=""
+                  height="30px"
+                  width="30px"
                 />
               </Link>
             </div>
