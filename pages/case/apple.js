@@ -29,19 +29,20 @@ export default function Case() {
 
       <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
       <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
-      {Apple.map((e) => {
+      {Apple.map((props) => {
         return (
           <CaseTemplate
-            key={e.id}
-            id={e.id}
-            name={e.name}
-            title={e.title}
-            textBox1={e.textBox1}
-            textBox2={e.textBox2}
-            textBox3={e.textBox3}
-            href={e.href}
-            imageSrc={e.imageSrc}
-            imageAlt={e.imageAlt}
+            key={props.id}
+            id={props.id}
+            name={props.name}
+            title={props.title}
+            textBox1={props.textBox1}
+            textBox2={props.textBox2}
+            textBox3={props.textBox3}
+            textBox4={props.textBox4}
+            href={props.href}
+            imageSrc={props.imageSrc}
+            imageAlt={props.imageAlt}
           />
         )
       })}
