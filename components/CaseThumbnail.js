@@ -14,9 +14,33 @@ const cases = [
     href: 'case/cabola',
     imageSrc:
       'https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg',
-    imageAlt: 'caseOne',
-    price: 'caseOne',
-    color: 'caseOne',
+    imageAlt: 'Cabola',
+  },
+  {
+    id: 2,
+    category: 'Technology',
+    product: 'Mobile App',
+    name: 'Cabola ApS',
+    desc: 'Business Dynamics 365 solution',
+    intro:
+      'Best technology results-driven web design, production and marketing agency in Denmark',
+    href: 'case/cabola',
+    imageSrc:
+      'https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg',
+    imageAlt: 'Cabola',
+  },
+  {
+    id: 3,
+    category: 'Technology',
+    product: 'Mobile App',
+    name: 'Cabola ApS',
+    desc: 'Business Dynamics 365 solution',
+    intro:
+      'Best technology results-driven web design, production and marketing agency in Denmark',
+    href: 'case/cabola',
+    imageSrc:
+      'https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg',
+    imageAlt: 'Cabola',
   },
 ]
 
@@ -44,13 +68,13 @@ function Case() {
   return (
     <div>
       <div className="">
-        <div className="px-10 lg:px-24 xl:px-40 flex justify-between mt-32">
-          <h2 className=" text-4xl">Case Studies</h2>
+        <div className="px-10 lg:px-24 xl:px-40 flex justify-between mt-32 mb-96 xl:mb-48 relative">
+          <h2 className="text-4xl">Case Studies</h2>
           <h2 className="text-xl underline text-blue-500">View All</h2>
         </div>
-        <div className="w-full h-screen overflow-hidden p-0 m-0 flex justify-center items-center">
+        <div className="w-full flex justify-center items-center relative mb-52">
           <motion.ul
-            className="w-1/2 h-auto grid overflow-hidden m-0 list-none sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 grid-rows-1/2 gap-4 p-4  rounded-lg"
+            className="w-1/2 h-auto grid list-none sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10 rounded-lg"
             variants={container}
             initial="hidden"
             animate="visible"
@@ -58,13 +82,13 @@ function Case() {
             {cases.map((props) => (
               <motion.li
                 key={props.id}
-                className="border-gray-200 border-t border-r border-b border-l rounded-xl overflow-hidden"
+                className="border-gray-200 border-t border-r border-b border-l hover:border-blue-500 rounded-xl overflow-hidden hover:bg-blue-50 transition-all ease-in-out"
                 variants={item}
               >
                 <Link key={props.id} href={props.href}>
                   <div className="m-5">
                     <div className="flex justify-between">
-                      <h3 className="text-xs font-light uppercase text-gray-300">
+                      <h3 className="text-xs font-light uppercase text-gray-300 hover:text-red-500">
                         {props.category}
                       </h3>
                       <h3 className="text-xs font-light text-gray-300">
@@ -77,9 +101,35 @@ function Case() {
                     <p className="text-xl text-gray-400 font-light">
                       {props.desc}
                     </p>
-                    <p className="text-xs font-regular mt-5 leading-4">
+                    <p className="text-xs font-light mt-5 leading-4 text-black opacity-90">
                       {props.intro}
                     </p>
+                    <motion.div
+                      initial={{ x: 0 }}
+                      whileHover={{
+                        x: 10,
+                        transition: {
+                          duration: 0.4,
+                          ease: [0.6, 0.05, -0.01, 0.9],
+                        },
+                      }}
+                      className="text-xs font-regular mt-5 leading-4 text-black relative flex align-center items-center"
+                    >
+                      View Case Study
+                      <span className="mx-2">
+                        <svg
+                          className="w-4"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 101 57"
+                        >
+                          <path
+                            d="M33 34H0V24h81.429L66 7.884 73.548 0l19.877 20.763.027-.029L101 28.618 73.829 57l-7.548-7.884L80.753 34H33z"
+                            fill="#000"
+                            fillRule="evenodd"
+                          ></path>
+                        </svg>
+                      </span>
+                    </motion.div>
                   </div>
                 </Link>
               </motion.li>
