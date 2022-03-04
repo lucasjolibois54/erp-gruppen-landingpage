@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { LogoLinkedin } from 'react-ionicons'
+import Fade from 'react-reveal/Fade'
 
 function OurTeam() {
   const navRoutes = [
@@ -73,6 +74,7 @@ function OurTeam() {
 
   return (
     <div className={styles.body}>
+      <Fade>
       <div className="border-b border-2 border-line mx-auto w-5/6 mt-16 aboutlg:max-w-5xl"  />
           <div>
           <h3 className="text-center max-w-7xl font-semibold mx-auto pt-40 xxsm:text-3xl ssm:text-6xl">ERP Produktion</h3>
@@ -112,6 +114,7 @@ function OurTeam() {
           </div>
         ))}
       </div>
+      </Fade>
     </div>
   );
 }
