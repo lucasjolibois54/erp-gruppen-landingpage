@@ -25,8 +25,11 @@ const Header = ({ setToggleMenu, toggleMenu }) => {
               <Image width={250} src={ERPLogo} />
             </Link>
           </div>
-          <motion.div onClick={() => setToggleMenu(!toggleMenu)}>
-            <button className="origin-center b-none p-20 outline-none">
+          <motion.div
+            className="mix-blend-exclusion"
+            onClick={() => setToggleMenu(!toggleMenu)}
+          >
+            <button className="origin-center b-none p-5 outline-none">
               <span className="w-9 h-1 block bg-black m-2" />
               <span className="w-9 h-1 block bg-black m-2" />
             </button>
