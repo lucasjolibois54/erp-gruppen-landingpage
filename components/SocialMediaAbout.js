@@ -27,35 +27,7 @@ function SocialMediaAbout() {
               hele tiden at udvikle os som virksomhed, så hvorfor ikke følge med
               på rejsen gennem vores kanaler?
             </p>
-            <div className="flex justify-center text-center space-x-6 items-center py-0 lg:justify-start">              
-              <a href="https://www.linkedin.com/company/erpgruppen-a-s/">
-                {' '}
-                <LogoLinkedin
-                  color={'#3B82F6'}
-                  title="Linkedin"
-                  height="30px"
-                  width="30px"
-                />
-              </a>
-              <a href="https://www.facebook.com/ERPgruppen">
-                {' '}
-                <LogoFacebook
-                  color={'#3B82F6'}
-                  title="Facebook"
-                  height="30px"
-                  width="30px"
-                />
-              </a>
-              <a href="https://www.youtube.com/channel/UCAc4QgHWRWE6rNAFDENl76w">
-                {' '}
-                <LogoYoutube
-                  color={'#3B82F6'}
-                  title="Youtube"
-                  height="30px"
-                  width="30px"
-                />
-              </a>
-            </div>
+            
           </div>
         </div>
       </div>
