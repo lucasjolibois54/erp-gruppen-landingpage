@@ -5,47 +5,18 @@ import Link from 'next/link'
 const cases = [
   {
     id: 1,
+    category: 'Technology',
+    product: 'Mobile App',
     name: 'Cabola ApS',
     desc: 'Business Dynamics 365 solution',
+    intro:
+      'Best technology results-driven web design, production and marketing agency in Denmark',
     href: 'case/cabola',
     imageSrc:
       'https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg',
     imageAlt: 'caseOne',
     price: 'caseOne',
     color: 'caseOne',
-  },
-  {
-    id: 2,
-    name: 'Cabola ApS',
-    desc: 'Business Dynamics 365 solution',
-    href: 'case/cabola',
-    imageSrc:
-      'https://www.apple.com/v/home/aj/images/heroes/watch-series-7/hero_watch__f05go333pz2i_small_2x.jpg',
-    imageAlt: 'caseTwo',
-    price: 'caseTwo ',
-    color: 'caseTwo ',
-  },
-  {
-    id: 3,
-    name: 'Cabola ApS',
-    desc: 'Business Dynamics 365 solution',
-    href: 'case/cabola',
-    imageSrc:
-      'https://www.apple.com/v/home/aj/images/heroes/watch-series-7/hero_watch__f05go333pz2i_small_2x.jpg',
-    imageAlt: 'caseTwo',
-    price: 'caseTwo ',
-    color: 'caseTwo ',
-  },
-  {
-    id: 4,
-    name: 'Cabola ApS',
-    desc: 'Business Dynamics 365 solution',
-    href: 'case/cabola',
-    imageSrc:
-      'https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg',
-    imageAlt: 'caseThree',
-    price: 'caseThree',
-    color: 'caseThree',
   },
 ]
 
@@ -73,9 +44,13 @@ function Case() {
   return (
     <div>
       <div className="">
+        <div className="px-10 lg:px-24 xl:px-40 flex justify-between mt-32">
+          <h2 className=" text-4xl">Case Studies</h2>
+          <h2 className="text-xl underline text-blue-500">View All</h2>
+        </div>
         <div className="w-full h-screen overflow-hidden p-0 m-0 flex justify-center items-center">
           <motion.ul
-            className="w-1/2 h-1/2 grid overflow-hidden m-0 list-none grid-cols-2 grid-rows-1/2 gap-4 p-4  rounded-lg"
+            className="w-1/2 h-auto grid overflow-hidden m-0 list-none sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 grid-rows-1/2 gap-4 p-4  rounded-lg"
             variants={container}
             initial="hidden"
             animate="visible"
@@ -83,25 +58,28 @@ function Case() {
             {cases.map((props) => (
               <motion.li
                 key={props.id}
-                className="bg-slate-100 rounded-xl overflow-hidden"
+                className="border-gray-200 border-t border-r border-b border-l rounded-xl overflow-hidden"
                 variants={item}
               >
                 <Link key={props.id} href={props.href}>
-                  <div className="">
-                    <h3 className="text-2xl font-medium p-5 absolute">
-                      <span
-                        aria-hidden="true"
-                        className="inset-0 relative border-2 mr-2 border-slate-300"
-                      />
-                      {props.name}
-                    </h3>
-                    <div className="w-full h-full object-center object-cover lg:w-full lg:h-full p-10" />
-                    <div className="mx-3 mt-3">
-                      <div className="w-screen h-screen object-center object-cover lg:w-full lg:h-full pb-32 px-2 py-2 rounded-t-lg bg-card-bg-1">
-                        <h2 className="text-black font-medium">{props.name}</h2>
-                        <p className="text-slate-300">{props.desc}</p>
-                      </div>
+                  <div className="m-5">
+                    <div className="flex justify-between">
+                      <h3 className="text-xs font-light uppercase text-gray-300">
+                        {props.category}
+                      </h3>
+                      <h3 className="text-xs font-light text-gray-300">
+                        {props.product}
+                      </h3>
                     </div>
+                    <h2 className="text-3xl font-semibold mt-5">
+                      {props.name}
+                    </h2>
+                    <p className="text-xl text-gray-400 font-light">
+                      {props.desc}
+                    </p>
+                    <p className="text-xs font-regular mt-5 leading-4">
+                      {props.intro}
+                    </p>
                   </div>
                 </Link>
               </motion.li>
