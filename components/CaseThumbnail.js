@@ -6,6 +6,7 @@ const cases = [
   {
     id: 1,
     name: 'Cabola ApS',
+    desc: 'Business Dynamics 365 solution',
     href: 'case/cabola',
     imageSrc:
       'https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg',
@@ -15,8 +16,9 @@ const cases = [
   },
   {
     id: 2,
-    name: 'Gates and wickets',
-    href: 'case/apple',
+    name: 'Cabola ApS',
+    desc: 'Business Dynamics 365 solution',
+    href: 'case/cabola',
     imageSrc:
       'https://www.apple.com/v/home/aj/images/heroes/watch-series-7/hero_watch__f05go333pz2i_small_2x.jpg',
     imageAlt: 'caseTwo',
@@ -25,8 +27,9 @@ const cases = [
   },
   {
     id: 3,
-    name: 'Fastenings and clamps',
-    href: 'case/apple',
+    name: 'Cabola ApS',
+    desc: 'Business Dynamics 365 solution',
+    href: 'case/cabola',
     imageSrc:
       'https://www.apple.com/v/home/aj/images/heroes/watch-series-7/hero_watch__f05go333pz2i_small_2x.jpg',
     imageAlt: 'caseTwo',
@@ -35,8 +38,9 @@ const cases = [
   },
   {
     id: 4,
-    name: 'Additional security',
-    href: 'case/apple',
+    name: 'Cabola ApS',
+    desc: 'Business Dynamics 365 solution',
+    href: 'case/cabola',
     imageSrc:
       'https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg',
     imageAlt: 'caseThree',
@@ -71,7 +75,7 @@ function Case() {
       <div className="">
         <div className="w-full h-screen overflow-hidden p-0 m-0 flex justify-center items-center">
           <motion.ul
-            className="w-1/2 h-1/2 grid overflow-hidden m-0 list-none grid-cols-2 grid-rows-1/2 gap-4 p-4 bg-blue-500 rounded-lg"
+            className="w-1/2 h-1/2 grid overflow-hidden m-0 list-none grid-cols-2 grid-rows-1/2 gap-4 p-4  rounded-lg"
             variants={container}
             initial="hidden"
             animate="visible"
@@ -79,21 +83,24 @@ function Case() {
             {cases.map((props) => (
               <motion.li
                 key={props.id}
-                className=" rounded-xl overflow-hidden"
+                className="bg-slate-100 rounded-xl overflow-hidden"
                 variants={item}
               >
                 <Link key={props.id} href={props.href}>
-                  <div className="group relative">
-                    <div className="w-full min-h-80 aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
-                      <h3 className="text-5xl font-semibold p-5 absolute">
-                        <span aria-hidden="true" className="absolute inset-0" />
-                        {props.name}
-                      </h3>
-                      <img
-                        src={props.imageSrc}
-                        alt={props.imageAlt}
-                        className="w-full h-full object-center object-cover lg:w-full lg:h-full"
+                  <div className="">
+                    <h3 className="text-2xl font-medium p-5 absolute">
+                      <span
+                        aria-hidden="true"
+                        className="inset-0 relative border-2 mr-2 border-slate-300"
                       />
+                      {props.name}
+                    </h3>
+                    <div className="w-full h-full object-center object-cover lg:w-full lg:h-full p-10" />
+                    <div className="mx-3 mt-3">
+                      <div className="w-screen h-screen object-center object-cover lg:w-full lg:h-full pb-32 px-2 py-2 rounded-t-lg bg-card-bg-1">
+                        <h2 className="text-black font-medium">{props.name}</h2>
+                        <p className="text-slate-300">{props.desc}</p>
+                      </div>
                     </div>
                   </div>
                 </Link>
