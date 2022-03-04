@@ -37,8 +37,10 @@ function Info(props) {
             alt={props.imageAlt}
           />
         </Fade>
-        {props.textBox4}
         <div className="w-full aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
+        <div className="mt-20 mx-12">
+        {props.textBox4}
+        </div>
           <div className="mx-auto justify-center lg:grid-cols-2 grid">
             <h3 className="m-8 font-bold text-md bg-blue-50 rounded-xl p-8">
               Strategi
