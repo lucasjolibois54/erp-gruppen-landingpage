@@ -1,6 +1,5 @@
 import React from 'react'
 //Components
-import { OpenOutline } from 'react-ionicons'
 import Modal from '../modals/Modal'
 import Fade from 'react-reveal/Fade'
 
