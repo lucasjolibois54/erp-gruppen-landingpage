@@ -1,3 +1,6 @@
+import Fade from 'react-reveal/Fade'
+
+
 function MoreAboutUs() {
     return (
 
@@ -8,11 +11,11 @@ function MoreAboutUs() {
         <div className="flex text-center flex-col w-full px-3 justify-center lg:w-5/10 lg:text-left lg:pl-10">
             
             <h2 className="text-4xl sm:text-5xl md:text-5xl 2xl:text-6xl font-bold lg:mt-0 pt-20 text-dark-text py-0">
-            Lær os bedre at kende
+            <Fade top>Lær os bedre at kende</Fade>
                
             </h2>
             <p className="text-base md:text-xl px-5 text-dark-text py-5 md:px-24 lg:pl-0 lg:pr-20">
-            ERP produktion er et IT- og konsulenthus, der leverer support, rådgivning, IT-løsninger og kurser inden for Microsoft Dynamics og Microsoft Power Platform. Vi har mere end 15 års erfaring i branchen med at levere professionelle forretningsløsninger til små og mellemstore virksomheder i Danmark.
+            <Fade bottom cascade>ERP produktion er et IT- og konsulenthus, der leverer support, rådgivning, IT-løsninger og kurser inden for Microsoft Dynamics og Microsoft Power Platform. Vi har mere end 15 års erfaring i branchen med at levere professionelle forretningsløsninger til små og mellemstore virksomheder i Danmark.</Fade>
 
 
  
@@ -29,6 +32,7 @@ function MoreAboutUs() {
             </div>
         </div>
         <div className="w-full  xl:w-4/6">
+        <Fade>
         <img
                         className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto mt-20 mx-auto"
                         src={
@@ -36,7 +40,7 @@ function MoreAboutUs() {
                         }
                         alt="mockup"
                     />
-
+        </Fade>
         </div>
     </div>
 
