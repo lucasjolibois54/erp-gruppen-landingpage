@@ -4,8 +4,8 @@ import Fade from 'react-reveal/Fade'
 function Hero() {
   return (
     <div>
-      <div className="absolute top-0 -z-50 baselg:visible xxsm:invisible">
-        <video autoPlay muted loop className="">
+      <div className="absolute top-0 -z-50 baselg:visible xxsm:invisible w-auto min-w-full max-h-full">
+        <video autoPlay muted loop className="w-auto min-w-full max-h-full">
           <source
             src="https://res.cloudinary.com/aeeux/video/upload/v1646385704/ERP%20Produktion/erp_yu5gmp.mp4"
             type="video/mp4"
@@ -45,7 +45,7 @@ function Hero() {
           </Fade>
         </Link>
         <Fade bottom>
-          <div className="mt-20 bg-white 1xl:mt-60 rounded-t-xl xl:p-7 xl:pb-10 big:mt-96 big:mb-20">
+          <div className="mt-20 bg-white 1xl:mt-60 rounded-t-xl xl:p-7 xl:pb-10 big:mt-96 mb-0">
             <div className="flex items-center justify-center invisible h-0 lgbasemd:h-auto lgbasemd:visible lgbasemd:space-x-6 smbaselg:space-x-16 aboutlg:space-x-20 baselg:space-x-28 base2lg:space-x-36">
               <div>
                 <p>
