@@ -67,8 +67,8 @@ const item = {
 function Case() {
   return (
     <div>
-      <div className="">
-        <div className="px-10 lg:px-24 xl:px-40 flex justify-between mt-32 h-96 xl:h-56 mb-72 xsm:mb-56 basemd:mb-10">
+      <div className="bg-white big:pt-28">
+        <div className="px-10 lg:px-24 xl:px-40 flex justify-between pt-32 h-96 xl:h-56 pb-72 xsm:mb-56 basemd:mb-10">
           <h2 className="text-4xl">Case Studies</h2>
           <h2 className="text-xl underline text-blue-500">View All</h2>
         </div>
