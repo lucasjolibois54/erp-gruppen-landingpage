@@ -12,7 +12,7 @@ function AboutHero() {
                         src={
                             "https://res.cloudinary.com/dckwf6med/image/upload/v1646665668/erp/Ellipse_100_zdo4c8.svg"
                         }
-                        alt="mockup"
+                        alt="gradient background"
                     />
         </div>
       </div>
