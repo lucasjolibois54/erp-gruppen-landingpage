@@ -7,11 +7,13 @@ function Technologies() {
           Certificeret og erfarende konsulenter
         </h1>
         <p className="text-center max-w-6xl mx-auto max-w-xl pt-8 pb-10 xxsm:text-md px-5 ssm:text-xl ssm:leading-relaxed">
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using Content here, content here, making it
-          look like readable English.
+        Vi er et velerfarende og certificeret team med en lang række forskellige
+         kompetencer indenfor industrien og vi er fremtidens førende erp virksomhed
+         i Danmark. Vores kerne teknologier er TimeXtender, Business Central og Power BI,
+         dog er dette langt fra det eneste som vi kan. Vores motto er at vi ikke arbejde for
+         dig, men med dig, da din succes er hvad vi vil opnå.
+
+
         </p>
       </div>
 
