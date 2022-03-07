@@ -15,48 +15,48 @@ function OurServices() {
         <div className="p-2 shadow rounded">
           <h2 className="font-semibold basemd:text-2xl xxsm:text-3xl mt-16"><Fade>Functional Consultant</Fade></h2>
           <p className="mt-6">
-         <Fade>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </Fade>
+         <Fade>Vores konsulenter er specialiceret indenfor området og ved hvordan du som virksomhed kan drage fordelle af de elementer som vi tilbyder </Fade>
           </p>
         </div>
         <div className="p-2 shadow rounded">
-        <h2 className="font-semibold basemd:text-2xl xxsm:text-3xl mt-16"><Fade>Produktion</Fade></h2>
+        <h2 className="font-semibold basemd:text-2xl xxsm:text-3xl mt-16"><Fade>Udviklere</Fade></h2>
           <p className="mt-6">
-          <Fade>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </Fade>
-          </p>
-        </div>
-        <div className="p-2 shadow rounded">
-        <h2 className="font-semibold basemd:text-2xl xxsm:text-3xl mt-16"><Fade>Developer</Fade></h2>
-          <p className="mt-6">
-          <Fade>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </Fade>
-          </p>
-        </div>
-        <div className="p-2 shadow rounded">
-        <h2 className="font-semibold basemd:text-2xl xxsm:text-3xl mt-16"><Fade>SupplyChain</Fade></h2>
-          <p className="mt-6">
-          <Fade>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </Fade>
-          </p>
-        </div>
-
-        <div className="p-2 shadow rounded">
-        <h2 className="font-semibold basemd:text-2xl xxsm:text-3xl mt-16"><Fade>Azure</Fade></h2>
-          <p className="mt-6">
-          <Fade>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </Fade>
+          <Fade>Få hjælp af de dygtigste udviklere i danmark på hvad end du kunne have behov for. Vores udviklings team kan alt fra AL programering til C#.</Fade>
           </p>
         </div>
         <div className="p-2 shadow rounded">
         <h2 className="font-semibold basemd:text-2xl xxsm:text-3xl mt-16"><Fade>Business Central</Fade></h2>
           <p className="mt-6">
-          <Fade>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </Fade>
+          <Fade>Dynamics 365 Business Central er et cloudbaseret forretnings-/økonomisystem, der samler hele din forretning. </Fade>
           </p>
         </div>
         <div className="p-2 shadow rounded">
+        <h2 className="font-semibold basemd:text-2xl xxsm:text-3xl mt-16"><Fade>SupplyChain</Fade></h2>
+          <p className="mt-6">
+          <Fade>Strømlining af en virksomheds udbudssideaktiviteter for at maksimere kundeværdien og opnå en konkurrencefordel på markedet.</Fade>
+          </p>
+        </div>
+
+        <div className="p-2 shadow rounded">
         <h2 className="font-semibold basemd:text-2xl xxsm:text-3xl mt-16"><Fade>TimeXtender</Fade></h2>
           <p className="mt-6">
-          <Fade>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </Fade>
+          <Fade>TimeXtender genererer kode og dokumentation automatisk, hvilket reducerer omkostningerne med 70%, frigør datateams fra kedelige, gentagne opgaver og giver forretningsbrugere en kodefri oplevelse til at skabe deres egne dataprodukter.</Fade>
+          </p>
+        </div>
+        <div className="p-2 shadow rounded">
+        <h2 className="font-semibold basemd:text-2xl xxsm:text-3xl mt-16"><Fade>Azure</Fade></h2>
+          <p className="mt-6">
+          <Fade>Med en Azure-løsning, samler du alt det du har brug for: relaterede produkter, tjenester og apps fra tredjeparter. Du kommer hurtigt i gang med en skalerbar og omkostningseffektiv løsning, der virker med dine eksisterende miljøer. </Fade>
           </p>
         </div>
         <div className="p-2 shadow rounded">
         <h2 className="font-semibold basemd:text-2xl xxsm:text-3xl mt-16"><Fade>Power BI</Fade></h2>
+          <p className="mt-6">
+          <Fade>Microsofts Power Platform er en samling af software applikationer til forretningsdata, appudvikling og automatisering. Med teknologien blandt Power Platforme, kan du analysere data, opbygge løsninger og automatisere processer.</Fade>
+          </p>
+        </div>
+        <div className="p-2 shadow rounded">
+        <h2 className="font-semibold basemd:text-2xl xxsm:text-3xl mt-16"><Fade>Produktion</Fade></h2>
           <p className="mt-6">
           <Fade>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </Fade>
           </p>
