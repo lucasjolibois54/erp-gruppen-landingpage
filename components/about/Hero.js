@@ -33,7 +33,7 @@ function AboutHero() {
         <img
                         className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto mt-20 md:-mt-10 2xl:mt-16 mb-20 mx-auto"
                         src={
-                            "https://res.cloudinary.com/ds8p0huok/image/upload/v1646051708/image_43_2_dox1is.png"
+                            "https://res.cloudinary.com/dckwf6med/image/upload/v1646660776/erp/Group_62_1_g0krea.png"
                         }
                         alt="mockup"
                     />
