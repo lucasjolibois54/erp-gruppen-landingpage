@@ -86,7 +86,7 @@ function Hero() {
                 alt="mockup"
               />
               <div className="flex flex-col items-center justify-center pl-2">
-                <h2 className="font-bold">Niels pedersen</h2>
+                <h2 className="font-bold">Niels Bolding</h2>
                 <p>CEO, co-owner</p>
               </div>
             </div>
