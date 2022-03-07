@@ -5,6 +5,17 @@ function AboutHero() {
 
 
 <div>
+<div className="">
+        <div className="w-auto min-w-full max-h-full">
+        <img
+                        className="absolute top-0 -z-50 baselg:visible xxsm:invisible w-auto min-w-full max-h-full"
+                        src={
+                            "https://res.cloudinary.com/dckwf6med/image/upload/v1646665668/erp/Ellipse_100_zdo4c8.svg"
+                        }
+                        alt="mockup"
+                    />
+        </div>
+      </div>
     <div className="my-auto mx-auto xxsm:mt-6 lgbasemd:mt-0 max-w-7xl">
         <div id="top-about" className=" p-0 flex flex-col w-full lg:flex-row md:p-0 mb-4">
         <div className="flex text-center flex-col w-full px-3 justify-center lg:w-5/10 lg:text-left lg:pl-10">
