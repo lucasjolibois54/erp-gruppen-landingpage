@@ -14,7 +14,7 @@ import Footer from '../components/Footer'
 import MoreAboutUs from "../components/about/AboutUs";
 import SocialMediaAbout from "../components/about/SocialMedia"
 
-export default function Home() {
+export default function About() {
 
   const [ toggleMenu, setToggleMenu ] = useState(false)
 
