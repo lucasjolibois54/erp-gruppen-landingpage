@@ -11,7 +11,7 @@ function Technologies() {
          kompetencer indenfor industrien og vi er fremtidens førende erp virksomhed
          i Danmark. Vores kerne teknologier er TimeXtender, Business Central og Power BI,
          dog er dette langt fra det eneste som vi kan. Vores motto er at vi ikke arbejde for
-         dig, men med dig, da din succes er hvad vi vil opnå.
+         dig, men med dig, da din succes er hvad vi gerne vil opnå.
 
 
         </p>
