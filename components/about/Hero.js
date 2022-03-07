@@ -14,7 +14,7 @@ function AboutHero() {
                 <span className="text-blue-500"> <Fade bottom>marketing & produktion</Fade></span>
             </h2>
             <p className="text-base md:text-xl px-5 text-dark-text py-5 md:px-24 lg:pl-0 lg:pr-20">
-            <Fade top> ERP- produktion er et af de største erp virksomheder i danmark med ekspert kompetenser inden for industrien. Scroll for at lære os bedre at kende samt hvilke teknologier vi arbejder med.</Fade>
+            <Fade> ERP- produktion er et af de største erp virksomheder i danmark med ekspert kompetenser inden for industrien. Scroll for at lære os bedre at kende samt hvilke teknologier vi arbejder med.</Fade>
  
             </p>
             <div className="flex justify-center text-center items-center py-0 lg:justify-start">
