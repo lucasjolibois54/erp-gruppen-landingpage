@@ -10,7 +10,7 @@ function Technologies() {
         Vi er et velerfarende og certificeret team med en lang række forskellige
          kompetencer indenfor industrien og vi er fremtidens førende erp virksomhed
          i Danmark. Vores kerne teknologier er TimeXtender, Business Central og Power BI,
-         dog er dette langt fra det eneste som vi kan. Vores motto er at vi ikke arbejde for
+         dog er dette langt fra det eneste som vi kan. Vores motto er at vi ikke arbejder for
          dig, men med dig, da din succes er hvad vi gerne vil opnå.
 
 
