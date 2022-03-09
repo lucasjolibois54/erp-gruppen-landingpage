@@ -5,12 +5,12 @@ function Hero() {
   return (
     <div>
       <div className="absolute top-0 -z-50 baselg:visible xxsm:invisible w-auto min-w-full max-h-full">
-        {/* <video autoPlay muted loop className="w-auto min-w-full max-h-full">
+        <video autoPlay muted loop className="w-auto min-w-full max-h-full">
           <source
             src="https://res.cloudinary.com/aeeux/video/upload/v1646385704/ERP%20Produktion/erp_yu5gmp.mp4"
             type="video/mp4"
           />
-        </video> */}
+        </video>
       </div>
 
       <div className=" my-auto mx-auto xxsm:mt-6 lgbasemd:mt-20 max-w-6xl">
