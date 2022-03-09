@@ -91,11 +91,10 @@ function OurTeam() {
             <div key={route.id}>
               <div className={styles.card}>
                 <div className="absolute w-96">
-                  {/* <Image
+                  <Image
                     src={require(`/image/${route.image}`)}
                     alt="Picture of the author"
-                  /> */}
-                  <div className="bg-red-500 px-10" />
+                  />
                 </div>
                 <div className={styles.cardcontent}>
                   <h2 className={styles.cardtitle}>{route.name}</h2>
