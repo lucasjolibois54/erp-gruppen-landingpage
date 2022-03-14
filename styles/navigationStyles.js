@@ -49,7 +49,7 @@ export const NavList = styled.div`
       list-style: none;
       font-size: 3rem;
       text-transform: uppercase;
-      font-weight: 900;
+      font-weight: 700;
       height: 96px;
       line-height: 96px;
       overflow: hidden;
