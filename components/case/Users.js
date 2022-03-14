@@ -35,6 +35,8 @@ export const GraderNord = [
       '”Nu kan vi håndtere 71 % flere ordrer med samme kapacitet. Det tager under et minut at plukke en ordre, og vores fejlpluk er faldet fra 5 % til under 1 %',
       textBox5:
       '55 Grader Nord er en webshop, der sælger spejdergrej og udstyr til friluftsliv. Corona og nedlukning af foreningsaktiviteter har været hårdt for omsætningen på spejdergrej – til gengæld har coronaens øgede fokus på friluftsliv været en mulighed, som 55 Grader Nord er i fuld gang med at udnytte.',
+      textBox6:
+      'Cabola er blevet inspireret til at implementere endnu flere af ERPgruppens tillægsløsninger. Sammen med ERPgrupppens udvalgte konsulenter er Cabola ved at gå igang med implementeringen af Power BI, hvilket skal hjælpe dem til at bruge deres data bedst muligt.',
     href: 'case',
     imageSrc:
       'https://www.erpgruppen.dk/wp-content/uploads/2021/06/55-Grader-Nord_1100x400.png',
