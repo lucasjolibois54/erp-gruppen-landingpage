@@ -1,17 +1,19 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/solid'
+import Link from 'next/link'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-function Dropdown() {
+function Dropdown(props) {
   return (
-    <Menu as="div" className="relative inline-block text-left">
+    <div key={props.id}>
+    <Menu as="div" className="relative inline-block text-left mt-2">
       <div>
-        <Menu.Button className="inline-flex justify-center w-full rounded-md border px-4 py-2 bg-white text-sm font-medium text-black ">
-          Business Central
+        <Menu.Button className="inline-flex justify-center w-full rounded-md px-4 py-2 bg-white text-sm font-regular text-black ">
+          {props.name}
           <ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
         </Menu.Button>
       </div>
@@ -36,7 +38,7 @@ function Dropdown() {
                     'block px-4 py-2 text-sm',
                   )}
                 >
-                  1
+                  {props.option1}
                 </a>
               )}
             </Menu.Item>
@@ -49,7 +51,33 @@ function Dropdown() {
                     'block px-4 py-2 text-sm',
                   )}
                 >
-                  2
+                  {props.option2}
+                </a>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <a
+                  href="#"
+                  className={classNames(
+                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                    'block px-4 py-2 text-sm',
+                  )}
+                >
+                  {props.option3}
+                </a>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <a
+                  href="#"
+                  className={classNames(
+                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                    'block px-4 py-2 text-sm',
+                  )}
+                >
+                  {props.option4}
                 </a>
               )}
             </Menu.Item>
@@ -64,7 +92,20 @@ function Dropdown() {
                     'block px-4 py-2 text-sm',
                   )}
                 >
-                  3
+                  {props.option5}
+                </a>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <a
+                  href="#"
+                  className={classNames(
+                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                    'block px-4 py-2 text-sm',
+                  )}
+                >
+                  {props.option6}
                 </a>
               )}
             </Menu.Item>
@@ -72,6 +113,7 @@ function Dropdown() {
         </Menu.Items>
       </Transition>
     </Menu>
+    </div>
   )
 }
 

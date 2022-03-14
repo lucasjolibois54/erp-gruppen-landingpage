@@ -1,4 +1,3 @@
-import React from 'react'
 //Components
 import Modal from '../modals/Modal'
 import Fade from 'react-reveal/Fade'
