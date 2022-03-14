@@ -43,6 +43,7 @@ export default function Case() {
             textBox5={props.textBox5}
             textBox6={props.textBox6}
             textBox7={props.textBox7}
+            heading={props.heading}
             imageSrc1={props.imageSrc1}
             href={props.href}
             imageSrc={props.imageSrc}
