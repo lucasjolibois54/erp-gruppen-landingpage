@@ -23,3 +23,24 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* Company Carousel */
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+ }
+  100% {
+    transform: translateX(calc(-250px * 7));
+ }
+}
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide-track-2 {
+  animation: scroll 50s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
