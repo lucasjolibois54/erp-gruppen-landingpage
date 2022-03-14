@@ -78,7 +78,7 @@ export const Raudahl = [
       'https://www.raundahl-moesby.dk/upload/images/Stemningsbilleder/R%20og%20M_%20188.jpg',
     imageAlt: 'Cabola',
     imageSrc1:
-    'https://www.raundahl-moesby.dk/upload/images/tegning.jpg',
+    'https://res.cloudinary.com/dckwf6med/image/upload/v1647259364/erp/Sk%C3%A6rmbillede_2022-03-14_kl._13.01.49_e7syly.png',
   imageAlt1: 'lalaland',
   },
 ]
