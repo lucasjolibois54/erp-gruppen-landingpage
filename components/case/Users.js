@@ -41,7 +41,7 @@ export const GraderNord = [
     imageAlt: 'Cabola',
     imageSrc1:
     'https://www.erpgruppen.dk/wp-content/uploads/2021/06/55-Grader-Nord-Ordrehaandtering_1100x400.png',
-  imageAlt: 'lalaland',
+  imageAlt1: 'lalaland',
   },
 ]
 
