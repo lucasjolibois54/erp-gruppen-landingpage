@@ -15,7 +15,9 @@ export const Cabola = [
     'Cabola er blevet inspireret til at implementere endnu flere af ERPgruppens tillægsløsninger. Sammen med ERPgrupppens udvalgte konsulenter er Cabola ved at gå igang med implementeringen af Power BI, hvilket skal hjælpe dem til at bruge deres data bedst muligt.',
       textBox10:
       'For Cabola har det været værdifuldt, fordi medarbejderne har opnået viden om hvordan Dynamics 365 Business Central åbner muligheder for nye implementeringer som giver en god og bred overblik over virksomheden og arbejdsdagen. Dynamics 365 Business Central gør positivt indtryk på Cabola medarbejderne.',
-    href: 'case',
+    heading:
+    'En Investering',
+      href: 'case',
     imageSrc:
       'https://www.erpgruppen.dk/wp-content/uploads/2020/02/Cabola-1.jpg',
     imageAlt: 'Cabola',
