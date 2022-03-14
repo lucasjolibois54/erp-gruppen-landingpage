@@ -1,5 +1,3 @@
-
-  
   export const Dropdowns = [
     {
       id: 1,
@@ -43,18 +41,22 @@
     {
       id: 1,
       name: 'Træning',
+      href: 'træning',
     },
     {
       id: 2,
       name: 'Webinar',
+      href: 'webinar',
     },
     {
       id: 3,
       name: 'Nyheder',
+      href: 'nyheder',
     },
     {
       id: 4,
       name: 'Kontakt',
+      href: 'kontakt',
     },
   ]
   
