@@ -45,7 +45,14 @@ function Info(props) {
         <h3 className="mt-8 font-regular text-lg gri">
               <Fade bottom>{props.textBox5}</Fade>
             </h3>
-            </div>
+            
+            <Fade>
+          <img
+            className="w-full h-1/3 object-center object-cover lg:w-12/12 lg:h-1/4 mt-20"
+            src={props.imageSrc1}
+            alt={props.imageAlt}
+          />
+        </Fade></div>
           <div className="mt-20 mx-12">
             <Fade>
               <h3 className="text-5xl flex font-semibold">
