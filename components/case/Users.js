@@ -33,7 +33,7 @@ export const GraderNord = [
     name: '55 Grader Nord',
     title: 'Dynamics 365 Business Central',
     textBox1:
-      '55 Grader Nord er en webshop, der sælger spejdergrej og udstyr til friluftsliv. Corona og nedlukning af foreningsaktiviteter har været hårdt for omsætningen på spejdergrej – til gengæld har coronaens øgede fokus på friluftsliv været en mulighed, som 55 Grader Nord er i fuld gang med at udnytte.',
+      '55 Grader Nord er en dansk webshop, der specialisere sig i, samt sælger spejdergrej. De har især haft vækst i løbet af corona krisen og har af denne årsag behov for at digitalisere samt automatisere virksomheden da det er alt for tidskrævende når det hele foregår manuelt.',
     textBox2:
       'Med så stort tryk på ordrer og omsætning er driftsstabilitet alfa og omega. Med den gamle, specialudviklede løsning blev intet vedligeholdt automatisk, og det gav sig blandt andet udslag på driftsstabiliteten. Men det ser helt anderledes ud nu. Med en standardløsning som Business Central er kan de være sikre på, at de hele tiden har en opdateret, driftssikker løsning. Og hvis de har brug for at få modificeret noget i Business Central, findes der masser af moduler og plug and play-løsninger, de kan benytte sig af',
     textBox3:
@@ -64,16 +64,24 @@ export const Raudahl = [
     name: 'Raudahl & Moesby',
     title: 'Dynamics 365 Business Central',
     textBox1:
-      'Cabola er en virksomhed der blev stiftet i 2004 og drives af direktør Kenneth Laursen. Kemieksperterne i Cabola tilbyder alle former for kemi; kemiske produkter, rengøringsmilder, saltprodukter og filtermaterialer. Med et stærkt team af ni medarbejdere knokler de dagligt for at sikre deres kunder den bedste løsning.',
+      'Raundahl & Moesby er en vækstvirksomhed bygget på solide og erfarne kræfter i ledelsen og blandt nøglemedarbejderne. Siden virksomheden blev stiftet i sommeren 2013 har vi opnået en stærk og synlig placering i ejendomsbranchen, med en profil som en ansvarlig, engageret og konkurrencedygtig totalentreprenør og udviklingsrådgiver.',
     textBox2:
-      'Mange virksomheder udelukker muligheden for nyt ERP-system fordi det er omkostningsdyrt, men for Cabola har beslutningen være en investering fordi det er et simpelt system der nemt kan integreres med andre systemer som virksomheden dagligt bruger. Cabola har fået implementeret Nemhandel som også er et af ERP-gruppens tillægsløsninger.',
+      'Vi indledte med en forventningsafstemning og lagde derefter, sammen med Raundahl & Moesby, en plan for omlægningen til Dynamics 365. De havde tidligere oplevet at udskiftningen af et ERP-system kunne være noget langhåret, men vi havde klaret projektledelsen rigtig fint syntes de. Der var en god praksisorienteret dialog, og jeg oplevede, at vi havde en fælles referenceramme. Der var tilknyttet en medarbejder fra vores side af med regnskabserfaring, og det fungerede godt. Vi gik alle vores processer igennem og nåede frem til, at vi langt hen ad vejen kunne klare os med en standardløsning. Selve overflytningen er gået nemt. Der er ikke noget, der er kørt skævt i forløbet, og der har været en rigtig god kommunikation under hele processen.',
     textBox3:
-      'Takket være ERP-løsningen og den gode support fra ERPsupportens konsulenter så har Cabola opnået en øget effektivitet i arbejdsdagen.  Cabola medarbejderne kan selv arbejde i systemet og får rigtig god support af konsulenterne som altid er til rådighed og vejleder i systemet. De nye opdateringer der kommer, kan mærkes hos Cabola,  som er velinformeret omkring dette af ERPsupportens Konsulenter.',
+      'Gennem et stykke tid har Raudal & Moesby kunne se, at de skulle finde en anden løsning end E-conomic. Det er et fint økonomisystem, men det var efterhånden blevet for simpelt til deres brug. De havde tidligere arbejdet i Microsoft Dynamics NAV og var glade for det. Derfor blev vi enige om, at det skulle være Dynamics 365, og så havde vi samtaler med forskellige leverandører. ',
     textBox4:
-      '”Som mindre virksomhed, er det svært at skifte ERP-system uden at bruge for meget tid og ressourcer. Vi kunne derfor godt tænke os nogle erfarende udviklere og konsulenter til at skifte vores ERP system fra C5 til Dynamic 365 Business Central!',
+      '“Jeg har tidligere oplevet at udskiftningen af et ERP-system kunne være noget langhåret, men ERPgruppen har klaret projektledelsen rigtig fint.“',
+      textBox5:
+      'En stærk stigende vækst betød, at Raundahl & Moesby A/S fik brug for et bredere økonomisystem, der kunne tilpasses til virksomhedens behov og lette de administrative processer, herunder udtræk af flere detaljerede informationer. Efterhånden som virksomheden er vokset, har det affødt et behov for at udskifte økonomisystemet med et bredere virksomhedssystem. Løsningen blev Microsoft Dynamics 365, og vi har stået for hele projektforløbet.',
+      textBox6:'Det var deres forventning og håb, at de kunne finde en leverandør, som kunne forstå deres forretning og omfanget af deres behov. Det syntes de umiddelbart, at vi kunne imødekomme. Gennem vøres første møder syntes de at vi virkede som om, at vi kunne køre processen igennem på en fornuftig måde, siger Lena Brøsted, der er finanscontroller hos Raundahl & Moesby.',
+      heading:
+    'Konklusion',
       href: 'case',
     imageSrc:
-      'https://images.unsplash.com/photo-1561654791-00316c79efa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8',
+      'https://www.raundahl-moesby.dk/upload/images/Stemningsbilleder/R%20og%20M_%20188.jpg',
     imageAlt: 'Cabola',
+    imageSrc1:
+    'https://res.cloudinary.com/dckwf6med/image/upload/v1647260908/erp/Sk%C3%A6rmbillede_2022-03-14_kl._13.27.28_tktxze.png',
+  imageAlt1: 'img',
   },
 ]
