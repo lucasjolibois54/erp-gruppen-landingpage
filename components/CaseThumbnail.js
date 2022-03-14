@@ -5,42 +5,42 @@ import Link from 'next/link'
 const cases = [
   {
     id: 1,
-    category: 'Technology',
-    product: 'Mobile App',
-    name: 'Cabola ApS',
-    desc: 'Business Dynamics 365 solution',
+    category: 'Teknologi',
+    product: 'Lagerhåndtering',
+    name: '55 Grader Nord',
+    desc: 'Automatisk lagerhåndtering',
     intro:
-      'Best technology results-driven web design, production and marketing agency in Denmark',
-    href: 'case/cabola',
+      'Vi hjalp 55 Grader Nord med at håndtere 71% flere ordrer med samme kapacitet.',
+    href: 'case/55-grader-nord',
     imageSrc:
       'https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg',
-    imageAlt: 'Cabola',
+    imageAlt: '55 Grader Nord',
   },
   {
     id: 2,
-    category: 'Technology',
-    product: 'Mobile App',
+    category: 'Teknologi',
+    product: 'Business Central & PowerBi',
     name: 'Cabola ApS',
-    desc: 'Business Dynamics 365 solution',
+    desc: 'Business Dynamics 365 Løsning',
     intro:
-      'Best technology results-driven web design, production and marketing agency in Denmark',
+      'Business Dynamics gav Cabola ApS en tidsbesparelse på 20%.',
     href: 'case/cabola',
     imageSrc:
       'https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg',
-    imageAlt: 'Cabola',
+    imageAlt: 'Cabola ApS',
   },
   {
     id: 3,
-    category: 'Technology',
-    product: 'Mobile App',
-    name: 'Cabola ApS',
-    desc: 'Business Dynamics 365 solution',
+    category: 'Teknologi',
+    product: 'Business Dynamics 365',
+    name: 'Raudahl & Moesby',
+    desc: 'Business Dynamics 365 Løsning',
     intro:
-      'Best technology results-driven web design, production and marketing agency in Denmark',
-    href: 'case/cabola',
+      'Udskiftning af ERP-systemet for at forøge væksten i deres virksomhed.',
+    href: 'case/raudahl-og-moesby',
     imageSrc:
       'https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg',
-    imageAlt: 'Cabola',
+    imageAlt: 'Raudahl & Moesby',
   },
 ]
 
@@ -88,7 +88,7 @@ function Case() {
                 <Link key={props.id} href={props.href}>
                   <div className="m-5">
                     <div className="sm:flex justify-between">
-                      <h3 className="text-xs font-light uppercase text-gray-300 hover:text-red-500">
+                      <h3 className="text-xs font-light uppercase text-gray-300">
                         {props.category}
                       </h3>
                       <h3 className="text-xs font-light text-gray-300">
