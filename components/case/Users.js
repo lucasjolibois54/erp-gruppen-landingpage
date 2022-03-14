@@ -66,7 +66,7 @@ export const Raudahl = [
     textBox1:
       'Raundahl & Moesby er en vækstvirksomhed bygget på solide og erfarne kræfter i ledelsen og blandt nøglemedarbejderne. Siden virksomheden blev stiftet i sommeren 2013 har vi opnået en stærk og synlig placering i ejendomsbranchen, med en profil som en ansvarlig, engageret og konkurrencedygtig totalentreprenør og udviklingsrådgiver.',
     textBox2:
-      'ERPgruppen har også forestået oplæring af medarbejderne hos Raundahl & Moesby. Der har blandt andet været afholdt interne undervisningsdage skræddersyet til virksomheden. “En grundig gennemgang af funktionerne var vigtig for os. På undervisningsdagene fik vi en introduktion til, hvordan det fungerede, og derefter prøvede vi selv. Det kører perfekt nu, og vi har fået mulighed for at trække de informationer, som vi ønskede os fra start. Jeg synes, vi har fået et godt system, der understøtter den vækst, vi forventer fremadrettet.”',
+      'Vi indledte med en forventningsafstemning og lagde derefter, sammen med Raundahl & Moesby, en plan for omlægningen til Dynamics 365. De havde tidligere oplevet at udskiftningen af et ERP-system kunne være noget langhåret, men vi havde klaret projektledelsen rigtig fint syntes de. Der var en god praksisorienteret dialog, og jeg oplevede, at vi havde en fælles referenceramme. Der var tilknyttet en medarbejder fra vores side af med regnskabserfaring, og det fungerede godt. Vi gik alle vores processer igennem og nåede frem til, at vi langt hen ad vejen kunne klare os med en standardløsning. Selve overflytningen er gået nemt. Der er ikke noget, der er kørt skævt i forløbet, og der har været en rigtig god kommunikation under hele processen.',
     textBox3:
       'Gennem et stykke tid har Raudal & Moesby kunne se, at de skulle finde en anden løsning end E-conomic. Det er et fint økonomisystem, men det var efterhånden blevet for simpelt til deres brug. De havde tidligere arbejdet i Microsoft Dynamics NAV og var glade for det. Derfor blev vi enige om, at det skulle være Dynamics 365, og så havde vi samtaler med forskellige leverandører. ',
     textBox4:
@@ -81,7 +81,7 @@ export const Raudahl = [
       'https://www.raundahl-moesby.dk/upload/images/Stemningsbilleder/R%20og%20M_%20188.jpg',
     imageAlt: 'Cabola',
     imageSrc1:
-    'https://res.cloudinary.com/dckwf6med/image/upload/v1647259364/erp/Sk%C3%A6rmbillede_2022-03-14_kl._13.01.49_e7syly.png',
+    'https://res.cloudinary.com/dckwf6med/image/upload/v1647260908/erp/Sk%C3%A6rmbillede_2022-03-14_kl._13.27.28_tktxze.png',
   imageAlt1: 'img',
   },
 ]
