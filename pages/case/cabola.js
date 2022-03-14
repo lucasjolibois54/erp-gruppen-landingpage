@@ -34,11 +34,14 @@ export default function Case() {
             id={props.id}
             name={props.name}
             title={props.title}
+            heading={props.heading}
             textBox1={props.textBox1}
             textBox2={props.textBox2}
             textBox3={props.textBox3}
             textBox4={props.textBox4}
             textBox6={props.textBox6}
+            textBox10={props.textBox10}
+            imageSrc1={props.imageSrc1}
             href={props.href}
             imageSrc={props.imageSrc}
             imageAlt={props.imageAlt}

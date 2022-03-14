@@ -13,10 +13,17 @@ export const Cabola = [
       '”Som mindre virksomhed, er det svært at skifte ERP-system uden at bruge for meget tid og ressourcer. Vi kunne derfor godt tænke os nogle erfarende udviklere og konsulenter til at skifte vores ERP system fra C5 til Dynamic 365 Business Central!',
     textBox6:
     'Cabola er blevet inspireret til at implementere endnu flere af ERPgruppens tillægsløsninger. Sammen med ERPgrupppens udvalgte konsulenter er Cabola ved at gå igang med implementeringen af Power BI, hvilket skal hjælpe dem til at bruge deres data bedst muligt.',
+      textBox10:
+      'For Cabola har det været værdifuldt, fordi medarbejderne har opnået viden om hvordan Dynamics 365 Business Central åbner muligheder for nye implementeringer som giver en god og bred overblik over virksomheden og arbejdsdagen. Dynamics 365 Business Central gør positivt indtryk på Cabola medarbejderne.',
+    heading:
+    'En Investering',
       href: 'case',
     imageSrc:
-      'https://images.unsplash.com/photo-1561654791-00316c79efa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8',
+      'https://www.erpgruppen.dk/wp-content/uploads/2020/02/Cabola-1.jpg',
     imageAlt: 'Cabola',
+    imageSrc1:
+    'https://www.cabola.dk/fileadmin/_processed_/4/8/csm_Cover_app_forside_1bf826543d.jpg',
+  imageAlt1: 'lalaland',
   },
 ]
 
@@ -30,11 +37,15 @@ export const GraderNord = [
     textBox2:
       'Vi hjalp 55 Grader Nord med at håndtere 71% flere ordrer med samme kapacitet. Det tager under et minut at plukke en ordre, og vores fejlpluk er faldet fra 5 % til under 1 %',
     textBox3:
-      'Med den efterspørgsel ov vækst 55 Grader Nord har haft under krisen havde de behov for at sætte deres fokus andre steder i virksomheden end på lagerhåndtering samt online handel. Vi hjalp dem af denne årsag med at digitalisere samt automatisere lagerhåndteringen og hermed øge væksten med online handel',
+      'Med den efterspørgsel og vækst 55 Grader Nord har haft under Corona krisen havde de behov for at sætte deres fokus andre steder i virksomheden end på lagerhåndtering for at kunne maksimere deres online handel. Vi hjalp dem af denne årsag med at digitalisere samt automatisere lagerhåndteringen og hermed øge væksten i deres online handel',
     textBox4:
       '”Nu kan vi håndtere 71 % flere ordrer med samme kapacitet. Det tager under et minut at plukke en ordre, og vores fejlpluk er faldet fra 5 % til under 1 %',
       textBox5:
       '55 Grader Nord er en webshop, der sælger spejdergrej og udstyr til friluftsliv. Corona og nedlukning af foreningsaktiviteter har været hårdt for omsætningen på spejdergrej – til gengæld har coronaens øgede fokus på friluftsliv været en mulighed, som 55 Grader Nord er i fuld gang med at udnytte.',
+      textBox6:
+      'De havde behov for et mere sammenhængende og agilt it-setup, ikke bare en webshop. Sideløbende med at vi skiftede webshopløsning, udskiftede vi derfor også deres NAV-løsning med Dynamics 365 Business Central, fortæller Henrik. Valget af Business Central var oplagt. Udover at være et godt økonomistyringssystem, så kan Business Central integreres med Shopify webshop, og det kan også integreres med Tasklet Factory, der er et anerkendt, godt lagersystem med håndscanner.',
+      textBox7:
+      '– På webshoppen har vi hævet vores omsætning med 52 %. Og det er vel at mærke, hvis vi ser bort fra 2020, som var et atypisk år for online handel pga. coronaen. Vores konverteringsrate er steget med 11 %, og vi har haft 60 % flere transaktioner, konstaterer Henrik.',
     href: 'case',
     imageSrc:
       'https://www.erpgruppen.dk/wp-content/uploads/2021/06/55-Grader-Nord_1100x400.png',
