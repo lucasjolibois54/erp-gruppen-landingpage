@@ -1,5 +1,8 @@
 import Link from 'next/link'
 import Fade from 'react-reveal/Fade'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 
 function Hero() {
   return (
@@ -7,10 +10,10 @@ function Hero() {
       <div className="absolute top-0 -z-50 baselg:visible xxsm:invisible w-auto min-w-full max-h-full">
         <video autoPlay muted loop className="w-auto min-w-full max-h-full">
           <source
-            src="https://res.cloudinary.com/aeeux/video/upload/v1646385704/ERP%20Produktion/erp_yu5gmp.mp4" 
+            src="https://res.cloudinary.com/aeeux/video/upload/v1646385704/ERP%20Produktion/erp_yu5gmp.mp4"
             type="video/mp4"
           />
-        </video> 
+        </video>
       </div>
 
       <div className=" my-auto mx-auto xxsm:mt-6 lgbasemd:mt-20 max-w-6xl">
@@ -45,49 +48,43 @@ function Hero() {
           </Fade>
         </Link>
         <Fade bottom>
-          <div className="mt-20 bg-white 1xl:mt-60 rounded-t-xl xl:p-7 xl:pb-10 big:mt-96 mb-0">
-            <div className="flex items-center justify-center invisible h-0 lgbasemd:h-auto lgbasemd:visible lgbasemd:space-x-6 smbaselg:space-x-16 aboutlg:space-x-20 baselg:space-x-28 base2lg:space-x-36">
-              <div>
-                <p>
-                  Vores mål er at digitalisere din <br />
-                  virksomhed og få den op i skyen
-                </p>
-              </div>
-              <div>
-                <img
-                  className="h-20"
-                  src={
-                    'https://res.cloudinary.com/ds8p0huok/image/upload/v1645174538/Line_25_wdqmvc.svg'
-                  }
-                  alt="mockup"
-                />
-              </div>
-              <div className="flex">
-                <h2 className="text-6xl font-bold"> &gt;40</h2>
-                <p className="pt-1 pl-1">
-                  over 40 totale <br />
-                  klienter
-                </p>
-              </div>
-              <div className="flex">
-                <h2 className="text-6xl font-bold"> &gt;12</h2>
-                <p className="pt-1 pl-1">
-                  over 12 års <br />
-                  erfaring
-                </p>
+          <div className="mt-20 bg-white 1xl:mt-60 rounded-xl xl:p-7 xl:pb-10 big:mt-96 mb-0">
+            <div class="slider">
+              <div class="slide-track">
+                <div class="slide flex">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                </div>
               </div>
             </div>
-            <div className="flex invisible h-0 lgbasemd:h-auto lgbasemd:visible">
-              <img
-                className="h-16 w-auto pl-6"
-                src={
-                  'https://res.cloudinary.com/ds8p0huok/image/upload/v1645175524/Ellipse_92_wpnmfl.png'
-                }
-                alt="mockup"
-              />
-              <div className="flex flex-col items-center justify-center pl-2">
-                <h2 className="font-bold">Niels Bolding</h2>
-                <p>CEO, co-owner</p>
+            <div class="slider">
+              <div class="slide-track-2">
+                <div class="slide flex">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                </div>
               </div>
             </div>
           </div>
