@@ -44,6 +44,8 @@ export const GraderNord = [
       '55 Grader Nord er en webshop, der sælger spejdergrej og udstyr til friluftsliv. Corona og nedlukning af foreningsaktiviteter har været hårdt for omsætningen på spejdergrej – til gengæld har coronaens øgede fokus på friluftsliv været en mulighed, som 55 Grader Nord er i fuld gang med at udnytte.',
       textBox6:
       'De havde behov for et mere sammenhængende og agilt it-setup, ikke bare en webshop. Sideløbende med at vi skiftede webshopløsning, udskiftede vi derfor også deres NAV-løsning med Dynamics 365 Business Central, fortæller Henrik. Valget af Business Central var oplagt. Udover at være et godt økonomistyringssystem, så kan Business Central integreres med Shopify webshop, og det kan også integreres med Tasklet Factory, der er et anerkendt, godt lagersystem med håndscanner.',
+      textBox7:
+      '– På webshoppen har vi hævet vores omsætning med 52 %. Og det er vel at mærke, hvis vi ser bort fra 2020, som var et atypisk år for online handel pga. coronaen. Vores konverteringsrate er steget med 11 %, og vi har haft 60 % flere transaktioner, konstaterer Henrik.',
     href: 'case',
     imageSrc:
       'https://www.erpgruppen.dk/wp-content/uploads/2021/06/55-Grader-Nord_1100x400.png',
