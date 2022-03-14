@@ -14,14 +14,26 @@ import Image from 'next/image'
 const navRoutes = [
   {
     id: 0,
-    title: 'Home',
+    title: 'Hjem',
     path: '/',
     image: 'bMeeting2.JPG',
   },
   {
     id: 1,
-    title: 'About',
-    path: 'about',
+    title: 'Produkter',
+    path: 'produkter',
+    image: 'home.jpg',
+  },
+  {
+    id: 2,
+    title: 'Webinar',
+    path: 'webinar',
+    image: 'home.jpg',
+  },
+  {
+    id: 3,
+    title: 'Kontakt',
+    path: 'kontakt',
     image: 'home.jpg',
   },
 ]
