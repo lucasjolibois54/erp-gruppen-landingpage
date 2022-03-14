@@ -68,17 +68,20 @@ export const Raudahl = [
     textBox2:
       'ERPgruppen har også forestået oplæring af medarbejderne hos Raundahl & Moesby. Der har blandt andet været afholdt interne undervisningsdage skræddersyet til virksomheden. “En grundig gennemgang af funktionerne var vigtig for os. På undervisningsdagene fik vi en introduktion til, hvordan det fungerede, og derefter prøvede vi selv. Det kører perfekt nu, og vi har fået mulighed for at trække de informationer, som vi ønskede os fra start. Jeg synes, vi har fået et godt system, der understøtter den vækst, vi forventer fremadrettet.”',
     textBox3:
-      'Takket være ERP-løsningen og den gode support fra ERPsupportens konsulenter så har Cabola opnået en øget effektivitet i arbejdsdagen.  Cabola medarbejderne kan selv arbejde i systemet og får rigtig god support af konsulenterne som altid er til rådighed og vejleder i systemet. De nye opdateringer der kommer, kan mærkes hos Cabola,  som er velinformeret omkring dette af ERPsupportens Konsulenter.',
+      'Gennem et stykke tid har Raudal & Moesby kunne se, at de skulle finde en anden løsning end E-conomic. Det er et fint økonomisystem, men det var efterhånden blevet for simpelt til deres brug. De havde tidligere arbejdet i Microsoft Dynamics NAV og var glade for det. Derfor blev vi enige om, at det skulle være Dynamics 365, og så havde vi samtaler med forskellige leverandører. ',
     textBox4:
       '“Jeg har tidligere oplevet at udskiftningen af et ERP-system kunne være noget langhåret, men ERPgruppen har klaret projektledelsen rigtig fint.“',
-    heading:
-    'Fremtidige vækst',
+      textBox5:
+      'En stærk stigende vækst betød, at Raundahl & Moesby A/S fik brug for et bredere økonomisystem, der kunne tilpasses til virksomhedens behov og lette de administrative processer, herunder udtræk af flere detaljerede informationer. Efterhånden som virksomheden er vokset, har det affødt et behov for at udskifte økonomisystemet med et bredere virksomhedssystem. Løsningen blev Microsoft Dynamics 365, og vi har stået for hele projektforløbet.',
+      textBox6:'Det var deres forventning og håb, at de kunne finde en leverandør, som kunne forstå deres forretning og omfanget af deres behov. Det syntes de umiddelbart, at vi kunne imødekomme. Gennem vøres første møder syntes de at vi virkede som om, at vi kunne køre processen igennem på en fornuftig måde, siger Lena Brøsted, der er finanscontroller hos Raundahl & Moesby.',
+      heading:
+    'Konklusion',
       href: 'case',
     imageSrc:
       'https://www.raundahl-moesby.dk/upload/images/Stemningsbilleder/R%20og%20M_%20188.jpg',
     imageAlt: 'Cabola',
     imageSrc1:
     'https://res.cloudinary.com/dckwf6med/image/upload/v1647259364/erp/Sk%C3%A6rmbillede_2022-03-14_kl._13.01.49_e7syly.png',
-  imageAlt1: 'lalaland',
+  imageAlt1: 'img',
   },
 ]
