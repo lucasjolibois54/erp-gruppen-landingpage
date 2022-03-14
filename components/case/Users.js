@@ -35,7 +35,7 @@ export const GraderNord = [
     textBox1:
       '55 Grader Nord er en webshop, der sælger spejdergrej og udstyr til friluftsliv. Corona og nedlukning af foreningsaktiviteter har været hårdt for omsætningen på spejdergrej – til gengæld har coronaens øgede fokus på friluftsliv været en mulighed, som 55 Grader Nord er i fuld gang med at udnytte.',
     textBox2:
-      'Vi hjalp 55 Grader Nord med at håndtere 71% flere ordrer med samme kapacitet. Det tager under et minut at plukke en ordre, og vores fejlpluk er faldet fra 5 % til under 1 %',
+      'Med så stort tryk på ordrer og omsætning er driftsstabilitet alfa og omega. Med den gamle, specialudviklede løsning blev intet vedligeholdt automatisk, og det gav sig blandt andet udslag på driftsstabiliteten. Men det ser helt anderledes ud nu. Med en standardløsning som Business Central er kan de være sikre på, at de hele tiden har en opdateret, driftssikker løsning. Og hvis de har brug for at få modificeret noget i Business Central, findes der masser af moduler og plug and play-løsninger, de kan benytte sig af',
     textBox3:
       'Med den efterspørgsel og vækst 55 Grader Nord har haft under Corona krisen havde de behov for at sætte deres fokus andre steder i virksomheden end på lagerhåndtering for at kunne maksimere deres online handel. Vi hjalp dem af denne årsag med at digitalisere samt automatisere lagerhåndteringen og hermed øge væksten i deres online handel',
     textBox4:
