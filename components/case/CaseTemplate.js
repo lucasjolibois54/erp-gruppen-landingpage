@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade'
 
 function Info(props) {
   return (
-    <div key={props.id} className="grid max-w-6xl mx-auto">
+    <div key={props.id} className=" max-w-6xl mx-auto mb-20">
       <div className="group relative mt-20">
         <div className="md:flex">
           <div className="w-full min-h-80 aspect-w-1 p-5 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
