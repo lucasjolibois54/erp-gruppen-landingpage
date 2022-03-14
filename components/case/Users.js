@@ -26,18 +26,18 @@ export const GraderNord = [
     name: '55 Grader Nord',
     title: 'Dynamics 365 Business Central',
     textBox1:
-      'Cabola er en virksomhed der blev stiftet i 2004 og drives af direktør Kenneth Laursen. Kemieksperterne i Cabola tilbyder alle former for kemi; kemiske produkter, rengøringsmilder, saltprodukter og filtermaterialer. Med et stærkt team af ni medarbejdere knokler de dagligt for at sikre deres kunder den bedste løsning.',
+      '55 Grader Nord er en webshop, der sælger spejdergrej og udstyr til friluftsliv. Corona og nedlukning af foreningsaktiviteter har været hårdt for omsætningen på spejdergrej – til gengæld har coronaens øgede fokus på friluftsliv været en mulighed, som 55 Grader Nord er i fuld gang med at udnytte.',
     textBox2:
       'Vi hjalp 55 Grader Nord med at håndtere 71% flere ordrer med samme kapacitet. Det tager under et minut at plukke en ordre, og vores fejlpluk er faldet fra 5 % til under 1 %',
     textBox3:
-      'Takket være ERP-løsningen og den gode support fra ERPsupportens konsulenter så har Cabola opnået en øget effektivitet i arbejdsdagen.  Cabola medarbejderne kan selv arbejde i systemet og får rigtig god support af konsulenterne som altid er til rådighed og vejleder i systemet. De nye opdateringer der kommer, kan mærkes hos Cabola,  som er velinformeret omkring dette af ERPsupportens Konsulenter.',
+      'Med så stort tryk på ordrer og omsætning er driftsstabilitet alfa og omega. Med den gamle, specialudviklede løsning blev intet vedligeholdt automatisk, og det gav sig blandt andet udslag på driftsstabiliteten. Men det ser helt anderledes ud nu.',
     textBox4:
-      '”Som mindre virksomhed, er det svært at skifte ERP-system uden at bruge for meget tid og ressourcer. Vi kunne derfor godt tænke os nogle erfarende udviklere og konsulenter til at skifte vores ERP system fra C5 til Dynamic 365 Business Central!',
+      '”Nu kan vi håndtere 71 % flere ordrer med samme kapacitet. Det tager under et minut at plukke en ordre, og vores fejlpluk er faldet fra 5 % til under 1 %',
       textBox5:
-      '”Som mindre virksomhed, er det svært at skifte ERP-system uden at bruge for meget tid og ressourcer. Vi kunne derfor godt tænke os nogle erfarende udviklere og konsulenter til at skifte vores ERP system fra C5 til Dynamic 365 Business Central!',
+      '55 Grader Nord er en webshop, der sælger spejdergrej og udstyr til friluftsliv. Corona og nedlukning af foreningsaktiviteter har været hårdt for omsætningen på spejdergrej – til gengæld har coronaens øgede fokus på friluftsliv været en mulighed, som 55 Grader Nord er i fuld gang med at udnytte.',
     href: 'case',
     imageSrc:
-      'https://images.unsplash.com/photo-1561654791-00316c79efa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8',
+      'https://www.erpgruppen.dk/wp-content/uploads/2021/06/55-Grader-Nord_1100x400.png',
     imageAlt: 'Cabola',
   },
 ]
