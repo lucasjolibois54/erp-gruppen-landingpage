@@ -66,7 +66,7 @@ function Info(props) {
             </h3>
             <Fade>
               <h3 className="text-5xl flex font-semibold mt-20">
-                En Investering
+              <Fade bottom>{props.heading}</Fade>
               </h3>
             </Fade>
             <h3 className="mt-8 font-regular text-lg gri">
