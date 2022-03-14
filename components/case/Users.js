@@ -33,7 +33,7 @@ export const GraderNord = [
     name: '55 Grader Nord',
     title: 'Dynamics 365 Business Central',
     textBox1:
-      '55 Grader Nord er en webshop, der sælger spejdergrej og udstyr til friluftsliv. Corona og nedlukning af foreningsaktiviteter har været hårdt for omsætningen på spejdergrej – til gengæld har coronaens øgede fokus på friluftsliv været en mulighed, som 55 Grader Nord er i fuld gang med at udnytte.',
+      '55 Grader Nord er en dansk webshop, der specialisere sig i, samt sælger spejdergrej. De har især haft vækst i løbet af corona krisen og har af denne årsag behov for at digitalisere samt automatisere virksomheden da det er alt for tidskrævende når det hele foregår manuelt.',
     textBox2:
       'Med så stort tryk på ordrer og omsætning er driftsstabilitet alfa og omega. Med den gamle, specialudviklede løsning blev intet vedligeholdt automatisk, og det gav sig blandt andet udslag på driftsstabiliteten. Men det ser helt anderledes ud nu. Med en standardløsning som Business Central er kan de være sikre på, at de hele tiden har en opdateret, driftssikker løsning. Og hvis de har brug for at få modificeret noget i Business Central, findes der masser af moduler og plug and play-løsninger, de kan benytte sig af',
     textBox3:
