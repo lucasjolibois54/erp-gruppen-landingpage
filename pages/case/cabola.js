@@ -6,7 +6,7 @@ import { OpenOutline } from 'react-ionicons'
 //components
 import Navigation from '../../components/Navigation'
 import Header from '../../components/Header'
-import { Users, Cabola, Apple } from '../../components/case/Users'
+import { Cabola } from '../../components/case/Users'
 import CaseTemplate from '../../components/case/CaseTemplate'
 
 export default function Case() {
