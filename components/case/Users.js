@@ -46,6 +46,8 @@ export const GraderNord = [
       'De havde behov for et mere sammenhængende og agilt it-setup, ikke bare en webshop. Sideløbende med at vi skiftede webshopløsning, udskiftede vi derfor også deres NAV-løsning med Dynamics 365 Business Central, fortæller Henrik. Valget af Business Central var oplagt. Udover at være et godt økonomistyringssystem, så kan Business Central integreres med Shopify webshop, og det kan også integreres med Tasklet Factory, der er et anerkendt, godt lagersystem med håndscanner.',
       textBox7:
       '– På webshoppen har vi hævet vores omsætning med 52 %. Og det er vel at mærke, hvis vi ser bort fra 2020, som var et atypisk år for online handel pga. coronaen. Vores konverteringsrate er steget med 11 %, og vi har haft 60 % flere transaktioner, konstaterer Henrik.',
+      heading:
+      'Konklusion',
     href: 'case',
     imageSrc:
       'https://www.erpgruppen.dk/wp-content/uploads/2021/06/55-Grader-Nord_1100x400.png',
