@@ -30,7 +30,7 @@ export const GraderNord = [
     textBox2:
       'Vi hjalp 55 Grader Nord med at håndtere 71% flere ordrer med samme kapacitet. Det tager under et minut at plukke en ordre, og vores fejlpluk er faldet fra 5 % til under 1 %',
     textBox3:
-      'Med så stort tryk på ordrer og omsætning er driftsstabilitet alfa og omega. Med den gamle, specialudviklede løsning blev intet vedligeholdt automatisk, og det gav sig blandt andet udslag på driftsstabiliteten. Men det ser helt anderledes ud nu.',
+      'Med den efterspørgsel ov vækst 55 Grader Nord har haft under krisen havde de behov for at sætte deres fokus andre steder i virksomheden end på lagerhåndtering samt online handel. Vi hjalp dem af denne årsag med at digitalisere samt automatisere lagerhåndteringen og hermed øge væksten med online handel',
     textBox4:
       '”Nu kan vi håndtere 71 % flere ordrer med samme kapacitet. Det tager under et minut at plukke en ordre, og vores fejlpluk er faldet fra 5 % til under 1 %',
       textBox5:
@@ -39,6 +39,9 @@ export const GraderNord = [
     imageSrc:
       'https://www.erpgruppen.dk/wp-content/uploads/2021/06/55-Grader-Nord_1100x400.png',
     imageAlt: 'Cabola',
+    imageSrc1:
+    'https://www.erpgruppen.dk/wp-content/uploads/2021/06/55-Grader-Nord-Ordrehaandtering_1100x400.png',
+  imageAlt: 'lalaland',
   },
 ]
 
