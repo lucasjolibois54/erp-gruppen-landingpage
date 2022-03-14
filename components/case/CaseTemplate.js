@@ -38,9 +38,14 @@ function Info(props) {
           />
         </Fade>
         <div className="w-full aspect-w-1 aspect-h-1 overflow-hidden lg:h-full lg:aspect-none">
-        <div className="mt-20 mx-12">
+        <div className="mt-20 mx-12 text-2xl font-semi-bold">
         {props.textBox4}
         </div>
+        <div className="mt-10 mx-12">
+        <h3 className="mt-8 font-regular text-lg gri">
+              <Fade bottom>{props.textBox5}</Fade>
+            </h3>
+            </div>
           <div className="mt-20 mx-12">
             <Fade>
               <h3 className="text-5xl flex font-semibold">
