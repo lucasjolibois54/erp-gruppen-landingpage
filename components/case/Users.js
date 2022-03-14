@@ -30,7 +30,7 @@ export const GraderNord = [
     textBox2:
       'Vi hjalp 55 Grader Nord med at håndtere 71% flere ordrer med samme kapacitet. Det tager under et minut at plukke en ordre, og vores fejlpluk er faldet fra 5 % til under 1 %',
     textBox3:
-      'Med den efterspørgsel ov vækst 55 Grader Nord har haft under krisen havde de behov for at sætte deres fokus andre steder i virksomheden end på lagerhåndtering samt online handel. Vi hjalp dem af denne årsag med at digitalisere samt automatisere lagerhåndteringen og hermed øge væksten med online handel',
+      'Med den efterspørgsel og vækst 55 Grader Nord har haft under Corona krisen havde de behov for at sætte deres fokus andre steder i virksomheden end på lagerhåndtering for at kunne maksimere deres online handel. Vi hjalp dem af denne årsag med at digitalisere samt automatisere lagerhåndteringen og hermed øge væksten i deres online handel',
     textBox4:
       '”Nu kan vi håndtere 71 % flere ordrer med samme kapacitet. Det tager under et minut at plukke en ordre, og vores fejlpluk er faldet fra 5 % til under 1 %',
       textBox5:
