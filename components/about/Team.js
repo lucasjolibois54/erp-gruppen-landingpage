@@ -13,7 +13,7 @@ function OurTeam() {
       title: 'CEO',
       positions: 'Former PM for Airtable, Medium, Ghost, and Lumi.',
       path: 'colleague',
-      image: '',
+      image: 'Niels.jpg',
       linkedin: 'https://www.google.com',
     },
     {
@@ -22,7 +22,7 @@ function OurTeam() {
       title: 'Udvikler',
       positions: 'Frontend udvikler, AL programmør, UX designer.',
       path: 'colleague',
-      image: '',
+      image: 'Andreas.jpg',
       linkedin: 'https://www.linkedin.com/in/andreas-erik-eriksen/',
     },
     {
@@ -31,7 +31,7 @@ function OurTeam() {
       title: 'Udvikler',
       positions: 'Frontend udvikler, Power BI, UX designer.',
       path: 'colleague',
-      image: '',
+      image: 'Daud.jpg',
       linkedin: 'https://www.linkedin.com/in/daud-mir-314bb6220/',
     },
     {
@@ -40,7 +40,7 @@ function OurTeam() {
       title: 'Udvikler',
       positions: 'Frontend udvikler, AL programmør, UX designer.',
       path: 'colleague',
-      image: '',
+      image: 'Lucas(3).JPG',
       linkedin: 'https://www.linkedin.com/in/lucas-bendix-jolibois/',
     },
     {
@@ -49,7 +49,7 @@ function OurTeam() {
       title: 'Assistent',
       positions: 'Former PM for Airtable, Medium, Ghost, and Lumi.',
       path: 'colleague',
-      image: '',
+      image: 'Louise.jpg',
       linkedin: 'https://www.google.com',
     },
     {
@@ -58,7 +58,7 @@ function OurTeam() {
       title: 'Product Manager',
       positions: 'Former PM for Airtable, Medium, Ghost, and Lumi.',
       path: 'colleague',
-      image: '',
+      image: 'Jan.jpg',
       linkedin: 'https://www.google.com',
     },
     {
@@ -67,7 +67,7 @@ function OurTeam() {
       title: 'Analytiker',
       positions: 'Former PM for Airtable, Medium, Ghost, and Lumi.',
       path: 'colleague',
-      image: '',
+      image: 'Jørgen.jpg',
       linkedin: 'https://www.google.com',
     },
   ]
