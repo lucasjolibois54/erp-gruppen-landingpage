@@ -13,10 +13,15 @@ export const Cabola = [
       '”Som mindre virksomhed, er det svært at skifte ERP-system uden at bruge for meget tid og ressourcer. Vi kunne derfor godt tænke os nogle erfarende udviklere og konsulenter til at skifte vores ERP system fra C5 til Dynamic 365 Business Central!',
     textBox6:
     'Cabola er blevet inspireret til at implementere endnu flere af ERPgruppens tillægsløsninger. Sammen med ERPgrupppens udvalgte konsulenter er Cabola ved at gå igang med implementeringen af Power BI, hvilket skal hjælpe dem til at bruge deres data bedst muligt.',
-      href: 'case',
+      textBox10:
+      'For Cabola har det været værdifuldt, fordi medarbejderne har opnået viden om hvordan Dynamics 365 Business Central åbner muligheder for nye implementeringer som giver en god og bred overblik over virksomheden og arbejdsdagen. Dynamics 365 Business Central gør positivt indtryk på Cabola medarbejderne.',
+    href: 'case',
     imageSrc:
-      'https://images.unsplash.com/photo-1561654791-00316c79efa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8',
+      'https://www.erpgruppen.dk/wp-content/uploads/2020/02/Cabola-1.jpg',
     imageAlt: 'Cabola',
+    imageSrc1:
+    'https://www.cabola.dk/fileadmin/_processed_/4/8/csm_Cover_app_forside_1bf826543d.jpg',
+  imageAlt1: 'lalaland',
   },
 ]
 

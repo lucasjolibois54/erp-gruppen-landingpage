@@ -72,6 +72,9 @@ function Info(props) {
             <h3 className="mt-8 font-regular text-lg gri">
               <Fade bottom>{props.textBox2}</Fade>
             </h3>
+            <h3 className="mt-8 font-regular text-lg gri">
+              <Fade bottom>{props.textBox10}</Fade>
+            </h3>
           </div>
         </div>
       </div>
