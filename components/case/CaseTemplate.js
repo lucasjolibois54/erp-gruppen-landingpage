@@ -66,13 +66,6 @@ function Info(props) {
               <Fade bottom>{props.textBox6}</Fade>
             </h3>
             <Fade>
-          <img
-            className="w-full h-1/3 object-center object-cover lg:w-10/12 lg:h-1/4 mt-20"
-            src={props.imageSrc}
-            alt={props.imageAlt}
-          />
-        </Fade>
-            <Fade>
               <h3 className="text-5xl flex font-semibold mt-20">
                 En Investering
               </h3>
