@@ -26,7 +26,7 @@ export const GraderNord = [
     textBox1:
       'Cabola er en virksomhed der blev stiftet i 2004 og drives af direktør Kenneth Laursen. Kemieksperterne i Cabola tilbyder alle former for kemi; kemiske produkter, rengøringsmilder, saltprodukter og filtermaterialer. Med et stærkt team af ni medarbejdere knokler de dagligt for at sikre deres kunder den bedste løsning.',
     textBox2:
-      'Mange virksomheder udelukker muligheden for nyt ERP-system fordi det er omkostningsdyrt, men for Cabola har beslutningen være en investering fordi det er et simpelt system der nemt kan integreres med andre systemer som virksomheden dagligt bruger. Cabola har fået implementeret Nemhandel som også er et af ERP-gruppens tillægsløsninger.',
+      'Vi hjalp 55 Grader Nord med at håndtere 71% flere ordrer med samme kapacitet. Det tager under et minut at plukke en ordre, og vores fejlpluk er faldet fra 5 % til under 1 %',
     textBox3:
       'Takket være ERP-løsningen og den gode support fra ERPsupportens konsulenter så har Cabola opnået en øget effektivitet i arbejdsdagen.  Cabola medarbejderne kan selv arbejde i systemet og får rigtig god support af konsulenterne som altid er til rådighed og vejleder i systemet. De nye opdateringer der kommer, kan mærkes hos Cabola,  som er velinformeret omkring dette af ERPsupportens Konsulenter.',
     textBox4:
