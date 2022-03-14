@@ -41,33 +41,6 @@ function Info(props) {
         <div className="mt-20 mx-12">
         {props.textBox4}
         </div>
-          <div className="mx-auto justify-center lg:grid-cols-2 grid">
-            <h3 className="m-8 font-bold text-md bg-blue-50 rounded-xl p-8">
-              Strategi
-              <span className="flex font-medium text-sm mt-3 leading-tight">
-                Cabolas forretningsstrategi blev fremtidssikret med op til 17x
-                mere sandsynlighed.
-              </span>
-            </h3>
-            <h3 className="m-8 font-bold text-md bg-red-50 rounded-xl p-8">
-              User Experience
-              <span className="flex font-medium text-sm mt-3 leading-tight">
-                Hello
-              </span>
-            </h3>
-            <h3 className="m-8 font-bold text-md bg-green-50 rounded-xl p-8">
-              Produktion
-              <span className="flex font-medium text-sm mt-3 leading-tight">
-                Hello
-              </span>
-            </h3>
-            <h3 className="m-8 font-bold text-md bg-purple-50 rounded-xl p-8">
-              Platforme
-              <span className="flex font-medium text-sm mt-3 leading-tight">
-                Dynamics 365 Business Central
-              </span>
-            </h3>
-          </div>
           <div className="mt-20 mx-12">
             <Fade>
               <h3 className="text-5xl flex font-semibold">
@@ -78,7 +51,10 @@ function Info(props) {
               <Fade bottom>{props.textBox2}</Fade>
             </h3>
             <h3 className="mt-8 font-regular text-lg gri">
-              <Fade bottom>{props.textBox1}</Fade>
+              <Fade bottom>{props.textBox3}</Fade>
+            </h3>
+            <h3 className="mt-8 font-regular text-lg gri">
+              <Fade bottom>{props.textBox5}</Fade>
             </h3>
           </div>
         </div>
