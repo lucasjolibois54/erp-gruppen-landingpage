@@ -1,8 +1,5 @@
 import Link from 'next/link'
 import Fade from 'react-reveal/Fade'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-
 
 function Hero() {
   return (
