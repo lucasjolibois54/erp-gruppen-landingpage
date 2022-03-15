@@ -48,10 +48,10 @@ function Hero() {
           </Fade>
         </Link>
         <Fade bottom>
-          <div className="mt-20 bg-white 1xl:mt-60 rounded-xl xl:p-7 xl:pb-10 big:mt-96 mb-0">
-            <div class="slider">
-              <div class="slide-track">
-                <div class="slide flex">
+          <div className="mt-20 1xl:mt-60 rounded-xl xl:p-7 xl:pb-10 big:mt-96 mb-0 overflow-x-hidden w-full">
+            <div className="slider">
+              <div className="slide-track">
+                <div className="slide flex">
                   <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
                   <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
                   <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
@@ -68,9 +68,9 @@ function Hero() {
                 </div>
               </div>
             </div>
-            <div class="slider">
-              <div class="slide-track-2">
-                <div class="slide flex">
+            <div className="slider">
+              <div className="slide-track-2">
+                <div className="slide flex">
                   <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
                   <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
                   <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
