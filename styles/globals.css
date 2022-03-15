@@ -40,7 +40,7 @@ a {
   width: calc(250px * 14);
 }
 .slider .slide-track-2 {
-  animation: scroll 50s linear infinite;
+  animation: scroll 60s linear infinite;
   display: flex;
   width: calc(250px * 14);
 }
