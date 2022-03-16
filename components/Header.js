@@ -9,7 +9,7 @@ import { motion } from 'framer-motion'
 const Header = ({ setToggleMenu, toggleMenu }) => {
   return (
     <motion.div
-      className="w-full relative border-b b-4 border-white p-10 bg-white bg-opacity-50 backdrop-blur-2xl"
+      className="w-full relative p-10"
       animate={{ y: 0, opacity: 1 }}
       initial={{ y: -72, opacity: 0 }}
       transition={{
@@ -19,7 +19,7 @@ const Header = ({ setToggleMenu, toggleMenu }) => {
     >
       <motion.div className="grow mx-auto relative max-w-7xl h-full">
         <motion.div className="relative flex items-center justify-between h-0">
-          <div className="text-lg flex no-underline text-black">
+          <div className="text-lg flex no-underline text-white">
             <Link href="/">
               <Image width={250} src={ERPLogo} />
             </Link>
