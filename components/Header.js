@@ -9,7 +9,7 @@ import { motion } from 'framer-motion'
 const Header = ({ setToggleMenu, toggleMenu }) => {
   return (
     <motion.div
-      className="w-full relative z-150 border-b b-4 border-white p-10 bg-white bg-opacity-50 backdrop-blur-2xl"
+      className="w-full relative border-b b-4 border-white p-10 bg-white bg-opacity-50 backdrop-blur-2xl"
       animate={{ y: 0, opacity: 1 }}
       initial={{ y: -72, opacity: 0 }}
       transition={{
