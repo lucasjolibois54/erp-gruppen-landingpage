@@ -6,10 +6,12 @@ import {
   NavList,
   NavFooter,
   NavImage,
+  Lol,
 } from '../styles/navigationStyles'
 import Link from 'next/link'
 import { AnimatePresence, motion } from 'framer-motion'
 import Image from 'next/image'
+import ERPLogo from '/public/erp.svg'
 
 const navRoutes = [
   {
@@ -46,7 +48,7 @@ function Navigation({ toggleMenu, setToggleMenu }) {
   })
 
   return (
-    <div>
+    <div className="">
       <AnimatePresence>
         {toggleMenu && (
           <Nav
@@ -59,7 +61,37 @@ function Navigation({ toggleMenu, setToggleMenu }) {
             }}
           >
             <Container>
-              <NavHeader></NavHeader>
+              <Lol className="absolute -z-150" />
+              <NavHeader>
+                <motion.div
+                  className="w-full relative"
+                  animate={{ y: 0, opacity: 1 }}
+                  initial={{ y: -72, opacity: 0 }}
+                  transition={{
+                    duration: 1,
+                    ease: [0.6, 0.05, -0.01, 0.9],
+                  }}
+                >
+                  <motion.div className="grow mx-auto relative max-w-7xl h-full">
+                    <motion.div className="relative flex items-center justify-between h-0">
+                      <div className="text-lg flex no-underline text-black">
+                        <Link href="/">
+                          <Image width={250} src={ERPLogo} />
+                        </Link>
+                      </div>
+                      <motion.div
+                        className=""
+                        onClick={() => setToggleMenu(!toggleMenu)}
+                      >
+                        <button className="origin-center b-none p-5 outline-none">
+                          <span className="w-9 h-1 block bg-black m-2" />
+                          <span className="w-9 h-1 block bg-black m-2" />
+                        </button>
+                      </motion.div>
+                    </motion.div>
+                  </motion.div>
+                </motion.div>
+              </NavHeader>
               <NavList>
                 <ul>
                   {navRoutes.map((route) => (
