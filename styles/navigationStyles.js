@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import { motion } from "framer-motion"
+import styled from 'styled-components'
+import { motion } from 'framer-motion'
 
 export const Nav = styled(motion.div)`
   position: fixed;
@@ -8,10 +8,29 @@ export const Nav = styled(motion.div)`
   width: 100%;
   height: 100%;
   display: block;
-  background: #efefef;
   color: #000;
   z-index: 100;
   overflow: hidden;
+  background: #efefef;
+`
+
+export const Lol = styled.div`
+  position: absolute;
+  width: 3062.17px;
+  height: 1539.92px;
+  left: -866px;
+  top: -17.45px;
+
+  background: linear-gradient(
+    245.29deg,
+    #402980 13.32%,
+    #90fcf5 28.55%,
+    #fc9696 55.55%,
+    #e90000 84.12%
+  );
+  filter: blur(364px);
+  transform: rotate(-15deg);
+  opacity: 30%;
 `
 
 export const NavHeader = styled.div`
@@ -66,7 +85,7 @@ export const NavList = styled.div`
       svg {
         width: 100px;
         path {
-          fill: #3B82F6;
+          fill: #3b82f6;
         }
       }
     }
@@ -79,10 +98,10 @@ export const NavFooter = styled.div`
   width: 100%;
   padding: 56px 0px;
   p {
-    color: #3B82F6;
+    color: #3b82f6;
   }
   svg path {
-    fill: #3B82F6;
+    fill: #3b82f6;
   }
 `
 
@@ -96,25 +115,24 @@ export const NavImage = styled.div`
   width: 60%;
   background: #000;
   .reveal {
-      width: 100%;
-      background-color: whitesmoke;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
   }
   .image {
-      background: #000;
-      position: absolute;
+    background: #000;
+    position: absolute;
+    height: 100%;
+    margin: 0;
+    z-index: -1;
+    image {
       height: 100%;
-      margin: 0;
-      z-index: -1;
-      image {
-          height: 100%;
-      }
-      @media (max-width: 956px) {
-        display: none;
-      }
+    }
+    @media (max-width: 956px) {
+      display: none;
+    }
   }
-
 `
