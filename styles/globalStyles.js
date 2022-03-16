@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components"
+import styled, { css } from 'styled-components'
 
 export const Container = styled.div`
   flex-grow: 1;
@@ -7,6 +7,7 @@ export const Container = styled.div`
   position: relative;
   width: auto;
   height: 100%;
+
   @media (min-width: 1024px) {
     max-width: 960px;
   }
@@ -16,7 +17,7 @@ export const Container = styled.div`
   @media (min-width: 1408px) {
     max-width: 1244px;
   }
-  ${props =>
+  ${(props) =>
     props.fluid &&
     css`
       padding: 0;
@@ -30,22 +31,22 @@ export const Flex = styled.div`
   position: relative;
   display: flex;
   align-items: center;
-  ${props =>
+  ${(props) =>
     props.spaceBetween &&
     css`
       justify-content: space-between;
     `};
-  ${props =>
+  ${(props) =>
     props.flexEnd &&
     css`
       justify-content: flex-end;
     `};
-  ${props =>
+  ${(props) =>
     props.alignTop &&
     css`
       align-items: flex-start;
     `};
-  ${props =>
+  ${(props) =>
     props.noHeight &&
     css`
       height: 0;
@@ -67,7 +68,7 @@ export const Cursor = styled.div`
   pointer-events: none;
   z-index: 999;
   &.pointer {
-    border: 4px solid ${props => props.theme.text} !important;
+    border: 4px solid ${(props) => props.theme.text} !important;
   }
   &.hovered {
     background: transparent !important;
@@ -80,15 +81,15 @@ export const Cursor = styled.div`
     background: transparent !important;
     width: 56px;
     height: 56px;
-    border: 4px solid ${props => props.theme.text} !important;
-    top: ${props => props.theme.top} !important;
-    left: ${props => props.theme.left} !important;
+    border: 4px solid ${(props) => props.theme.text} !important;
+    top: ${(props) => props.theme.top} !important;
+    left: ${(props) => props.theme.left} !important;
   }
   &.nav-open {
-    background: ${props => props.theme.text};
+    background: ${(props) => props.theme.text};
   }
   &.nav-open,
   &.locked {
-    border: 4px solid ${props => props.theme.text} !important;
+    border: 4px solid ${(props) => props.theme.text} !important;
   }
 `
