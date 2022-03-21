@@ -11,7 +11,7 @@ function Prices() {
             <div className="my-auto mx-auto xxsm:mt-6 lgbasemd:mt-0 max-w-7xl">
                 <div id="top-about" className=" p-0 flex flex-col w-full lg:flex-row md:p-0 mb-4">
                     <div className="flex text-center flex-col w-full px-3 justify-center lg:w-5/10 lg:text-left lg:pl-10">
-                        <h2 className="text-4xl sm:text-5xl md:text-7xl 2xl:text-8xl font-bold lg:mt-0 mt-4 md:mt-0 2xl:mt-4 text-dark-text py-0">
+                        <h2 className="text-4xl sm:text-5xl md:text-7xl 2xl:text-4xl font-bold lg:mt-0 mt-4 md:mt-0 2xl:mt-4 text-dark-text py-0">
                         Priser <span className="text-4xl"> – tilkøb til Dynamics 365 Business Central</span>
                         </h2>
                         <div className="mt-10">
