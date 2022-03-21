@@ -44,6 +44,30 @@ function PowerBi() {
                     </div>
                 </div>
 
+                <div className="mx-10">
+                    <p className="leading-loose mb-10">
+                    Microsofts Power BI er et stærkt rapporteringsværktøj, 
+                    der kan hjælpe dig med at analysere dine forretningsdata. 
+                    Med Power BI kan du få et godt visuelt overblik over dine forretningsdata, 
+                    der gør det nemmere for dig og medarbejderne at træffe de rigtige beslutninger baseret på data.
+
+                    </p>
+
+                    <p className="leading-loose mb-10">
+                    Du kan nemt og enkelt lave rapporter og få dine data vist med flotte grafer og diagrammer. 
+                    Det er desuden nemt at dele interaktive datavisualiseringer med medarbejderne.
+
+
+                    </p>
+
+                    <p className="leading-loose mb-32">
+                    Power BI kan integreres med dit økonomisystem Dynamics 365 Business Central, 
+                    dit CRM-system Dynamics 365 Sales og Office 365.
+
+
+                    </p>
+                    </div>
+
             </div>
         </div>
     )
