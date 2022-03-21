@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Navigation from '../components/Navigation'
 import Header from '../components/Header'
 import { useState } from 'react'
+import Hero from '../components/webinar/Hero'
 
 export default function Produkter() {
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -21,7 +22,7 @@ export default function Produkter() {
       <main>
       <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
         <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
-        
+        <Hero/>
       </main>
     </div>
   )
