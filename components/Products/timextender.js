@@ -43,6 +43,21 @@ function TimextenderHero() {
 
                     </div>
                 </div>
+                <div className="mx-10">
+                    <p className="leading-loose mb-10">
+                    TimeXtender genererer kode og dokumentation automatisk,
+                    hvilket reducerer omkostningerne med 70%, frigør datateams fra kedelige,
+                    gentagne opgaver og giver forretningsbrugere en kodefri oplevelse til at 
+                    skabe deres egne dataprodukter.
+                    </p>
+
+                    <p className="leading-loose mb-32">
+                    Opbygning af et dataområde kræver normalt en bred vifte af værktøjer, 
+                    der ofte ikke integreres, hvilket efterlader processen for det meste manuel. 
+                    TimeXtender erstatter disse værktøjer med en integreret datastyringsplatform.
+
+                    </p>
+                    </div>
 
             </div>
         </div>
