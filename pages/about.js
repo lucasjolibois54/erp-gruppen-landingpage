@@ -1,12 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
 import { useState } from 'react'
 
 //components
 import Navigation from '../components/Navigation'
 import Header from '../components/Header'
-import Hero from "../components/Hero";
 import AboutHero from "../components/about/Hero";
 import OurTeam from "../components/about/Team";
 import OurServices from "../components/about/Services";
