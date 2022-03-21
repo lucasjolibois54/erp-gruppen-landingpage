@@ -1,4 +1,7 @@
 import Head from 'next/head'
+import TimextenderHero from '../components/Products/timextender'
+import Navigation from '../components/Navigation'
+import Header from '../components/Header'
 
 export default function Produkter() {
   return (
@@ -15,7 +18,9 @@ export default function Produkter() {
       </Head>
 
       <main>
-        <h2>Hello</h2>
+        <Navigation/>
+        <Header/>
+        <TimextenderHero/>
       </main>
     </div>
   )
