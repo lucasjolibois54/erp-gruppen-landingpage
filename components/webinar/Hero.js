@@ -12,7 +12,7 @@ function Hero() {
                     <h1 className='text-4xl sm:text-5xl md:text-7xl 2xl:text-8xl font-bold mt-10'>
                         Gratis webinar
                     </h1>
-                    <p className='max-w-5xl mx-auto text-base md:text-lg mt-7 font-light'>Tag på gratis webinar og bliv klogere på mulighederne med Microsoft Dynamics 365 løsninger.
+                    <p className='max-w-5xl mx-auto text-base md:text-lg mt-7 font-light pl-7 pr-7 '>Tag på gratis webinar og bliv klogere på mulighederne med Microsoft Dynamics 365 løsninger.
                         Du kan få en grundlæggende introduktion til forretningsløsningerne Dynamics 365 Business Central, D365 Ejendom eller Dynamics 365 Sales.
                     </p>
                     </div>
