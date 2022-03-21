@@ -23,7 +23,7 @@ function Tabs() {
                         <Tab.Panels>
                             <Tab.Panel> <div className='text-center mt-28'>
 
-                                <img className="max-w-6xl xxsm:h-auto w-5/6 my-auto mt-20 md:mt-10 2xl:mt-16 mb-0 mx-auto"
+                                <img className="max-w-6xl xxsm:h-auto w-5/6 my-auto mt-20 md:mt-16 2xl:mt-16 md:mb-28 mx-auto"
                                     src={
                                         " https://res.cloudinary.com/dckwf6med/image/upload/v1647863695/erp/businesscentral-banner_f4tpqk.webp"
                                     } alt="Banner" />
@@ -37,7 +37,7 @@ function Tabs() {
                                                 < h2 data-aos="fade-up" className=" text-2xl pb-1 font-semibold text-about-webinar-h md:text-5xl md:text-left">Webinar læring af Microsoft Business Central</h2>
 
                                             </div>
-                                            <div className="w-full  pt-0 pb-20 pr-0 text-center w-100% lg:pl-10 md:w-7/12 lg:w-5/12 lg:ml-0 md:ml-10">
+                                            <div className="w-full  pt-0 md:pb-20 pr-0 text-center w-100% lg:pl-10 md:w-7/12 lg:w-5/12 lg:ml-0 md:ml-10">
                                                 < h2 data-aos="fade-up" className=" text-2xl pb-1 font-semibold text-about-webinar-h mb-2  md:text-3xl md:text-left"><span className='text-about-webinar-p text-xl'>01</span> Hvem er det til</h2>
                                                 <h2 data-aos="fade-up" className="  text-sm text-about-webinar-p font-light md:text-left md:leading-1 md:text-lg">
                                                     Er du på jagt efter et økonomisystem, der kan gøre det nemmere for dig at håndtere din økonomi- og forretningsstyring? Og vil du gerne vide mere om muligheder med økonomisystemet Microsoft Dynamics 365 Business Central?
