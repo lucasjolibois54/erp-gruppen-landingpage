@@ -44,6 +44,32 @@ function BusinessCentralHero() {
                     </div>
                 </div>
 
+                <div className="mx-10">
+                    <p className="leading-loose mb-10">
+                    Dynamics 365 Business Central er en all-in-one forretningsstyringsløsning til små og mellemstore virksomheder, 
+                    hvor du kan samle flere forretningsområder i ét samlet system. 
+                    Det er nemt at bruge og tilpasse, uden at du skal bekymre dig om dyre specialtilretninger.
+
+
+                    </p>
+
+                    <p className="leading-loose mb-10">
+                    Du får adgang til Vidensportalen. Her kan du finde online træningsmaterialer, 
+                    du kan bruge 24/7. Deltag i webinarer, se how-to-videoer eller læs brugervejledninger.
+
+
+
+                    </p>
+
+                    <p className="leading-loose mb-32">
+                    Uanset om du er nybegynder eller erfaren bruger, 
+                    kan du få uddannelse og inspiration til, 
+                    hvordan du arbejder i og udnytter de gode muligheder i Dynamics 365. 
+                    Du kan samtidigt få billig support med i pakken.
+
+
+                    </p>
+                    </div>
             </div>
         </div>
     )
