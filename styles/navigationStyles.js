@@ -14,25 +14,6 @@ export const Nav = styled(motion.div)`
   background: #efefef;
 `
 
-export const Lol = styled.div`
-  position: absolute;
-  width: 3062.17px;
-  height: 1539.92px;
-  left: -866px;
-  top: -17.45px;
-
-  background: linear-gradient(
-    245.29deg,
-    #402980 13.32%,
-    #90fcf5 28.55%,
-    #fc9696 55.55%,
-    #e90000 84.12%
-  );
-  filter: blur(364px);
-  transform: rotate(-15deg);
-  opacity: 30%;
-`
-
 export const NavHeader = styled.div`
   top: 72px;
   position: relative;
