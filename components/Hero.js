@@ -6,7 +6,7 @@ function Hero() {
     <div>
       <div className="my-auto mx-auto xxsm:mt-6 lgbasemd:mt-20 max-w-6xl">
         <div className="">
-          <div className="absolute baselg:visible xxsm:invisible">
+          <div className="absolute baselg:block xxsm:hidden">
             <video autoPlay muted loop className="-z-40 border-t-16 border-l-16 border-gray-100 relative object-none object-right-bottom float-right w-1/2 h-screen rounded-l-xl">
               <source
                 src="https://res.cloudinary.com/dckwf6med/video/upload/v1646318247/erp/C0047_zrfbbe.mp4"

@@ -5,7 +5,7 @@ function Hero() {
         <div>
             <div className="my-auto mx-auto xxsm:mt-6 lgbasemd:mt-20 max-w-6xl mb-96">
                 <div className="">
-                    <div className="baselg:visible xxsm:invisible">
+                    <div className="baselg:block xxsm:hidden">
                         <Fade>
                             <img
                                 className="-z-40 relative object-none object-right-bottom float-right w-1/2 h-auto p-14"
