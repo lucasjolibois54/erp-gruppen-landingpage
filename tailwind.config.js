@@ -21,6 +21,8 @@ module.exports = {
         line: '#F6F6F6',
         // text
         'text-gray': '#8A8A8A',
+        //logo bg
+        'logos-bg':'#EEEEEE'
       },
       screens: {
         xxsm: '220px',
