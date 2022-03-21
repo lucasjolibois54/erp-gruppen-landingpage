@@ -21,6 +21,7 @@ module.exports = {
         line: '#F6F6F6',
         // text
         'text-gray': '#8A8A8A',
+        'gray-two':'#505875',
         //logo bg
         'logos-bg':'#EEEEEE',
         //timexdender

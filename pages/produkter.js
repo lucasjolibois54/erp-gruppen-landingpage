@@ -4,7 +4,7 @@ import BusinessCentralHero from '../components/Products/BusinessCentralHero'
 import Navigation from '../components/Navigation'
 import Header from '../components/Header'
 import { useState } from 'react'
-import PowerBi from '../components/Products/PowerBi'
+import PowerBi from '../components/Products/PowerBI'
 import Prices from '../components/Products/Prices'
 
 export default function Produkter() {
