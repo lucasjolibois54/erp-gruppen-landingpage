@@ -22,7 +22,11 @@ module.exports = {
         // text
         'text-gray': '#8A8A8A',
         //logo bg
-        'logos-bg':'#EEEEEE'
+        'logos-bg':'#EEEEEE',
+        //timexdender
+        'tx-text':'#F0C057',
+        'tx-bg':'#FFF5DF',
+        'text-light-gray':'#5F5F5F'
       },
       screens: {
         xxsm: '220px',
