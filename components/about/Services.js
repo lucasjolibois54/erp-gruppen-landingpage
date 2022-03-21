@@ -58,7 +58,7 @@ function OurServices() {
         <div className="p-2 shadow rounded">
         <h2 className="font-semibold basemd:text-2xl xxsm:text-3xl mt-16"><Fade>Produktion</Fade></h2>
           <p className="mt-6">
-          <Fade>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </Fade>
+          <Fade>Produktion er fremstilling af et produkt gennem en eller flere processer med henblik på salg. </Fade>
           </p>
         </div>
       </div>

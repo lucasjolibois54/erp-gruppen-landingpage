@@ -31,8 +31,20 @@ module.exports = {
         line: '#F6F6F6',
         // text
         'text-gray': '#8A8A8A',
+        'gray-two':'#505875',
         //logo bg
-        'logos-bg':'#EEEEEE'
+        'logos-bg':'#EEEEEE',
+        //timexdender
+        'tx-text':'#F0C057',
+        'tx-bg':'#FFF5DF',
+        'text-light-gray':'#5F5F5F',
+        //BC
+        'tx-text-bc':'#92B0FE',
+        'tx-bg-bc':'#DEE7FF',
+        //BI
+        'tx-text-bi':'#D8FFEC',
+        'tx-bg-bi':'#72C89E',
+
       },
       screens: {
         xxsm: '220px',

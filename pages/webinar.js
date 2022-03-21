@@ -1,11 +1,9 @@
 import Head from 'next/head'
-import TimextenderHero from '../components/Products/timextender'
-import BusinessCentralHero from '../components/Products/BusinessCentralHero'
 import Navigation from '../components/Navigation'
 import Header from '../components/Header'
 import { useState } from 'react'
-import PowerBi from '../components/Products/PowerBI'
-import Prices from '../components/Products/Prices'
+import Hero from '../components/webinar/Hero'
+import Tabs from '../components/webinar/tabs'
 
 export default function Produkter() {
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -25,10 +23,8 @@ export default function Produkter() {
       <main>
       <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
         <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
-        <TimextenderHero/>
-        <PowerBi/>
-        <BusinessCentralHero/>
-        <Prices />
+        <Hero/>
+        <Tabs/>
       </main>
     </div>
   )
