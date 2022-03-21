@@ -2,8 +2,10 @@ import Head from 'next/head'
 import TimextenderHero from '../components/Products/timextender'
 import Navigation from '../components/Navigation'
 import Header from '../components/Header'
+import { useState } from 'react'
 
 export default function Produkter() {
+  const [toggleMenu, setToggleMenu] = useState(false)
   return (
     <div>
       <Head>
@@ -18,8 +20,8 @@ export default function Produkter() {
       </Head>
 
       <main>
-        <Navigation/>
-        <Header/>
+      <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
+        <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
         <TimextenderHero/>
       </main>
     </div>
