@@ -1,36 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import { useState } from 'react'
-import { BC, TX, Brands } from '../components/tags/Brands'
 
-//components
-import Hero from '../components/Hero'
-import Navigation from '../components/Navigation'
-import Header from '../components/Header'
-import Technologies from '../components/Technologies'
-import CaseThumbnail from '../components/CaseThumbnail'
-import Footer from '../components/Footer'
-import TagTemplate from '../components/tags/TagTemplate'
-
-export default function Produkter(props) {
-  const [toggleMenu, setToggleMenu] = useState(false)
-
-  const [list, setList] = useState([])
-  const [name, setName] = useState('')
-
-  function handleAdd() {
-    const newList = list.concat({ name, id: uuidv4() })
-
-    setList(newList)
-
-    setName(props.price)
-  }
-
-  function handleChange(event) {
-    setName(event.target.value)
-  }
-
+export default function Produkter() {
   return (
     <div>
       <Head>
@@ -45,21 +15,7 @@ export default function Produkter(props) {
       </Head>
 
       <main>
-        <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
-        <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
-        {Brands.map((props) => {
-          return (
-            <TagTemplate
-              key={props.id}
-              id={props.id}
-              name={props.name}
-              price={props.price}
-              onAdd={handleAdd}
-              onChange={handleChange}
-            />
-          )
-        })}
-        <Footer />
+        <h2>Hello</h2>
       </main>
     </div>
   )
