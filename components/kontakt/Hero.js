@@ -22,13 +22,13 @@ function Hero() {
                         }}
                         className=" flex relative flex align-center items-center"
                     >
-                        <h1 className="md:text-4xl lg:text-3xl xl:text-5xl font-normal">
+                        <h1 className="text-lg md:text-4xl lg:text-3xl xl:text-5xl font-normal">
                         → Lad os opgradere din virksomhed 
                             <span className="text-blue-500"> sammen!</span>
                         </h1>
                     </motion.div>
                     <form className="mt-6">
-                        <div className="flex justify-between gap-3">
+                        <div className=" md:flex justify-between gap-3">
                             <span className="w-1/2">
                                 <label for="firstname" className="block text-xs font-semibold text-gray-600 uppercase">Fornavn</label>
                                 <input id="firstname" type="text" name="firstname" placeholder="Dit Navn" autocomplete="given-name" className="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
