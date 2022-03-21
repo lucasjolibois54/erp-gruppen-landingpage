@@ -44,6 +44,9 @@ module.exports = {
         //BI
         'tx-text-bi':'#D8FFEC',
         'tx-bg-bi':'#72C89E',
+        //Webinar
+        'about-webinar-p':'#AAB1B8',
+        'about-webinar-h':'#252F53',
 
       },
       screens: {
