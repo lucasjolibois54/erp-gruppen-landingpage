@@ -59,6 +59,7 @@ function Case() {
               className="border-2 p-2 md:p-10 border-gray-200 border-t border-r border-b border-l hover:border-blue-500 rounded-xl overflow-hidden hover:bg-blue-50 transition-all ease-in-out"
             >
               <Link key={props.id} href={props.href}>
+                <div>
                 <div className="justify-between flex text-gray-300">
                   <h3>
                     {props.category}
@@ -102,7 +103,7 @@ function Case() {
                     </svg>
                   </span>
                 </motion.div>
-
+                </div>
               </Link>
             </motion.li>
           ))}
