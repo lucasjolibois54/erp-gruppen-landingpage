@@ -6,7 +6,6 @@ import {
   NavList,
   NavFooter,
   NavImage,
-  Lol,
 } from '../styles/navigationStyles'
 import Link from 'next/link'
 import { AnimatePresence, motion } from 'framer-motion'
@@ -17,7 +16,7 @@ const navRoutes = [
   {
     id: 0,
     title: 'Hjem',
-    path: '/',
+    path: '/nav/',
     image: 'bMeeting2.JPG',
   },
   {
@@ -61,7 +60,6 @@ function Navigation({ toggleMenu, setToggleMenu }) {
             }}
           >
             <Container>
-              <Lol className="absolute -z-150" />
               <NavHeader>
                 <motion.div
                   className="w-full relative"
