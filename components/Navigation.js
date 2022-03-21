@@ -16,7 +16,7 @@ const navRoutes = [
   {
     id: 0,
     title: 'Hjem',
-    path: '/nav/',
+    path: '/',
     image: 'bMeeting2.JPG',
   },
   {
