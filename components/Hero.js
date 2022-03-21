@@ -45,7 +45,7 @@ function Hero() {
           </Fade>
         </Link>
         <Fade bottom>
-          <div className="mt-20 1xl:mt-60 rounded-xl xl:p-7 xl:pb-10 big:mt-96 mb-0 overflow-x-hidden w-full">
+          <div className="mt-20 1xl:mt-60 rounded-xl xl:p-7 xl:pb-10 big:mt-96 mb-0 overflow-x-hidden w-full bg-logos-bg">
             <div className="slider">
               <div className="slide-track">
                 <div className="slide flex">
