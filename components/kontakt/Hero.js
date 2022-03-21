@@ -5,31 +5,31 @@ function Hero() {
         <div>
             <div className="grid min-h-screen place-items-center">
                 <div className="w-11/12 p-12 bg-white sm:w-8/12 md:w-1/2 lg:w-5/12">
-            <motion.div
-                initial={{ x: 0 }}
-                whileHover={{
-                    x: 10,
-                    transition: {
-                        duration: 0.4,
-                        ease: [0.6, 0.05, -0.01, 0.9],
-                    },
-                }}
-                className="mt-5 flex relative flex align-center items-center"
-            >
-                <span className="mx-2">
-                    <svg
-                        className="w-12"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 101 57"
+                    <motion.div
+                        initial={{ x: 0 }}
+                        whileHover={{
+                            x: 10,
+                            transition: {
+                                duration: 0.4,
+                                ease: [0.6, 0.05, -0.01, 0.9],
+                            },
+                        }}
+                        className="mt-5 flex relative flex align-center items-center"
                     >
-                        <path
-                            d="M33 34H0V24h81.429L66 7.884 73.548 0l19.877 20.763.027-.029L101 28.618 73.829 57l-7.548-7.884L80.753 34H33z"
-                            fill="#000"
-                            fillRule="evenodd"
-                        ></path>
-                    </svg>
-                </span>
-            </motion.div>
+                        <span className="mx-2">
+                            <svg
+                                className="w-12"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 101 57"
+                            >
+                                <path
+                                    d="M33 34H0V24h81.429L66 7.884 73.548 0l19.877 20.763.027-.029L101 28.618 73.829 57l-7.548-7.884L80.753 34H33z"
+                                    fill="#000"
+                                    fillRule="evenodd"
+                                ></path>
+                            </svg>
+                        </span>
+                    </motion.div>
                     <h1 className="text-xl font-semibold">Hello there 👋, <span className="font-normal">please fill in your information to continue</span></h1>
                     <form className="mt-6">
                         <div className="flex justify-between gap-3">
