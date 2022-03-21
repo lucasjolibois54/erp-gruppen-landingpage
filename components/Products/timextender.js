@@ -12,7 +12,7 @@ function TimextenderHero() {
                 <div id="top-about" className=" p-0 flex flex-col w-full lg:flex-row md:p-0 mb-4">
                     <div className="flex text-center flex-col w-full px-3 justify-center lg:w-5/10 lg:text-left lg:pl-10">
                         <p className='mb-5'><span className='bg-tx-bg text-tx-text pl-3 pr-3 pt-2 pb-2 rounded-lg'>Data Varehus</span></p>
-                        <h2 className="text-4xl sm:text-5xl md:text-7xl 2xl:text-8xl font-bold lg:mt-0 mt-4 md:mt-0 2xl:mt-4 text-dark-text py-0">
+                        <h2 className="text-4xl sm:text-5xl md:text-7xl 2xl:text-7xl font-bold lg:mt-0 mt-4 md:mt-0 2xl:mt-4 text-dark-text py-0">
                             <Fade top>TimeXtender <span />er dit data hus </Fade>
                         </h2>
                         <p className="text-base md:text-lg px-5 text-dark-text py-5 md:px-24 lg:pl-0 lg:pr-20 max-w-md text-text-light-gray">
