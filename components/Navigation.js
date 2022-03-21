@@ -33,6 +33,12 @@ const navRoutes = [
   },
   {
     id: 3,
+    title: 'Om os',
+    path: 'om-os',
+    image: 'home.jpg',
+  },
+  {
+    id: 4,
     title: 'Kontakt',
     path: 'kontakt',
     image: 'home.jpg',
