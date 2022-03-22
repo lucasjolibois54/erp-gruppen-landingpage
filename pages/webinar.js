@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import { useState } from 'react'
 import Hero from '../components/webinar/Hero'
 import Tabs from '../components/webinar/tabs'
+import Footer from '../components/Footer'
 
 export default function Produkter() {
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -25,6 +26,7 @@ export default function Produkter() {
         <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
         <Hero/>
         <Tabs/>
+        <Footer/>
       </main>
     </div>
   )
