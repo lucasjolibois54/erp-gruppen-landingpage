@@ -6,6 +6,7 @@ import Header from '../components/Header'
 import { useState } from 'react'
 import PowerBi from '../components/Products/PowerBI'
 import Prices from '../components/Products/Prices'
+import Footer from '../components/Footer'
 
 export default function Produkter() {
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -29,6 +30,7 @@ export default function Produkter() {
         <PowerBi/>
         <BusinessCentralHero/>
         <Prices />
+        <Footer/>
       </main>
     </div>
   )
