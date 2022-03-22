@@ -45,6 +45,7 @@ function Hero() {
         </Link>
         </div>
         <Fade bottom>
+          <div className="2xl:pt-16">
           <div className="mt-20 rounded-xl overflow-x-hidden p-10 bg-white">
             <div className="slider">
               <div className="slide-track">
@@ -84,6 +85,7 @@ function Hero() {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </Fade>
       </div>
