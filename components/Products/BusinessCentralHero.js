@@ -33,7 +33,7 @@ function BusinessCentralHero() {
                     <div className="w-full  xl:w-5/6">
                         <Fade>
                             <img
-                                className="xxsm:h-auto xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto mt-20 md:mt-10 2xl:mt-16 mb-20 mx-auto"
+                                className="xxsm:h-auto xxsm:px-10 xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto mt-20 md:mt-10 2xl:mt-16 mb-20 mx-auto"
                                 src={
                                     "https://res.cloudinary.com/dckwf6med/image/upload/v1647857468/erp/BusinessCentralP_xjrjuq.webp"
                                 }
