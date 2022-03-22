@@ -13,6 +13,9 @@ function Tabs() {
                             console.log('Changed selected tab to:', index)
                         }}
                     >
+                        <div className="text-center mb-2">
+                            <h2 className="text-lg sm:text-xl md:text-xl 2xl:text-2xl font-bold text-gray-two">Hvilket webinar ledte du efter?</h2>
+                            </div>
                         <Tab.List>
                             <div className='text-center xs:space-x-0 sm:space-x-5 space-y-5'>
                                 <Tab><div className='max-w-xs border-2 pr-8 pl-8 pt-4 pb-4 rounded-lg hover:border-blue-500 hover:bg-blue-50 transition-all ease-in-out'><h2 className='text-left text-2xl font-bold text-gray-two'>Business central</h2> <p className='text-left text-sm text-gray-two'>Find et BC webinar og få et indbliki økonomi og forretningsstyring</p></div></Tab>
