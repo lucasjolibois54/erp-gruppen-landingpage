@@ -27,22 +27,22 @@ function Hero() {
                             <span className="text-blue-500"> sammen!</span>
                         </h1>
                     </motion.div>
-                    <form className="mt-6">
+                    <form className="mt-12">
                         <div className=" md:flex justify-between gap-3">
                             <span className="w-1/2">
-                                <label htmlFor="firstname" className="block text-xs font-semibold text-gray-600 uppercase">Fornavn</label>
-                                <input id="firstname" type="text" name="firstname" placeholder="Dit Navn" autoComplete="given-name" className="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
+                                <label htmlFor="firstname" className="block text-xs font-medium text-gray-600 uppercase">Fornavn</label>
+                                <input id="firstname" type="text" name="firstname" placeholder="Dit Navn" autoComplete="given-name" className="block w-full p-3 mt-2 text-gray-700 border-2 border-gray-200 rounded-lg appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
                             </span>
                             <span className="w-1/2">
-                                <label htmlFor="lastname" className="block text-xs font-semibold text-gray-600 uppercase">Efternavn</label>
-                                <input id="lastname" type="text" name="lastname" placeholder="Dit Efternavn" autoComplete="family-name" className="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
+                                <label htmlFor="lastname" className="block text-xs font-medium text-gray-600 uppercase">Efternavn</label>
+                                <input id="lastname" type="text" name="lastname" placeholder="Dit Efternavn" autoComplete="family-name" className="block w-full p-3 mt-2 text-gray-700 border-2 border-gray-200 rounded-lg appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
                             </span>
                         </div>
-                        <label htmlFor="email" className="block mt-2 text-xs font-semibold text-gray-600 uppercase">E-mail</label>
-                        <input id="email" type="email" name="email" placeholder="eksempel@virksomhed.dk" autoComplete="email" className="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
-                        <label htmlFor="textarea" className="block mt-2 text-xs font-semibold text-gray-600 uppercase">Hvordan kan vi hjælpe dig?</label>
-                        <textarea id="textarea" type="text" name="textarea" placeholder="Fortæl os en smule om dit projekt..." autoComplete="comment" className="block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
-                        <button type="submit" className="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
+                        <label htmlFor="email" className="block mt-8 text-xs font-medium text-gray-600 uppercase">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="eksempel@virksomhed.dk" autoComplete="email" className="block w-full p-3 mt-2 text-gray-700 border-2 border-gray-200 rounded-lg appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
+                        <label htmlFor="textarea" className="block mt-8 text-xs font-medium text-gray-600 uppercase">Hvordan kan vi hjælpe dig?</label>
+                        <textarea id="textarea" type="text" name="textarea" placeholder="Fortæl os en smule om dit projekt..." autoComplete="comment" className="block w-full p-5 mt-2 text-gray-700 border-2 border-gray-200 rounded-lg appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
+                        <button type="submit" className="rounded-md w-full py-3 mt-8 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
                             Send Besked
                         </button>
                     </form>
