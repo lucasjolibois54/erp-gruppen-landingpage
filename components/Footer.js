@@ -26,8 +26,10 @@ function Footer() {
             <a className="my-3 block" href="/#">ERP Supporten <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" href="/#">mail@erpgruppen.dk <span className="text-teal-600 text-xs p-1"></span></a> <a className="my-3 block" href="/#">+45 78 79 40 40 <span className="text-teal-600 text-xs p-1"></span></a>
           </div>
         </div>
-        <div className="bg-gray-100 w-full" >
-          <p classNameName=" bg-gray-100 w-full text-right p-3 mb-5">© 2008-2022 ERPGruppen A/S</p></div>
+        
+        <div className="bg-gray-100 w-full" ><div className="float-right bg-gray-100">
+          <p classNameName=" bg-gray-100 w-full inline-block text-right p-3 mb-5">© 2008-2022 ERPGruppen A/S</p></div>
+      </div>
       </div>
     </div>
 
