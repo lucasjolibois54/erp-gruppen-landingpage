@@ -1,5 +1,3 @@
-import Fade from 'react-reveal/Fade'
-
 import { Tab } from '@headlessui/react'
 
 function Tabs() {
