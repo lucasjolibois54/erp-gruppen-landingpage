@@ -47,7 +47,7 @@ const cases = [
 function Case() {
   return (
     <div>
-      <div className="pt-20">
+      <div className="pt-20 max-w-6xl">
       <div className="mx-1 md:mx-24">
         <motion.ul
           className="grid grid-cols-1 lg:grid-cols-2 gap-10"
