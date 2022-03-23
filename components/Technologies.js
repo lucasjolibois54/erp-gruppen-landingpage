@@ -94,7 +94,7 @@ function Technologies() {
         </div>
       </div>
       <div className="border-b border-2 border-line mx-auto max-w-7xl w-5/6" />
-      <h2 className="font-bold text-center mt-20 text-4xl">Tilmed Nyhedsbrevet</h2>
+      <h2 className="font-bold text-center mt-20 text-3xl md:text-4xl">Tilmed Nyhedsbrevet</h2>
       <p className="text-base md:text-lg px-5 text-dark-text py-5 -mt-3 text-center  text-text-light-gray ">Få de nyeste opdateringer på IT & ERP løsninger</p>
       <div className=" mt-6 text-center flex items-center justify-center">
 
@@ -106,7 +106,7 @@ function Technologies() {
 
 
           <div class="bg-light-blue rounded-lg">
-            <div class="flex flex-wrap md:flex-row">
+            <div class=" flex-wrap md:flex-row">
               <input
                 id="email" type="email" name="email"
                 class="
@@ -121,8 +121,9 @@ function Technologies() {
                 duration-500
                 ease-in-out
                 transform
-                w-7/12
-                xl:w-9/12
+                w-full
+                md:w-7/12
+                xl:w-6/12
                 bg-gray-200
                 hover:bg-gray-300
                 h-12
@@ -132,8 +133,9 @@ function Technologies() {
               <button
                 class="
                 w-full
+                md:w-7/12
                 m-1
-                p-2
+                p-3
                 pl-6
                 pr-6
                 text-sm
