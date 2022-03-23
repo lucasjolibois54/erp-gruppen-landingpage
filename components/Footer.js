@@ -26,7 +26,7 @@ function Footer() {
                 src={
                   " https://res.cloudinary.com/dckwf6med/image/upload/v1648038442/erp/linkedin_uchkyv.svg"
                 } alt="Banner" /><span className="text-teal-600 text-xs p-1"></span></a> </div></Link>
-                  <Link href="https://www.linkedin.com/company/erpgruppen-a-s/?originalSubdomain=dk">
+                  <Link href="https://www.youtube.com/channel/UCAc4QgHWRWE6rNAFDENl76w">
               <div>
               <a className="my-3 block" >
                 <img className=""
