@@ -115,7 +115,7 @@ function Technologies() {
                 appearance-none
                 rounded-md
                 text-gray-500 text-sm
-                focus:outline-none
+                focus:outline-blue-500
                 border-none
                 w-7/12
                 xl:w-9/12
