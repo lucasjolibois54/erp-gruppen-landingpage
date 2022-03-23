@@ -53,6 +53,9 @@ export const NavList = styled.div`
       height: 96px;
       line-height: 96px;
       overflow: hidden;
+      @media (max-width: 420px) {
+        font-size: 2.8rem;
+      }
       .link {
         color: black;
         position: relative;
