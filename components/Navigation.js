@@ -87,7 +87,7 @@ function Navigation({ toggleMenu, setToggleMenu }) {
                         className=""
                         onClick={() => setToggleMenu(!toggleMenu)}
                       >
-                        <button className="origin-center b-none p-5 outline-none">
+                        <button className="origin-center b-none outline-none">
                           <span className="w-9 h-1 block bg-black m-2" />
                           <span className="w-9 h-1 block bg-black m-2" />
                         </button>
@@ -148,7 +148,7 @@ function Navigation({ toggleMenu, setToggleMenu }) {
                 </ul>
               </NavList>
               <NavFooter>
-                <div className="m-10 md:m-0 md:space-x-8 space-y-5 md:space-y-0 font-medium text-black text-lg md:flex">
+                <div className="font-medium text-black text-lg lg:block hidden float-right lg:flex space-x-10">
                   <div className="">
                     <a href="mailto:">mail@erpgruppen.dk</a>
                   </div>
