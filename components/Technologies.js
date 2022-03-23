@@ -117,9 +117,14 @@ function Technologies() {
                 text-gray-500 text-sm
                 focus:outline-blue-500
                 border-none
+                transition
+                duration-500
+                ease-in-out
+                transform
                 w-7/12
                 xl:w-9/12
                 bg-gray-200
+                hover:bg-gray-300
                 h-12
               "
                 placeholder="Indtast din e-mail..."
