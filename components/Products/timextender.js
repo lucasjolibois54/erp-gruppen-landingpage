@@ -14,10 +14,10 @@ function TimextenderHero() {
                     <div className="flex text-center flex-col w-full px-3 justify-center lg:w-5/10 lg:text-left lg:pl-10">
                         <p className='mb-5'><span className='bg-tx-bg text-tx-text pl-3 pr-3 pt-2 pb-2 rounded-lg'>Data Varehus</span></p>
                         <h2 className="text-4xl sm:text-5xl md:text-7xl 2xl:text-7xl font-bold lg:mt-0 mt-4 md:mt-0 2xl:mt-4 text-dark-text py-0">
-                            <Fade top>TimeXtender <span />er dit data hus </Fade>
+                            TimeXtender <span />er dit data hus
                         </h2>
                         <p className="text-base md:text-lg px-5 text-dark-text py-5 md:px-24 lg:pl-0 lg:pr-20 max-w-md text-text-light-gray">
-                            <Fade> Automatiser processen med at bygge data lakes, warehouses og marts.</Fade>
+                            Automatiser processen med at bygge data lakes, warehouses og marts.
 
                         </p>
                         <div className="flex justify-center text-center items-center py-0 lg:justify-start">
@@ -34,7 +34,6 @@ function TimextenderHero() {
                         </div>
                     </div>
                     <div className="w-full  xl:w-5/6">
-                        <Fade>
                             <img
                                 className="xxsm:h-auto xxsm:px-10 xsm:h-auto mdsm:h-auto mdsm:h-auto basemd:h-auto baselg:h-auto w-auto my-auto mt-20 md:mt-10 2xl:mt-16 mb-20 mx-auto"
                                 src={
@@ -42,7 +41,6 @@ function TimextenderHero() {
                                 }
                                 alt="mockup"
                             />
-                        </Fade>
 
                     </div>
                 </div>
