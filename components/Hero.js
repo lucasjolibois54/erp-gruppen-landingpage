@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Fade from 'react-reveal/Fade'
 import Image from 'next/image'
 
 const a = [
@@ -96,40 +95,40 @@ function Hero() {
             </video>
           </div>
           <div className="flex text-7xl baselg:text-black xxsm:text-4xl xxsm:ml-10 xxsm:max-w-xs xxsm:pr-9 xsm:text-5xl sbasesm:max-w-sm sbasesm:text-6xl sbasesm:mr-20 baselg:text-7xl baselg:mr-20 baselg:max-w-md base2lg:text-7xl base2lg:max-w-3xl font-bold">
-            <Fade>
+            
               <h2 className="leading-snug">
                 Konsulenter <br /> i gulvhøjde <br />
                 <span className="text-blue-500">IT i skyen.</span>
               </h2>
-            </Fade>
+            
           </div>
           <div className="text-xl xxsm:ml-10 max-w-md xxsm:pr-8 xxsm:text-sm mt-5">
             <p className='leading-loose text-gray-500'>
-              <Fade>
+              
                 Når du laver et samarbejde med ERPgruppen, nøjes vi ikke med at implementere dit nye forretningssystem – vi sørger også for den nødvendige træning og support, hele vejen indtil du er kommet sikkert i mål.
-              </Fade>
+              
             </p>
           </div>
           <Link href="/kontakt">
           <a>
-            <Fade>
+            
               <button className="bg-blue-500 mt-8 xxsm:ml-10 text-white rounded-xl ourservice:px-10 ourservice:py-4 xxsm:px-4 xxsm:py-2 xsm:px-6 xsm:py-3 hover:bg-blue-700  transition duration-500 ease-in-out transform hover:scale-110">
                 Få en quote <span className="ml-6 xxsm:ml-2">➜</span>
               </button>
-            </Fade>
+            
           </a>
           </Link>
         <Link href="/om-os">
           <a>
-          <Fade>
+          
             <button className="xsm:ml-10 baselg:text-black xxsm:ml-3 underline transition duration-500 ease-in-out transform hover:scale-110">
               Læs mere!
             </button>
-          </Fade>
+          
           </a>
         </Link>
         </div>
-        <Fade bottom>
+        
           <div className="2xl:pt-16">
             <div className="mt-20 rounded-xl overflow-x-hidden p-10 bg-white">
               <div className="slider">
@@ -162,7 +161,7 @@ function Hero() {
               </div>              
             </div>
           </div>
-        </Fade>
+        
       </div>
     </div>
   )
