@@ -40,7 +40,7 @@ function Footer() {
           </div>
           <div className="p-5">
             <div className="text-sm uppercase text-black font-bold">Support</div>
-            <a className="my-3 block" >ERP Supporten <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" >mail@erpgruppen.dk <span className="text-teal-600 text-xs p-1"></span></a> <a className="my-3 block" >+45 78 79 40 40 <span className="text-teal-600 text-xs p-1"></span></a>
+            <a className="my-3 block" >ERP Supporten <span className="text-teal-600 text-xs p-1"></span></a><a href="mailto:mail@erpgruppen.dk" className="my-3 block" >mail@erpgruppen.dk <span className="text-teal-600 text-xs p-1"></span></a> <a href="tel:004578794040" className="my-3 block" >+45 78 79 40 40 <span className="text-teal-600 text-xs p-1"></span></a>
           </div>
         </div>
 
