@@ -46,7 +46,7 @@ const cases = [
 
 function Case() {
   return (
-    <div>
+    <div className='bg-white'>
       <div className="pt-20 max-w-7xl mx-auto">
       <div className="mx-1 md:mx-24 bg-white">
         <motion.ul
