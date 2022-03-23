@@ -46,9 +46,9 @@ const cases = [
 
 function Case() {
   return (
-    <div>
-      <div className="pt-20">
-      <div className="mx-1 md:mx-24">
+    <div className='bg-white'>
+      <div className="pt-20 max-w-7xl mx-auto">
+      <div className="mx-1 md:mx-24 bg-white">
         <motion.ul
           className="grid grid-cols-1 lg:grid-cols-2 gap-10"
           initial="hidden"
@@ -57,11 +57,11 @@ function Case() {
           {cases.map((props) => (
             <motion.li
               key={props.id}
-              className="border-2 p-2 md:p-10 border-gray-200 border-t border-r border-b border-l hover:border-blue-500 rounded-xl overflow-hidden hover:bg-blue-50 transition-all ease-in-out"
+              className="border-2 p-2 md:p-10 mx-2 border-gray-200 border-t border-r border-b border-l hover:border-blue-500 rounded-xl overflow-hidden hover:bg-blue-50 transition-all ease-in-out"
             >
               <Link key={props.id} href={props.href}>
                 <div>
-                <div className="justify-between flex text-gray-300">
+                <div className="justify-between flex xxsm:text-xs ourservice:text-md base2lg:text-xl text-gray-300">
                   <h3>
                     {props.category}
                   </h3>
@@ -69,7 +69,7 @@ function Case() {
                     {props.product}
                   </h3>
                 </div>
-                <h2 className="text-5xl font-medium mt-5">
+                <h2 className="ourservice:text-4xl basemd:text-5xl xxsm:text-2xl font-medium mt-5">
                   {props.name}
                 </h2>
                 <p className="text-blue-500 mt-2">

@@ -23,25 +23,25 @@ const navRoutes = [
     id: 1,
     title: 'Produkter',
     path: 'produkter',
-    image: 'home.jpg',
+    image: 'headway-5QgIuuBxKwM-unsplash(1).webp',
   },
   {
     id: 2,
     title: 'Webinar',
     path: 'webinar',
-    image: 'home.jpg',
+    image: 'malte-helmhold-Vy2Y1cCLiT8-unsplash(1).webp',
   },
   {
     id: 3,
     title: 'Om os',
     path: 'om-os',
-    image: 'home.jpg',
+    image: 'cherrydeck-PH8Ccgq3mvk-unsplash(1).webp',
   },
   {
     id: 4,
     title: 'Kontakt',
     path: 'kontakt',
-    image: 'home.jpg',
+    image: 'tyler-franta-iusJ25iYu1c-unsplash(1).webp',
   },
 ]
 

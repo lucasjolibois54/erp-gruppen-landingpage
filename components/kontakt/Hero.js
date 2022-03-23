@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import ModalKontakt from '../modals/ModalKontakt'
 
 function Hero() {
     return (
@@ -22,30 +23,30 @@ function Hero() {
                         }}
                         className=" flex relative flex align-center items-center"
                     >
-                        <h1 className="text-lg md:text-4xl lg:text-3xl xl:text-5xl font-normal">
+                        <h1 className="text-lg md:text-4xl lg:text-3xl xl:text-5xl 2xl:text-6xl font-normal">
                         → Lad os opgradere din virksomhed 
                             <span className="text-blue-500"> sammen!</span>
                         </h1>
                     </motion.div>
-                    <form className="mt-12">
+                    <div className="mt-12 2xl:mr-20">
+                        <form>
                         <div className=" md:flex justify-between gap-3">
                             <span className="w-1/2">
                                 <label htmlFor="firstname" className="block text-xs font-medium text-gray-600 uppercase">Fornavn</label>
-                                <input id="firstname" type="text" name="firstname" placeholder="Dit Navn" autoComplete="given-name" className="block w-full p-3 mt-2 text-gray-700 border-2 border-gray-200 rounded-lg appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
+                                <input id="firstname" type="text" name="firstname" placeholder="Dit Navn" autoComplete="given-name" className="block w-full p-3 mt-2 text-gray-700 border-2 border-gray-200 rounded-lg appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner"/>
                             </span>
                             <span className="w-1/2">
                                 <label htmlFor="lastname" className="block text-xs font-medium text-gray-600 uppercase">Efternavn</label>
-                                <input id="lastname" type="text" name="lastname" placeholder="Dit Efternavn" autoComplete="family-name" className="block w-full p-3 mt-2 text-gray-700 border-2 border-gray-200 rounded-lg appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
+                                <input id="lastname" type="text" name="lastname" placeholder="Dit Efternavn" autoComplete="family-name" className="block w-full p-3 mt-2 text-gray-700 border-2 border-gray-200 rounded-lg appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner"/>
                             </span>
                         </div>
                         <label htmlFor="email" className="block mt-8 text-xs font-medium text-gray-600 uppercase">E-mail</label>
-                        <input id="email" type="email" name="email" placeholder="eksempel@virksomhed.dk" autoComplete="email" className="block w-full p-3 mt-2 text-gray-700 border-2 border-gray-200 rounded-lg appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
+                        <input id="email" type="email" name="email" placeholder="eksempel@virksomhed.dk" autoComplete="email" className="block w-full p-3 mt-2 text-gray-700 border-2 border-gray-200 rounded-lg appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner"/>
                         <label htmlFor="textarea" className="block mt-8 text-xs font-medium text-gray-600 uppercase">Hvordan kan vi hjælpe dig?</label>
-                        <textarea id="textarea" type="text" name="textarea" placeholder="Fortæl os en smule om dit projekt..." autoComplete="comment" className="block w-full p-5 mt-2 text-gray-700 border-2 border-gray-200 rounded-lg appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner" required />
-                        <button type="submit" className="rounded-md w-full py-3 mt-8 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
-                            Send Besked
-                        </button>
-                    </form>
+                        <textarea id="textarea" type="text" name="textarea" placeholder="Fortæl os en smule om dit projekt..." autoComplete="comment" className="block w-full p-5 mt-2 text-gray-700 border-2 border-gray-200 rounded-lg appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner"/>
+                        </form>
+                        <ModalKontakt />
+                    </div>
                 </div>
             </div>
         </div>

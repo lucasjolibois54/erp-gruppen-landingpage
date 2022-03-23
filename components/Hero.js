@@ -88,7 +88,7 @@ function Hero() {
       <div className="my-auto mx-auto xxsm:mt-6 lgbasemd:mt-20 max-w-6xl">
         <div className="">
           <div className="absolute baselg:block xxsm:hidden">
-            <video autoPlay muted loop className="-z-40 border-t-16 border-l-16 border-gray-100 relative object-none object-right-bottom float-right w-1/2 h-screen rounded-l-xl">
+            <video autoPlay muted loop className="-z-40 border-t-16 border-l-16 border-gray-100 relative object-none object-right-bottom float-right w-1/2 h-screen big:h-fit rounded-l-xl">
               <source
                 src="https://res.cloudinary.com/dckwf6med/video/upload/v1646318247/erp/C0047_zrfbbe.mp4"
                 type="video/mp4"
@@ -110,21 +110,24 @@ function Hero() {
               </Fade>
             </p>
           </div>
-          <a href="#footer">
+          <Link href="/kontakt">
+          <a>
             <Fade>
-              <button className="bg-blue-500 mt-8 xxsm:ml-10 text-white rounded-xl ourservice:px-10 ourservice:py-4 xxsm:px-4 xxsm:py-2 xxsm:px-4 xsm:px-6 xsm:py-3 hover:bg-blue-600  transition duration-500 ease-in-out transform hover:scale-110">
+              <button className="bg-blue-500 mt-8 xxsm:ml-10 text-white rounded-xl ourservice:px-10 ourservice:py-4 xxsm:px-4 xxsm:py-2 xsm:px-6 xsm:py-3 hover:bg-blue-700  transition duration-500 ease-in-out transform hover:scale-110">
                 Få en quote <span className="ml-6 xxsm:ml-2">➜</span>
               </button>
             </Fade>
           </a>
-          <Link href="/about">
-            <Fade>
-              <button className="xsm:ml-10 baselg:text-black xxsm:ml-3 underline transition duration-500 ease-in-out transform hover:scale-110">
-                Læs mere!
-              </button>
-
-            </Fade>
           </Link>
+        <Link href="/om-os">
+          <a>
+          <Fade>
+            <button className="xsm:ml-10 baselg:text-black xxsm:ml-3 underline transition duration-500 ease-in-out transform hover:scale-110">
+              Læs mere!
+            </button>
+          </Fade>
+          </a>
+        </Link>
         </div>
         <Fade bottom>
           <div className="2xl:pt-16">

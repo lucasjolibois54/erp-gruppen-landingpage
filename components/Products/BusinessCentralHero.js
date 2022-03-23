@@ -1,4 +1,5 @@
 import Fade from 'react-reveal/Fade'
+import Link from 'next/link'
 
 function BusinessCentralHero() {
     return (
@@ -20,11 +21,13 @@ function BusinessCentralHero() {
 
                         </p>
                         <div className="flex justify-center text-center items-center py-0 lg:justify-start">
-                            <a href="#about" >
+                        <Link href="/kontakt">
+                            <a>
                                 <button className="bg-black text-white rounded-xl ourservice:px-7 ourservice:py-3 xxsm:px-4 xxsm:py-2 xxsm:px-4 xsm:px-4 xsm:py-3 hover:bg-gray-800  transition duration-500 ease-in-out transform hover:scale-110">
                                     Kom i gang
                                 </button>
                             </a>
+                            </Link>
 
 
 
