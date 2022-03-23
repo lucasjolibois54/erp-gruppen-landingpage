@@ -31,8 +31,9 @@ a {
     transform: translateX(0);
  }
   100% {
-    transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 6));
  }
+
 }
 .slider .slide-track {
   animation: scroll 40s linear infinite;

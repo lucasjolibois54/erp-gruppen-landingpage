@@ -1,5 +1,86 @@
 import Link from 'next/link'
 import Fade from 'react-reveal/Fade'
+import Image from 'next/image'
+
+const a = [
+  {
+    id: 1,
+    name: 'Privacy Policy',
+    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png',
+    alt: 'image',
+  },
+  {
+    id: 2,
+    name: 'Privacy Policy',
+    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png',
+    alt: 'image',
+  },
+  {
+    id: 3,
+    name: 'Privacy Policy',
+    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png',
+    alt: 'image',
+  },
+  {
+    id: 4,
+    name: 'Privacy Policy',
+    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png',
+    alt: 'image',
+  },
+  {
+    id: 5,
+    name: 'Privacy Policy',
+    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png',
+    alt: 'image',
+  },
+  {
+    id: 6,
+    name: 'Privacy Policy',
+    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png',
+    alt: 'image',
+  },
+]
+
+const b = [
+  {
+    id: 1,
+    name: 'Privacy Policy',
+    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png',
+    alt: 'image',
+  },
+  {
+    id: 2,
+    name: 'Privacy Policy',
+    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png',
+    alt: 'image',
+  },
+  {
+    id: 3,
+    name: 'Privacy Policy',
+    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png',
+    alt: 'image',
+  },
+  {
+    id: 4,
+    name: 'Privacy Policy',
+    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png',
+    alt: 'image',
+  },
+  {
+    id: 5,
+    name: 'Privacy Policy',
+    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png',
+    alt: 'image',
+  },
+  {
+    id: 6,
+    name: 'Privacy Policy',
+    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png',
+    alt: 'image',
+  },
+]
+
+const n = 2;
 
 function Hero() {
   return (
@@ -23,16 +104,16 @@ function Hero() {
             </Fade>
           </div>
           <div className="text-xl xxsm:ml-10 max-w-md xxsm:pr-8 xxsm:text-sm mt-5">
-          <p className='leading-loose text-gray-500'>
-            <Fade>
-              Når du laver et samarbejde med ERPgruppen, nøjes vi ikke med at implementere dit nye forretningssystem – vi sørger også for den nødvendige træning og support, hele vejen indtil du er kommet sikkert i mål.
-            </Fade>
-          </p>
+            <p className='leading-loose text-gray-500'>
+              <Fade>
+                Når du laver et samarbejde med ERPgruppen, nøjes vi ikke med at implementere dit nye forretningssystem – vi sørger også for den nødvendige træning og support, hele vejen indtil du er kommet sikkert i mål.
+              </Fade>
+            </p>
           </div>
           <Link href="/kontakt">
           <a>
             <Fade>
-              <button className="bg-blue-500 mt-8 xxsm:ml-10 text-white rounded-xl ourservice:px-10 ourservice:py-4 xxsm:px-4 xxsm:py-2 xxsm:px-4 xsm:px-6 xsm:py-3 hover:bg-blue-600  transition duration-500 ease-in-out transform hover:scale-110">
+              <button className="bg-blue-500 mt-8 xxsm:ml-10 text-white rounded-xl ourservice:px-10 ourservice:py-4 xxsm:px-4 xxsm:py-2 xsm:px-6 xsm:py-3 hover:bg-blue-700  transition duration-500 ease-in-out transform hover:scale-110">
                 Få en quote <span className="ml-6 xxsm:ml-2">➜</span>
               </button>
             </Fade>
@@ -50,46 +131,36 @@ function Hero() {
         </div>
         <Fade bottom>
           <div className="2xl:pt-16">
-          <div className="mt-20 rounded-xl overflow-x-hidden p-10 bg-white">
-            <div className="slider">
-              <div className="slide-track">
-                <div className="slide flex">
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+            <div className="mt-20 rounded-xl overflow-x-hidden p-10 bg-white">
+              <div className="slider">
+                <div className="slide-track">
+                  <div className="slide flex">
+                    {[...Array(n)].map(() => {
+                      return (
+                        a.map((props) => {
+                          return (
+                            <img className="" key={props.id} src={props.image} height="100" width="250" alt="" />
+                          )
+                        })
+                      )
+                    })}
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="slider">
-              <div className="slide-track-2">
-                <div className="slide flex">
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
-                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                <div className="slide-track-2">
+                  <div className="slide flex">
+                  {[...Array(n)].map(() => {
+                      return (
+                        b.map((props) => {
+                          return (
+                            <img className="" key={props.id} src={props.image} height="100" width="250" alt="" />
+                          )
+                        })
+                      )
+                    })}
+                  </div>
                 </div>
-              </div>
+              </div>              
             </div>
-          </div>
           </div>
         </Fade>
       </div>
