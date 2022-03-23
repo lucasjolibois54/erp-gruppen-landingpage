@@ -22,12 +22,12 @@ function Hero() {
                         }}
                         className=" flex relative flex align-center items-center"
                     >
-                        <h1 className="text-lg md:text-4xl lg:text-3xl xl:text-5xl font-normal">
+                        <h1 className="text-lg md:text-4xl lg:text-3xl xl:text-5xl 2xl:text-6xl font-normal">
                         → Lad os opgradere din virksomhed 
                             <span className="text-blue-500"> sammen!</span>
                         </h1>
                     </motion.div>
-                    <form className="mt-12">
+                    <form className="mt-12 2xl:mr-20">
                         <div className=" md:flex justify-between gap-3">
                             <span className="w-1/2">
                                 <label htmlFor="firstname" className="block text-xs font-medium text-gray-600 uppercase">Fornavn</label>
