@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components'
 export const Container = styled.div`
   flex-grow: 1;
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 10px;
   position: relative;
   width: auto;
   height: 100%;
