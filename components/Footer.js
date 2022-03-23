@@ -10,7 +10,7 @@ function Footer() {
             <div className="text-sm uppercase text-black font-bold">ERPGruppen</div>
             <a className="my-3 block" >Essen 9 <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" >6000 Kolding <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" >CVR 30 82 49 46</a>
             <div className="flex">
-              <Link href="/">
+              <Link href="https://www.facebook.com/ERPgruppen">
               <div>
               <a className="my-3 block pr-4" >
               <img className=""
@@ -19,7 +19,7 @@ function Footer() {
               } alt="Banner" /> <span className="text-teal-600 text-xs p-1"></span></a> 
               </div>
               </Link>
-              <Link href="/">
+              <Link href="https://www.linkedin.com/company/erpgruppen-a-s/?originalSubdomain=dk">
               <div>
               <a className="my-3 block" >
                 <img className=""
