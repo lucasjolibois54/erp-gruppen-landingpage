@@ -8,7 +8,9 @@ function Footer() {
 
           <div className="p-5">
             <div className="text-sm uppercase text-black font-bold">ERPGruppen</div>
-            <a className="my-3 block" >Essen 9 <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" >6000 Kolding <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" >CVR 30 82 49 46</a>
+            <a href="https://www.google.com/maps/place/Essen+9,+6000+Kolding/@55.4625063,9.4837698,17z/data=!3m1!4b1!4m5!3m4!1s0x464ca1c1f91cf95f:0x15e08cfeae6f4ece!8m2!3d55.4625033!4d9.4859585" className="my-3 block" >Essen 9 <span className="text-teal-600 text-xs p-1"></span></a>
+            <a href="https://www.google.com/maps/place/Essen+9,+6000+Kolding/@55.4625063,9.4837698,17z/data=!3m1!4b1!4m5!3m4!1s0x464ca1c1f91cf95f:0x15e08cfeae6f4ece!8m2!3d55.4625033!4d9.4859585" className="my-3 block" >6000 Kolding <span className="text-teal-600 text-xs p-1"></span></a>
+            <a className="my-3 block" >CVR 30 82 49 46</a>
             <div className="flex">
               <Link href="https://www.facebook.com/ERPgruppen">
               <div>
