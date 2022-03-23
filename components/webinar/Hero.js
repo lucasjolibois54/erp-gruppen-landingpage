@@ -1,5 +1,3 @@
-import Fade from 'react-reveal/Fade'
-
 function Hero() {
     return (
 

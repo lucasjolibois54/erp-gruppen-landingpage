@@ -150,7 +150,7 @@ function Navigation({ toggleMenu, setToggleMenu }) {
               <NavFooter>
                 <div className="font-medium text-black text-lg lg:block hidden float-right lg:flex space-x-10">
                   <div className="">
-                    <a href="mailto:">mail@erpgruppen.dk</a>
+                    <a href="mailto:mail@erpgruppen.dk">mail@erpgruppen.dk</a>
                   </div>
                   <div className="">
                     <a href="tel:004578794040">+45 78 79 40 40</a>
