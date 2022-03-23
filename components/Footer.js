@@ -28,7 +28,7 @@ function Footer() {
         </div>
         
         <div className="bg-gray-100 w-full" ><div className="float-right bg-gray-100 w-full text-right pr-10 pb-5 mb-6">
-          <p classNameName=" bg-gray-100 w-full inline-block text-right p-3 mb-5">© 2008-2022 ERPGruppen A/S</p></div>
+          <p className=" bg-gray-100 w-full inline-block text-right p-3 mb-5">© 2008-2022 ERPGruppen A/S</p></div>
       </div>
       </div>
     </div>
