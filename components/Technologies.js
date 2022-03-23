@@ -108,7 +108,7 @@ function Technologies() {
           <div class="bg-light-blue rounded-lg">
             <div class="flex flex-wrap md:flex-row">
               <input
-                type="email"
+                id="email" type="email" name="email"
                 class="
                 m-1
                 p-2
@@ -141,7 +141,6 @@ function Technologies() {
                 duration-500
                 ease-in-out
                 transform
-                hover:scale-105
                 text-white
                 hover:bg-blue-700
                 
