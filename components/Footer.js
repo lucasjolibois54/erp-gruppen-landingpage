@@ -12,19 +12,26 @@ function Footer() {
             <div className="flex">
               <Link href="https://www.facebook.com/ERPgruppen">
               <div>
-              <a className="my-3 block pr-4" >
+              <a className="my-3 block pr-3" >
               <img className=""
               src={
-                " https://res.cloudinary.com/dckwf6med/image/upload/v1647947332/erp/Vector_hrsdpc.svg"
+                " https://res.cloudinary.com/dckwf6med/image/upload/v1648038073/erp/facebook_zpmzto.svg"
               } alt="Banner" /> <span className="text-teal-600 text-xs p-1"></span></a> 
               </div>
               </Link>
               <Link href="https://www.linkedin.com/company/erpgruppen-a-s/?originalSubdomain=dk">
               <div>
+              <a className="my-3 block pr-3" >
+                <img className=""
+                src={
+                  " https://res.cloudinary.com/dckwf6med/image/upload/v1648038442/erp/linkedin_uchkyv.svg"
+                } alt="Banner" /><span className="text-teal-600 text-xs p-1"></span></a> </div></Link>
+                  <Link href="https://www.linkedin.com/company/erpgruppen-a-s/?originalSubdomain=dk">
+              <div>
               <a className="my-3 block" >
                 <img className=""
                 src={
-                  " https://res.cloudinary.com/dckwf6med/image/upload/v1647947332/erp/Vector-1_bm1dl1.svg"
+                  " https://res.cloudinary.com/dckwf6med/image/upload/v1648038381/erp/youtube_1_etb2h7.svg"
                 } alt="Banner" /><span className="text-teal-600 text-xs p-1"></span></a> </div></Link></div> 
           </div>
           <div className="p-5">
