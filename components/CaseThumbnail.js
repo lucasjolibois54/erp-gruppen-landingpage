@@ -48,7 +48,7 @@ function Case() {
   return (
     <div>
       <div className="pt-20 max-w-7xl mx-auto">
-      <div className="mx-1 md:mx-24">
+      <div className="mx-1 md:mx-24 bg-white">
         <motion.ul
           className="grid grid-cols-1 lg:grid-cols-2 gap-10"
           initial="hidden"
