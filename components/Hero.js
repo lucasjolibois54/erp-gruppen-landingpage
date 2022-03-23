@@ -29,19 +29,23 @@ function Hero() {
             </Fade>
           </p>
           </div>
-          <a href="#footer">
+          <Link href="/kontakt">
+          <a>
             <Fade>
               <button className="bg-blue-500 mt-8 xxsm:ml-10 text-white rounded-xl ourservice:px-10 ourservice:py-4 xxsm:px-4 xxsm:py-2 xxsm:px-4 xsm:px-6 xsm:py-3 hover:bg-blue-600  transition duration-500 ease-in-out transform hover:scale-110">
                 Få en quote <span className="ml-6 xxsm:ml-2">➜</span>
               </button>
             </Fade>
           </a>
-        <Link href="/about">
+          </Link>
+        <Link href="/om-os">
+          <a>
           <Fade>
             <button className="xsm:ml-10 baselg:text-black xxsm:ml-3 underline transition duration-500 ease-in-out transform hover:scale-110">
               Læs mere!
             </button>
           </Fade>
+          </a>
         </Link>
         </div>
         <Fade bottom>
