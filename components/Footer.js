@@ -36,7 +36,21 @@ function Footer() {
           </div>
           <div className="p-5">
             <div className="text-sm uppercase text-black font-bold">ERPGruppen</div>
-            <a className="my-3 block" >Hjem <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" >Produkter <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" >Webinar <span className="text-teal-600 text-xs p-1"></span></a><a className="my-3 block" >Om os <span className="text-teal-600 text-xs p-1"></span></a> <a className="my-3 block" >Kontakt <span className="text-teal-600 text-xs p-1"></span></a>
+            <Link href="/">
+            <a className="my-3 block" >Hjem <span className="text-teal-600 text-xs p-1"></span></a>
+            </Link>
+            <Link Link href="/produkter">
+            <a className="my-3 block" >Produkter <span className="text-teal-600 text-xs p-1"></span></a>
+            </Link>
+            <Link Link href="/webinar">
+            <a className="my-3 block" >Webinar <span className="text-teal-600 text-xs p-1"></span></a>
+            </Link>
+            <Link Link href="/om-os">
+            <a className="my-3 block" >Om os <span className="text-teal-600 text-xs p-1"></span></a> 
+            </Link>
+            <Link Link href="/kontakt">
+            <a className="my-3 block" >Kontakt <span className="text-teal-600 text-xs p-1"></span></a>
+            </Link>
           </div>
           <div className="p-5">
             <div className="text-sm uppercase text-black font-bold">Support</div>
