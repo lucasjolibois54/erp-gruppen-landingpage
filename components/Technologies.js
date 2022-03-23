@@ -105,11 +105,11 @@ function Technologies() {
 
 
 
-          <div class="bg-light-blue rounded-lg">
-            <div class=" flex-wrap md:flex-row">
+          <div className="bg-light-blue rounded-lg">
+            <div className=" flex-wrap md:flex-row">
               <input
                 id="email" type="email" name="email"
-                class="
+                className="
                 m-1
                 p-2
                 appearance-none
@@ -131,7 +131,7 @@ function Technologies() {
                 placeholder="Indtast din e-mail..."
               />
               <button
-                class="
+                className="
                 w-full
                 md:w-7/12
                 m-1
