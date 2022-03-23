@@ -6,7 +6,7 @@ function Technologies() {
           <h1 className="text-center max-w-6xl font-semibold mx-auto pt-40 xxsm:text-xl basemd:text-5xl ssm:text-4xl">
             Certificeret og erfarende konsulenter
           </h1>
-          <p className="text-center max-w-6xl mx-auto max-w-xl pt-8 pb-10 xxsm:text-md px-5 ssm:text-xl ssm:leading-relaxed">
+          <p className="text-center md:max-w-6xl mx-auto max-w-xl pt-8 pb-10 xxsm:text-md px-5 ssm:text-xl ssm:leading-relaxed">
             Vi er et velerfarende og certificeret team med en lang række forskellige
             kompetencer indenfor industrien og vi er fremtidens førende erp virksomhed
             i Danmark. Vores kerne teknologier er TimeXtender, Business Central og Power BI,
