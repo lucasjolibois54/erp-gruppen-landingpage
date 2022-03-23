@@ -156,7 +156,7 @@ function Navigation({ toggleMenu, setToggleMenu }) {
                     <a href="tel:004578794040">+45 78 79 40 40</a>
                   </div>
                   <div className="">
-                    <a>© 2022-2022 ERP Gruppen, A/S</a>
+                    <a>© 2008-2022 ERP Gruppen, A/S</a>
                   </div>
                 </div>
               </NavFooter>
