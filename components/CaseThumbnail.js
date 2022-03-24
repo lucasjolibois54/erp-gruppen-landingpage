@@ -57,7 +57,7 @@ function Case() {
           {cases.map((props) => (
             <motion.li
               key={props.id}
-              className="border-2 p-2 md:p-10 mx-2 border-gray-200 border-t border-r border-b border-l hover:border-blue-500 rounded-xl overflow-hidden hover:bg-blue-50 transition-all ease-in-out"
+              className="border-2 p-2 md:p-10 mx-2 border-gray-200 border-t border-r border-b border-l hover:border-blue-500 transition duration-500 ease-in-out transform rounded-xl overflow-hidden hover:bg-blue-50 "
             >
               <Link key={props.id} href={props.href}>
                 <div>
