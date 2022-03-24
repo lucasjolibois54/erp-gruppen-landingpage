@@ -1,8 +1,11 @@
 //Components
 import Modal from '../modals/Modal'
+import Footer from '../Footer'
 
 function Info(props) {
   return (
+    <div>
+      
     <div key={props.id} className=" max-w-6xl mx-auto mb-20">
       <div className="group relative mt-20">
         <div className="md:flex">
@@ -80,6 +83,8 @@ function Info(props) {
           </div>
         </div>
       </div>
+      </div>
+      <Footer/>
     </div>
   )
 }
