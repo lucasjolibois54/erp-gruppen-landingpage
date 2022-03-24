@@ -11,7 +11,13 @@ function Info(props) {
               <h3 className="text-5xl flex font-semibold">
                 {props.name}
               </h3>
-              <Modal />
+          <Modal
+            key={props.id}
+            id={props.id}
+            name={props.name}
+            title={props.title}
+            redirect={props.redirect}
+          />
             </div>
             <span
               className="text-gray-300 w-96 mt-5 text-4xl font-regular flex"
