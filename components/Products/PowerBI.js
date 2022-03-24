@@ -16,7 +16,8 @@ function PowerBi() {
                             Få overblik med<span />Business Central 
                         </h2>
                         <p className="text-base md:text-lg px-5 text-dark-text py-5 md:px-24 lg:pl-0 lg:pr-20 max-w-md text-text-light-gray">
-                             Project, Operations, Reporting, Supply Chain, Sales & Service, Financial.
+                        Med Power Platform kan du analysere data, opbygge løsninger og automatisere processer.
+
 
                         </p>
                         <div className="flex justify-center text-center items-center py-0 lg:justify-start">
