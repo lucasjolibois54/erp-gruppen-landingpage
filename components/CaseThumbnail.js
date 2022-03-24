@@ -89,7 +89,7 @@ function Case() {
                   }}
                   className="mt-5 flex relative flex align-center items-center"
                 >
-                  View Case Study
+                  Se Reference
                   <span className="mx-2">
                     <svg
                       className="w-4"
