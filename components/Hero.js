@@ -5,37 +5,37 @@ const a = [
   {
     id: 1,
     name: 'Privacy Policy',
-    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png',
+    image: 'https://res.cloudinary.com/dbqqgbkds/image/upload/v1648048108/erpgruppen/lessor_sf1z7o.svg',
     alt: 'image',
   },
   {
     id: 2,
     name: 'Privacy Policy',
-    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png',
+    image: '',
     alt: 'image',
   },
   {
     id: 3,
     name: 'Privacy Policy',
-    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png',
+    image: 'https://res.cloudinary.com/dbqqgbkds/image/upload/v1648048108/erpgruppen/taskletfactory_w6nqbl.svg',
     alt: 'image',
   },
   {
     id: 4,
     name: 'Privacy Policy',
-    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png',
+    image: '',
     alt: 'image',
   },
   {
     id: 5,
     name: 'Privacy Policy',
-    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png',
+    image: 'https://res.cloudinary.com/dbqqgbkds/image/upload/v1648048109/erpgruppen/continia_qvtkvz.svg',
     alt: 'image',
   },
   {
     id: 6,
     name: 'Privacy Policy',
-    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png',
+    image: 'https://res.cloudinary.com/dbqqgbkds/image/upload/v1648048108/erpgruppen/office365_t0hj5m.svg',
     alt: 'image',
   },
 ]
@@ -44,37 +44,37 @@ const b = [
   {
     id: 1,
     name: 'Privacy Policy',
-    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png',
+    image: '',
     alt: 'image',
   },
   {
     id: 2,
     name: 'Privacy Policy',
-    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png',
+    image: 'https://res.cloudinary.com/dbqqgbkds/image/upload/v1648048108/erpgruppen/danlon_pfung3.svg',
     alt: 'image',
   },
   {
     id: 3,
     name: 'Privacy Policy',
-    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png',
+    image: '',
     alt: 'image',
   },
   {
     id: 4,
     name: 'Privacy Policy',
-    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png',
+    image: 'https://res.cloudinary.com/dbqqgbkds/image/upload/v1648048108/erpgruppen/lessor_sf1z7o.svg',
     alt: 'image',
   },
   {
     id: 5,
     name: 'Privacy Policy',
-    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png',
+    image: '',
     alt: 'image',
   },
   {
     id: 6,
     name: 'Privacy Policy',
-    image: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png',
+    image: 'https://res.cloudinary.com/dbqqgbkds/image/upload/v1648048108/erpgruppen/taskletfactory_w6nqbl.svg',
     alt: 'image',
   },
 ]
@@ -138,7 +138,13 @@ function Hero() {
                       return (
                         a.map((props) => {
                           return (
-                            <img className="" key={props.id} src={props.image} height="100" width="250" alt="" />
+                            <div key={props.id}>
+                              <img
+                              src={props.image}
+                              alt={props.imageAlt}
+                              height="100" width="250"
+                            />
+                            </div>
                           )
                         })
                       )
