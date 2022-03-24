@@ -14,7 +14,13 @@ function Info(props) {
               <h3 className="text-5xl flex font-semibold">
                 {props.name}
               </h3>
-              <Modal />
+          <Modal
+            key={props.id}
+            id={props.id}
+            name={props.name}
+            title={props.title}
+            redirect={props.redirect}
+          />
             </div>
             <span
               className="text-gray-300 w-96 mt-5 text-4xl font-regular flex"
@@ -56,7 +62,7 @@ function Info(props) {
         </div>
           <div className="mt-20 mx-12">
            
-              <h3 className="text-5xl flex font-semibold">
+              <h3 className="md:text-5xl xxsm:text-2xl flex font-semibold">
                 Nye implementeringer
               </h3>
             
@@ -70,7 +76,7 @@ function Info(props) {
              {props.textBox7}
             </h3>
            
-              <h3 className="text-5xl flex font-semibold mt-20">
+              <h3 className="md:text-5xl xxsm:text-2xl flex font-semibold mt-20">
              {props.heading}
               </h3>
             

@@ -45,6 +45,7 @@ export default function Case() {
             textBox7={props.textBox7}
             heading={props.heading}
             imageSrc1={props.imageSrc1}
+            redirect={props.redirect}
             href={props.href}
             imageSrc={props.imageSrc}
             imageAlt={props.imageAlt}

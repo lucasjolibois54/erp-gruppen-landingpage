@@ -7,9 +7,8 @@ import {
 } from '@heroicons/react/outline'
 import { OpenOutline } from 'react-ionicons'
 
-export default function Modal() {
+export default function Modal(props) {
   const [open, setOpen] = useState(false)
-
   const cancelButtonRef = useRef(null)
 
   return (
@@ -71,8 +70,7 @@ export default function Modal() {
                       </Dialog.Title>
                       <div className="mt-2">
                         <p className="text-sm text-gray-500">
-                          Er du sikker på at du gerne vil besøge
-                          https://www.cabola.dk
+                          Er du sikker på at du gerne vil besøge {props.redirect}
                         </p>
                       </div>
                     </div>
@@ -83,7 +81,7 @@ export default function Modal() {
                     type="button"
                     className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-500 text-base font-medium text-white sm:ml-3 sm:w-auto sm:text-sm"
                     onClick={(event) =>
-                      (window.location.href = 'https://www.cabola.dk')
+                      (window.location.href = (`${props.redirect}`))
                     }
                   >
                     Ja
