@@ -16,7 +16,7 @@ export default function Modal() {
   return (
     <div>
       <div onClick={() => setOpen(true)}>
-      <button className="rounded-md w-full py-3 mt-8 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
+      <button className="rounded-md w-full py-3 mt-8 font-regular tracking-widest text-white bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
                             Send Besked
         </button>
       </div>
