@@ -76,7 +76,7 @@ function OurTeam() {
         <div className="border-b border-2 border-line mx-auto w-5/6 mt-16 aboutlg:max-w-5xl" />
         <div>
           <h3 className="text-center max-w-7xl font-semibold mx-auto pt-40 xxsm:text-3xl ssm:text-6xl">
-            ERP Produktion
+            ERP Gruppen
           </h3>
           <p className="text-center max-w-5xl mx-auto max-w-3xl pt-10 xxsm:mb-20 xxsm:text-md ssm:text-xl p-10">
             Vi består af Specialister og Konsulenter indenfor Microsoft Business
