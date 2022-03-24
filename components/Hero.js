@@ -61,7 +61,7 @@ const b = [
   {
     id: 4,
     name: 'Privacy Policy',
-    image: 'https://res.cloudinary.com/dbqqgbkds/image/upload/v1648048108/erpgruppen/lessor_sf1z7o.svg',
+    image: 'https://res.cloudinary.com/dbqqgbkds/image/upload/v1648048108/erpgruppen/office365_t0hj5m.svg',
     alt: 'image',
   },
   {
@@ -73,7 +73,7 @@ const b = [
   {
     id: 6,
     name: 'Privacy Policy',
-    image: 'https://res.cloudinary.com/dbqqgbkds/image/upload/v1648048108/erpgruppen/office365_t0hj5m.svg',
+    image: 'https://res.cloudinary.com/dbqqgbkds/image/upload/v1648048108/erpgruppen/lessor_sf1z7o.svg',
     alt: 'image',
   },
 ]
