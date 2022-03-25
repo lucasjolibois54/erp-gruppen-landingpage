@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useState } from 'react'
 import { OpenOutline } from 'react-ionicons'
-import { Raudahl } from '../../components/case/Users'
+import { Raundahl } from '../../components/case/Users'
 import CaseTemplate from '../../components/case/CaseTemplate'
 
 //components
@@ -30,7 +30,7 @@ export default function Case() {
 
       <Header toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
       <Navigation toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} />
-      {Raudahl.map((props) => {
+      {Raundahl.map((props) => {
         return (
           <CaseTemplate
             key={props.id}
