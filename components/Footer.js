@@ -56,18 +56,12 @@ function Footer() {
           <div className="p-5">
             <div className="text-sm uppercase text-black font-bold">Support</div>
             <a className="my-3 block" >ERP Supporten <span className="text-teal-600 text-xs p-1"></span></a><a href="mailto:mail@erpgruppen.dk" className="my-3 block" >mail@erpgruppen.dk <span className="text-teal-600 text-xs p-1"></span></a> <a href="tel:004578794040" className="my-3 block" >+45 78 79 40 40 <span className="text-teal-600 text-xs p-1"></span></a>
-            <div className="text-sm uppercase text-black font-bold">Betingelser & Politik</div>
-            <Link Link href="/kontakt">
-            <a className="my-3 block" >Betingelser<span className="text-teal-600 text-xs p-1"></span></a>
-            </Link>
-            <Link Link href="/kontakt">
-            <a className="my-3 block" >Politik<span className="text-teal-600 text-xs p-1"></span></a>
-            </Link>
           </div>
         </div>
 
         <div className="bg-gray-100 w-full" ><div className="float-right bg-gray-100 w-full text-right pr-10 pb-5 mb-6">
-          <p className=" bg-gray-100 w-full inline-block text-right p-3 mb-5">© 2008-2022 ERPGruppen A/S</p></div>
+          <p className=" bg-gray-100 w-full inline-block text-right p-3 pb-0 mb-0">© 2008-2022 ERPGruppen A/S</p>
+          <p className=" bg-gray-100 w-full inline-block text-right p-3 pt-0 mb-5">Betingelser & Politik</p></div>
         </div>
       </div>
     </div>
