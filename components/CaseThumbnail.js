@@ -33,11 +33,11 @@ const cases = [
     id: 3,
     category: 'Teknologi',
     product: 'Business Dynamics 365',
-    name: 'Raudahl & Moesby',
+    name: 'Raundahl & Moesby',
     desc: 'Business Dynamics 365 Løsning',
     intro:
       'Udskiftning af ERP-systemet for at forøge væksten i deres virksomhed.',
-    href: 'case/raudahl-og-moesby',
+    href: 'case/raundahl-og-moesby',
     imageSrc:
       'https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg',
     imageAlt: 'Raudahl & Moesby',
