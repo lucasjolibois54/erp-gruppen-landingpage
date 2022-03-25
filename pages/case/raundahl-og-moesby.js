@@ -11,7 +11,6 @@ import Header from '../../components/Header'
 
 export default function Case() {
   const [toggleMenu, setToggleMenu] = useState(false)
-
   const [open, setOpen] = useState(false)
 
   return (
