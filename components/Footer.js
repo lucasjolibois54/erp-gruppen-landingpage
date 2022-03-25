@@ -5,7 +5,6 @@ function Footer() {
     <div>
       <div className="bg-gray-100 pt-5 m-10 ml-10 mr-10 mx-auto">
         <div className=" px-4 sm:px-6 text-gray-800 sm:grid md:grid-cols-3 sm:grid-cols-2 mx-auto max-w-6xl">
-
           <div className="p-5">
             <div className="text-sm uppercase text-black font-bold">ERPGruppen</div>
             <a href="https://www.google.com/maps/place/Essen+9,+6000+Kolding/@55.4625063,9.4837698,17z/data=!3m1!4b1!4m5!3m4!1s0x464ca1c1f91cf95f:0x15e08cfeae6f4ece!8m2!3d55.4625033!4d9.4859585" className="my-3 block" >Essen 9 <span className="text-teal-600 text-xs p-1"></span></a>
