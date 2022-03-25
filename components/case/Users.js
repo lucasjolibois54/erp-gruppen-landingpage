@@ -24,7 +24,7 @@ export const Cabola = [
     imageAlt: 'Cabola ApS',
     imageSrc1:
     'https://www.cabola.dk/fileadmin/_processed_/4/8/csm_Cover_app_forside_1bf826543d.jpg',
-  imageAlt1: 'lalaland',
+  imageAlt1: 'Cabola ApS',
   },
 ]
 
@@ -56,7 +56,7 @@ export const GraderNord = [
     imageAlt: '55-Grader-Nord',
     imageSrc1:
     'https://www.erpgruppen.dk/wp-content/uploads/2021/06/55-Grader-Nord-Ordrehaandtering_1100x400.png',
-  imageAlt1: 'lalaland',
+  imageAlt1: '55-Grader-Nord',
   },
 ]
 
