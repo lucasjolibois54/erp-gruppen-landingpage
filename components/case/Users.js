@@ -21,7 +21,7 @@ export const Cabola = [
       redirect: 'https://www.cabola.dk',
     imageSrc:
       'https://www.erpgruppen.dk/wp-content/uploads/2020/02/Cabola-1.jpg',
-    imageAlt: 'Cabola',
+    imageAlt: 'Cabola ApS',
     imageSrc1:
     'https://www.cabola.dk/fileadmin/_processed_/4/8/csm_Cover_app_forside_1bf826543d.jpg',
   imageAlt1: 'lalaland',
@@ -53,14 +53,14 @@ export const GraderNord = [
     redirect: 'https://www.55nord.dk',
     imageSrc:
       'https://www.erpgruppen.dk/wp-content/uploads/2021/06/55-Grader-Nord_1100x400.png',
-    imageAlt: 'Cabola',
+    imageAlt: '55-Grader-Nord',
     imageSrc1:
     'https://www.erpgruppen.dk/wp-content/uploads/2021/06/55-Grader-Nord-Ordrehaandtering_1100x400.png',
   imageAlt1: 'lalaland',
   },
 ]
 
-export const Raudahl = [
+export const Raundahl = [
   {
     id: 3,
     name: 'Raundahl & Moesby',
@@ -82,7 +82,7 @@ export const Raudahl = [
       redirect: 'https://www.raundahl-moesby.dk',
     imageSrc:
       'https://www.raundahl-moesby.dk/upload/images/Stemningsbilleder/R%20og%20M_%20188.jpg',
-    imageAlt: 'Cabola',
+    imageAlt: 'Raundahl og Moesby',
     imageSrc1:
     'https://res.cloudinary.com/dckwf6med/image/upload/v1647260908/erp/Sk%C3%A6rmbillede_2022-03-14_kl._13.27.28_tktxze.png',
   imageAlt1: 'img',
