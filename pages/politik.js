@@ -36,7 +36,12 @@ export default function Trade() {
             key={props.id}
             id={props.id}
             name={props.name}
-            title={props.title}
+            heading1={props.heading1}
+            p1={props.p1}
+            heading2={props.heading2}
+            p2={props.p2}
+            heading3={props.heading3}
+            p3={props.p3}
             text={props.text}
           />
         )
