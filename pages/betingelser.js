@@ -36,8 +36,34 @@ export default function Purchase() {
             key={props.id}
             id={props.id}
             name={props.name}
-            title={props.title}
-            text={props.text}
+            heading1={props.heading1}
+            p1={props.p1}
+            heading2={props.heading2}
+            p2={props.p2}
+            heading3={props.heading3}
+            p3={props.p3}
+            heading4={props.heading4}
+            p4={props.p4}
+            heading5={props.heading5}
+            p5={props.p5}
+            heading6={props.heading6}
+            p6={props.p6}
+            heading7={props.heading7}
+            p7={props.p7}
+            heading8={props.heading8}
+            p8={props.p8}
+            heading9={props.heading9}
+            p9={props.p9}
+            heading10={props.heading10}
+            p10={props.p10}
+            heading11={props.heading11}
+            p11={props.p11}
+            heading12={props.heading12}
+            p12={props.p12}
+            heading13={props.heading13}
+            p13={props.p13}
+            heading14={props.heading14}
+            p14={props.p14}
           />
         )
       })}
