@@ -15,7 +15,34 @@ function PolicyTemplate(props) {
             >
                 {props.title}
             </span>
-            <h2 className='mt-10 font-normal'>Brug af cookies på website</h2>
+            <h2 className='mt-10 text-xl font-medium'>{props.heading1}</h2>
+            <p className='mt-5 text-gray-700 font-normal leading-loose'>{props.p1}</p>
+            <h2 className='mt-10 text-xl font-medium'>{props.heading2}</h2>
+            <p className='mt-5 text-gray-700 font-normal leading-loose'>{props.p2}</p>
+            <h2 className='mt-10 text-xl font-medium'>{props.heading3}</h2>
+            <p className='mt-5 text-gray-700 font-normal leading-loose'>{props.p3}</p>
+            <h2 className='mt-10 text-xl font-medium'>{props.heading4}</h2>
+            <p className='mt-5 text-gray-700 font-normal leading-loose'>{props.p4}</p>
+            <h2 className='mt-10 text-xl font-medium'>{props.heading5}</h2>
+            <p className='mt-5 text-gray-700 font-normal leading-loose'>{props.p5}</p>
+            <h2 className='mt-10 text-xl font-medium'>{props.heading6}</h2>
+            <p className='mt-5 text-gray-700 font-normal leading-loose'>{props.p6}</p>
+            <h2 className='mt-10 text-xl font-medium'>{props.heading7}</h2>
+            <p className='mt-5 text-gray-700 font-normal leading-loose'>{props.p7}</p>
+            <h2 className='mt-10 text-xl font-medium'>{props.heading8}</h2>
+            <p className='mt-5 text-gray-700 font-normal leading-loose'>{props.p8}</p>
+            <h2 className='mt-10 text-xl font-medium'>{props.heading9}</h2>
+            <p className='mt-5 text-gray-700 font-normal leading-loose'>{props.p9}</p>
+            <h2 className='mt-10 text-xl font-medium'>{props.heading10}</h2>
+            <p className='mt-5 text-gray-700 font-normal leading-loose'>{props.p10}</p>
+            <h2 className='mt-10 text-xl font-medium'>{props.heading11}</h2>
+            <p className='mt-5 text-gray-700 font-normal leading-loose'>{props.p11}</p>
+            <h2 className='mt-10 text-xl font-medium'>{props.heading12}</h2>
+            <p className='mt-5 text-gray-700 font-normal leading-loose'>{props.p12}</p>
+            <h2 className='mt-10 text-xl font-medium'>{props.heading13}</h2>
+            <p className='mt-5 text-gray-700 font-normal leading-loose'>{props.p13}</p>
+            <h2 className='mt-10 text-xl font-medium'>{props.heading14}</h2>
+            <p className='mt-5 text-gray-700 font-normal leading-loose'>{props.p14}</p>
           </div>
         </div>
       </div>
