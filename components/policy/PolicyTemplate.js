@@ -15,7 +15,7 @@ function PolicyTemplate(props) {
             >
                 {props.title}
             </span>
-            <h2 className='mt-10 font-normal'>Hello</h2>
+            <h2 className='mt-10 font-normal'>Brug af cookies på website</h2>
           </div>
         </div>
       </div>
