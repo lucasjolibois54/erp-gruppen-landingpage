@@ -61,7 +61,7 @@ function Footer() {
 
         <div className="bg-gray-100 w-full" ><div className="float-right bg-gray-100 w-full text-right pr-10 pb-5 mb-6">
           <p className=" bg-gray-100 w-full inline-block text-right p-3 pb-0 mb-0">© 2008-2022 ERPGruppen A/S</p>
-          <p className=" bg-gray-100 w-full inline-block text-right p-3 pt-0 mb-5">Betingelser & Politik</p></div>
+          <p className=" bg-gray-100 w-full inline-block text-right p-3 pt-0 mb-5"><span>Betingelser</span> & <span>Politik</span></p></div>
         </div>
       </div>
     </div>
