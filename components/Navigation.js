@@ -19,12 +19,12 @@ const navRoutes = [
     path: '/',
     image: 'bMeeting2.JPG',
   },
-  {
+  /*{
     id: 1,
     title: 'Produkter',
     path: 'produkter',
     image: 'headway-5QgIuuBxKwM-unsplash(1).webp',
-  },
+  },*/
   {
     id: 2,
     title: 'Webinar',
